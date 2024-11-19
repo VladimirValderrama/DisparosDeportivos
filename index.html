@@ -27,7 +27,7 @@
             color: #fff;
         }
         .hero {
-            background-image: url('/img/png.png');
+            background-image: url('img/png.png'); /* Ruta relativa */
             background-size: cover;
             background-position: center;
             color: black;
@@ -54,6 +54,10 @@
             padding: 20px 0;
         }
     </style>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -61,7 +65,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="/img/logo.png" alt="Logo Disparos Deportivos"> <!-- Reemplaza 'LOGO_PATH' con la ruta de tu logo -->
+                <img src="img/logo.png" alt="Logo Disparos Deportivos"> <!-- Ruta relativa -->
                 Disparos Deportivos
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,12 +90,20 @@
     <!-- Sección Hero -->
     <section class="hero">
         <div class="container">
+            <h1 class="text-black">Disparos Deportivos</h1>
+            <p class="lead text-black">Capturamos la energía del deporte en cada disparo.</p>
+        </div>
+    </section>
+    <section class="my-5">
+        <div class="container">
             <h2 class="text-center mb-4">Últimos Eventos</h2>
             <div class="row justify-content-center">
+
+
                 <!-- Card 1 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white">
-                        <img src="/img/IMG_4033.jpg" class="card-img" alt="Álbum 1">
+                        <img src="img/IMG_4033.jpg" class="card-img" alt="Álbum 1">
                         <div class="card-img-overlay d-flex align-items-end">
                             <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
                                 <h5 class="card-title bg-dark bg-opacity-50 p-2">Club Deportes Ovalle - Academia Quiro Sport</h5>
@@ -102,7 +114,7 @@
                 <!-- Card 2 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white">
-                        <img src="/img/team para chile.jpg" class="card-img" alt="Álbum 2">
+                        <img src="img/team para chile.jpg" class="card-img" alt="Álbum 2">
                         <div class="card-img-overlay d-flex align-items-end">
                             <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
                                 <h5 class="card-title bg-dark bg-opacity-50 p-2">Recibimiento Team Para Chile - Palacio de la Moneda</h5>
@@ -113,7 +125,7 @@
                 <!-- Card 3 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white">
-                        <img src="/img/breaking.JPG" class="card-img" alt="Álbum 3">
+                        <img src="img/breaking.JPG" class="card-img" alt="Álbum 3">
                         <div class="card-img-overlay d-flex align-items-end">
                             <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
                                 <h5 class="card-title bg-dark bg-opacity-50 p-2">Encuentro Breaking - Instituto Nacional de Deportes</h5>
@@ -125,14 +137,13 @@
         </div>
     </section>
 
-
     <!-- Galería de fotos -->
     <section id="gallery" class="container my-5">
         <h2 class="text-center mb-4">Galería de Fotos</h2>
         <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/img/IMG_5434.JPG" class="d-block w-100" alt="Foto deportiva 1">
+                    <img src="/img/IMG_5434.JPG" class="d-block w-100" alt="Foto deportiva 1" loading="lazy">
                 </div>
                 <div class="carousel-item">
                     <img src="/img/IMG_3639.jpg" class="d-block w-100" alt="Foto deportiva 2">
@@ -162,7 +173,7 @@
             <p class="lead">En Disparos Deportivos ofrecemos cobertura fotográfica profesional para eventos deportivos y sesiones personalizadas para atletas.</p>
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Cobertura de Eventos</h3>
+                    <h3><i class="bi bi-camera-reels"></i> Cobertura de Eventos</h3>
                     <p>Cubrimos todo tipo de eventos deportivos, desde competencias amateur hasta eventos de alto nivel.</p>
                 </div>
                 <div class="col-md-6">
@@ -186,6 +197,14 @@
                 </div>
             </div>
             <div class="mb-3">
+                <select class="form-select" name="tipo_consulta" required>
+                    <option value="" disabled selected>Seleccione una opción...</option>
+                    <option value="evento">Cobertura de Evento</option>
+                    <option value="sesion">Sesión Fotográfica</option>
+                    <option value="otros">Otros</option>
+                </select>
+            </div>
+            <div class="mb-3">
                 <textarea name="mensaje" class="form-control" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
             </div>
             <div class="text-center">
@@ -195,12 +214,22 @@
         
     </section>
 
-    <!-- Pie de página -->
-    <footer>
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white py-4">
         <div class="container text-center">
             <p>&copy; 2024 Disparos Deportivos. Todos los derechos reservados.</p>
+            <div>
+                <a href="https://instagram.com/disparosdeportivos" class="text-white me-3">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a>
+                <a href="https://web.facebook.com/profile.php?id=61561034021739" class="text-white">
+                    <i class="bi bi-facebook"></i> Facebook
+                </a>
+            </div>
         </div>
     </footer>
+
+    
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

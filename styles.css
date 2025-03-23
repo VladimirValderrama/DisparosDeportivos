@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    background-color: #ffffff;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #000000;
+}
+.hero {
+    background-image: url('img/Banner_Normal.jpg'); /* Ruta relativa */
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: rgb(0, 0, 0);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+.hero h1 {
+    font-size: 4rem;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 10px;
+}

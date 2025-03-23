@@ -15,7 +15,7 @@ body {
 .navbar-brand, .navbar-nav .nav-link {
     color: #000000;
 }
-.hero {
+.banner {
     background-image: url('img/Banner_Normal.jpg'); /* Ruta relativa */
     background-size: 80%;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ body {
     align-items: center;
     text-align: center;
 } 
-.hero h1 {
+.banner h1 {
     font-size: 4rem;
 }
 .gallery img {

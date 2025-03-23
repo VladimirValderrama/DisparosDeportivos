@@ -21,7 +21,7 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     color: rgb(0, 0, 0);
-    min-height: 200px;
+    min-height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;

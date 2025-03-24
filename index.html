@@ -23,11 +23,11 @@
 <body>
 
     <!-- Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-black">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="Logo Disparos Deportivos">
-                <span class="lead text-black">¡La pasión del deporte en cada disparo!</span>                
+                <span class="lead">¡La pasión del deporte en cada disparo!</span>                
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -64,7 +64,11 @@
                 <!-- Card 1 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white">
-                        <img src="img/IMG_4033.jpg" class="card-img" alt="Álbum 1">
+                        <picture>
+                            <source srcset="img/IMG_4033.webp" type="image/webp">
+                            <img src="=img/IMG_4033.jpg" class="card-img" alt="Álbum 1" loading="lazy">
+                        </picture>
+
                         <div class="card-img-overlay d-flex align-items-end">
                             <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
                                 <h5 class="card-title bg-dark bg-opacity-50 p-2">Club Deportes Ovalle - Academia Quiro Sport</h5>
@@ -75,7 +79,11 @@
                 <!-- Card 2 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white">
-                        <img src="img/team para chile.jpg" class="card-img" alt="Álbum 2">
+                        <picture>
+                            <source srcset="img/team para chile.webp" type="image/webp">
+                            <img src="img/team para chile.jpg" class="card-img" alt="Álbum 1" loading="lazy">
+                        </picture>
+                        
                         <div class="card-img-overlay d-flex align-items-end">
                             <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
                                 <h5 class="card-title bg-dark bg-opacity-50 p-2">Recibimiento Team Para Chile - Palacio de la Moneda</h5>
@@ -86,7 +94,11 @@
                 <!-- Card 3 -->
                 <div class="col-md-4">
                     <div class="card bg-dark text-white">
-                        <img src="img/breaking.JPG" class="card-img" alt="Álbum 3">
+                        <picture>
+                            <source srcset="img/breaking.webp" type="image/webp">
+                            <img src="img/breaking.webp" class="card-img" alt="Álbum 1" loading="lazy">
+                        </picture>
+                        
                         <div class="card-img-overlay d-flex align-items-end">
                             <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
                                 <h5 class="card-title bg-dark bg-opacity-50 p-2">Encuentro Breaking - Instituto Nacional de Deportes</h5>
@@ -104,14 +116,27 @@
         <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel" data-bs-pause="hover">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/img/IMG_5434.JPG" class="d-block w-100" alt="Foto deportiva 1" loading="lazy">
+
+                    <picture>
+                        <source srcset="img/IMG_5434.webp" type="image/webp">
+                        <img src="img/IMG_5434.JPG class=" class="d-block w-100" alt="Jugador de fútbol de Club Deportes Ovalle celebra el anotar un gol" loading="lazy">
+                    </picture>
                 </div>
+
                 <div class="carousel-item">
-                    <img src="/img/IMG_3639.jpg" class="d-block w-100" alt="Foto deportiva 2">
+                    <picture>
+                        <source srcset="img/IMG_3639.webp" type="image/webp">
+                        <img src="img/IMG_3639.jpg class=" class="d-block w-100" alt="Deportistas del Team Para Chile son recibidos en La Moneda luego de los Juegos Paralímpicos Paris 2024" loading="lazy">
+                    </picture>
                 </div>
+
                 <div class="carousel-item">
-                    <img src="/img/7..JPG" class="d-block w-100" alt="Foto deportiva 3">
+                    <picture>
+                        <source srcset="img/7..webp" type="image/webp">
+                        <img src="img/7..JPG class=" class="d-block w-100" alt="Premiación de Meeting de Breaking o Break Dance en el Parque Estadio Nacional" loading="lazy">
+                    </picture>
                 </div>
+
                 <!-- Agrega más fotos al carrusel según sea necesario -->
             </div>
             <!-- Controles de navegación del carrusel -->

@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Disparos Deportivos - Fotografía Deportiva</title>
-    <!-- Bootstrap 5 CSS -->
+    <meta name="description" content="Fotografía deportiva profesional en eventos, atletas y momentos únicos en el deporte. Capturamos la pasión en cada disparo.">
+    <meta name="keywords" content="fotografía deportiva, eventos deportivos, fotos de deportes, sesiones deportivas">
 
+    <title>Disparos Deportivos - Fotografía Deportiva</title>
+   
+    <!-- Bootstrap 5 CSS -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Fuente "Poppins" de Google Fonts -->
@@ -54,60 +57,38 @@
         </div>
     </section>
 
+    <!-- Servicios -->
+    <section id="services" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Nuestros Servicios</h2>
+            <p class="lead">En Disparos Deportivos ofrecemos cobertura fotográfica profesional para eventos deportivos y sesiones personalizadas para atletas.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3></i> Cobertura de Eventos</h3>
+                    <p>Cubrimos todo tipo de eventos deportivos, desde competencias amateur hasta eventos de alto nivel.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Sesiones Personalizadas</h3>
+                    <p>Realizamos sesiones fotográficas exclusivas para atletas, capturando momentos únicos y llenos de energía.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Sección Ultimos Eventos -->
     <section class="my-0">
         <div class="container">
             <h2 class="text-center mb-4">Últimos Eventos</h2>
-            <div class="row justify-content-center">
-
-
-                <!-- Card 1 -->
-                <div class="col-md-4">
-                    <div class="card bg-dark text-white">
-                        <picture>
-                            <source srcset="img/IMG_4033.webp" type="image/webp">
-                            <img src="=img/IMG_4033.jpg" class="card-img" alt="Álbum 1" loading="lazy">
-                        </picture>
-
-                        <div class="card-img-overlay d-flex align-items-end">
-                            <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
-                                <h5 class="card-title bg-dark bg-opacity-50 p-2">Club Deportes Ovalle - Academia Quiro Sport</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 2 -->
-                <div class="col-md-4">
-                    <div class="card bg-dark text-white">
-                        <picture>
-                            <source srcset="img/team para chile.webp" type="image/webp">
-                            <img src="img/team para chile.jpg" class="card-img" alt="Álbum 1" loading="lazy">
-                        </picture>
-                        
-                        <div class="card-img-overlay d-flex align-items-end">
-                            <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
-                                <h5 class="card-title bg-dark bg-opacity-50 p-2">Recibimiento Team Para Chile - Palacio de la Moneda</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Card 3 -->
-                <div class="col-md-4">
-                    <div class="card bg-dark text-white">
-                        <picture>
-                            <source srcset="img/breaking.webp" type="image/webp">
-                            <img src="img/breaking.webp" class="card-img" alt="Álbum 1" loading="lazy">
-                        </picture>
-                        
-                        <div class="card-img-overlay d-flex align-items-end">
-                            <a href="detalle_albums.html" class="stretched-link text-white text-decoration-none">
-                                <h5 class="card-title bg-dark bg-opacity-50 p-2">Encuentro Breaking - Instituto Nacional de Deportes</h5>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="row justify-content-center" id="eventosContainer"> 
         </div>
+
+        <!-- Controles de Paginación -->
+        <div class="text-center mt-4">
+            <button id="prevPage" class="btn btn-dark me-2" disabled>Anterior</button>
+            <span id="pageIndicator">Página 1</span>
+            <button id="nextPage" class="btn btn-dark ms-2">Siguiente</button>
+        </div>
+
     </section>
 
     <!-- Galería de fotos -->
@@ -152,23 +133,6 @@
     </section>
     
 
-    <!-- Servicios -->
-    <section id="services" class="bg-light py-5">
-        <div class="container text-center">
-            <h2>Nuestros Servicios</h2>
-            <p class="lead">En Disparos Deportivos ofrecemos cobertura fotográfica profesional para eventos deportivos y sesiones personalizadas para atletas.</p>
-            <div class="row">
-                <div class="col-md-6">
-                    <h3><i class="bi bi-camera-reels"></i> Cobertura de Eventos</h3>
-                    <p>Cubrimos todo tipo de eventos deportivos, desde competencias amateur hasta eventos de alto nivel.</p>
-                </div>
-                <div class="col-md-6">
-                    <h3>Sesiones Personalizadas</h3>
-                    <p>Realizamos sesiones fotográficas exclusivas para atletas, capturando momentos únicos y llenos de energía.</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Contacto -->
     <section id="contact" class="container my-5">
@@ -256,9 +220,9 @@
 
 
     <!-- Bootstrap 5 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
     
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 
 

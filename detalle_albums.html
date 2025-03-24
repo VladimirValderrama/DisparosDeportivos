@@ -27,11 +27,28 @@
     <h2 class="text-center mb-4">Galería de Fotos</h2>
     <div class="row">
         <div class="col-md-4 mb-4">
+            <div class="card bg-dark text-white">
+                <picture>
+                    <source srcset="img/IMG_4033.webp" type="image/webp">
+                    <img src="img/IMG_4033.jpg" class="card-img" alt="Álbum 1" loading="lazy">
+                </picture>
+            
+            <div class="card-img-overlay d-flex align-items-end">
+                <a href="detalle_albums.html?evento=club_deportes_ovalle" 
+                   class="stretched-link text-white text-decoration-none">
+                    <h5 class="card-title bg-dark bg-opacity-50 p-2">Club Deportes Ovalle - Academia Quiro Sport</h5>
+                </a>
+            </div>
+
             <img src="/img/IMG_5434.JPG" alt="Foto deportiva 1" class="img-fluid rounded">
             <form id="compraForm" method="POST">
                 <input type="hidden" name="foto_id" value="1">
                 <button type="submit" class="btn btn-dark mt-2">Comprar Foto</button>
             </form>
+        
+        
+        
+        
         </div>
         <div class="col-md-4 mb-4">
             <img src="/img/IMG_3639.jpg" alt="Foto deportiva 2" class="img-fluid rounded">

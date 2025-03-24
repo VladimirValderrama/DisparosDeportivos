@@ -102,3 +102,41 @@ app.get('/confirmacion_pago', (req, res) => {
       </html>
   `);
 });
+
+
+const nodemailer = require('nodemailer'); // Para enviar correos
+
+// Ruta para manejar el envío del formulario de contacto
+app.post('/enviar-mensaje', async (req, res) => {
+    const { nombre, email, tipo_consulta, mensaje } = req.body;
+
+    // Validar que los campos no estén vacíos
+    if (!nombre || !email || !tipo_consulta || !mensaje) {
+        return res.status(400).json({ error: 'Todos los campos son obligatorios.' });
+    }
+
+    // Configurar el transporte de correo
+    const transporter = nodemailer.createTransport({
+        service: 'gmail', // Puedes cambiarlo si usas otro servicio
+        auth: {
+            user: process.env.EMAIL_USER, // Correo de envío
+            pass: process.env.EMAIL_PASS  // Contraseña del correo
+        }
+    });
+
+    // Configurar el contenido del correo
+    const mailOptions = {
+        from: email,
+        to: process.env.EMAIL_USER, // Donde recibirás los mensajes
+        subject: `Nuevo mensaje de ${nombre} - ${tipo_consulta}`,
+        text: `Nombre: ${nombre}\nEmail: ${email}\nConsulta: ${tipo_consulta}\nMensaje:\n${mensaje}`
+    };
+
+    try {
+        await transporter.sendMail(mailOptions);
+        res.json({ success: true, message: 'Mensaje enviado correctamente.' });
+    } catch (error) {
+        console.error('Error enviando correo:', error);
+        res.status(500).json({ error: 'No se pudo enviar el mensaje.' });
+    }
+});

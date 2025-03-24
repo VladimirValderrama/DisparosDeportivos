@@ -7,18 +7,19 @@ const mongoose = require('mongoose');
 const multer = require('multer');
 const path = require('path');
 const { WebpayPlus } = require('transbank-sdk');
+const nodemailer = require('nodemailer'); // Para enviar correos
+const cors = require('cors'); // Asegura que no haya problemas con CORS
 
 // Crear la aplicación de Express
 const app = express();
 
 // Configurar Express para manejar datos JSON
 app.use(express.json());
+app.use(cors());
 
 // Conectar a MongoDB usando la URI desde el archivo .env
-mongoose.connect(process.env.MONGO_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect(process.env.MONGO_URI)
+
   .then(() => console.log('Conectado a MongoDB'))
   .catch(err => console.error('Error conectando a MongoDB:', err));
 
@@ -67,7 +68,7 @@ app.post('/pagar', async (req, res) => {
 });
 
 
-app.post('/procesar-pago', (req, res) => {
+app.post('/procesar-pago', (req, res) => {  // Redirección después del pago
   const { foto_id } = req.body;
 
   if (!foto_id) {
@@ -76,16 +77,6 @@ app.post('/procesar-pago', (req, res) => {
 
   // Redirigir a la página de confirmación con el ID de la foto como parámetro
   res.redirect(`/confirmacion_pago.html?foto_id=${encodeURIComponent(foto_id)}`);
-});
-
-
-
-
-
-// Configurar el puerto y arrancar el servidor
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
 
 
@@ -104,7 +95,19 @@ app.get('/confirmacion_pago', (req, res) => {
 });
 
 
-const nodemailer = require('nodemailer'); // Para enviar correos
+app.get('/confirmacion_pago', (req, res) => { // Pagina de confirmacion de pago
+  const foto_id = req.query.foto_id; 
+  res.send(`
+      <html>
+          <head><title>Confirmación de Pago</title></head>
+          <body>
+              <h1>✅ ¡Gracias por tu compra!</h1>
+              <p>Has comprado la foto con ID: ${foto_id}</p>
+          </body>
+      </html>
+  `);
+});
+
 
 // Ruta para manejar el envío del formulario de contacto
 app.post('/enviar-mensaje', async (req, res) => {
@@ -115,28 +118,35 @@ app.post('/enviar-mensaje', async (req, res) => {
         return res.status(400).json({ error: 'Todos los campos son obligatorios.' });
     }
 
-    // Configurar el transporte de correo
-    const transporter = nodemailer.createTransport({
-        service: 'gmail', // Puedes cambiarlo si usas otro servicio
-        auth: {
-            user: process.env.EMAIL_USER, // Correo de envío
-            pass: process.env.EMAIL_PASS  // Contraseña del correo
-        }
-    });
-
-    // Configurar el contenido del correo
-    const mailOptions = {
-        from: email,
-        to: process.env.EMAIL_USER, // Donde recibirás los mensajes
-        subject: `Nuevo mensaje de ${nombre} - ${tipo_consulta}`,
-        text: `Nombre: ${nombre}\nEmail: ${email}\nConsulta: ${tipo_consulta}\nMensaje:\n${mensaje}`
-    };
-
     try {
-        await transporter.sendMail(mailOptions);
-        res.json({ success: true, message: 'Mensaje enviado correctamente.' });
+      const transporter = nodemailer.createTransport({
+          service: 'gmail',
+          auth: {
+              user: process.env.EMAIL_USER,
+              pass: process.env.EMAIL_PASS,
+          },
+      });
+
+      const mailOptions = {
+          from: email,
+          to: process.env.EMAIL_USER, // Tu correo que recibe los mensajes
+          subject: `Nuevo mensaje de contacto: ${tipo_consulta}`,
+          text: `Nombre: ${nombre}\nEmail: ${email}\nMensaje: ${mensaje}`,
+      };
+
+      await transporter.sendMail(mailOptions);
+      res.json({ success: true, message: 'Mensaje enviado correctamente' });
+
     } catch (error) {
-        console.error('Error enviando correo:', error);
-        res.status(500).json({ error: 'No se pudo enviar el mensaje.' });
+      console.error('Error al enviar el correo:', error);
+      res.status(500).json({ error: 'Error al enviar el mensaje' });
     }
+  });
+
+
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
 });
+

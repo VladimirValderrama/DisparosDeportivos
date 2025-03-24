@@ -148,28 +148,19 @@
     <!-- Contacto -->
     <section id="contact" class="container my-5">
         <h2 class="text-center mb-4">Contáctanos</h2>
+
+
         <form id="contactForm">
-            <form id="contactForm">
-                <input type="text" id="nombre" placeholder="Tu nombre">
-                <input type="email" id="email" placeholder="Tu correo">
-                <select id="tipo_consulta">
-                    <option value="consulta">Consulta</option>
-                    <option value="soporte">Soporte</option>
-                </select>
-                <textarea id="mensaje" placeholder="Tu mensaje"></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-                        
             <div class="row">
                 <div class="col-md-6 mb-3">
-                    <input type="text" class="form-control" name="nombre" placeholder="Tu Nombre" required>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu Nombre" required>
                 </div>
                 <div class="col-md-6 mb-3">
-                    <input type="email" class="form-control" name="email" placeholder="Tu Correo Electrónico" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Tu Correo Electrónico" required>
                 </div>
             </div>
             <div class="mb-3">
-                <select class="form-select" name="tipo_consulta" required>
+                <select class="form-select" id="tipo_consulta" name="tipo_consulta" required>
                     <option value="" disabled selected>Seleccione una opción...</option>
                     <option value="evento">Cobertura de Evento</option>
                     <option value="sesion">Sesión Fotográfica</option>
@@ -177,15 +168,13 @@
                 </select>
             </div>
             <div class="mb-3">
-                <textarea name="mensaje" class="form-control" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                <textarea id="mensaje" name="mensaje" class="form-control" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
             </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-dark">Enviar Mensaje</button>
             </div>
             <p id="respuesta" style="text-align:center; margin-top:10px;"></p>
         </form>
-
-
 
     </section>
 

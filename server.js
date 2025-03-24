@@ -66,8 +66,39 @@ app.post('/pagar', async (req, res) => {
   }
 });
 
+
+app.post('/procesar-pago', (req, res) => {
+  const { foto_id } = req.body;
+
+  if (!foto_id) {
+      return res.status(400).send('Error: No se proporcionó un ID de foto.');
+  }
+
+  // Redirigir a la página de confirmación con el ID de la foto como parámetro
+  res.redirect(`/confirmacion_pago.html?foto_id=${encodeURIComponent(foto_id)}`);
+});
+
+
+
+
+
 // Configurar el puerto y arrancar el servidor
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
+});
+
+
+app.get('/confirmacion_pago', (req, res) => {
+  const foto_id = req.query.foto_id;
+  
+  res.send(`
+      <html>
+          <head><title>Confirmación de Pago</title></head>
+          <body>
+              <h1>¡Gracias por tu compra!</h1>
+              <p>Has comprado la foto con ID: ${foto_id}</p>
+          </body>
+      </html>
+  `);
 });

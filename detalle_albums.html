@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Fotos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap 5 CSS -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fuente "Poppins" de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     
+    <!-- Bootstrap Icons -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+     
+     <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body> 
+
     <section id="gallery" class="container my-5">
     <h2 class="text-center mb-4">Galería de Fotos</h2>
     <div class="row">
         <div class="col-md-4 mb-4">
             <img src="/img/IMG_5434.JPG" alt="Foto deportiva 1" class="img-fluid rounded">
-            <form action="/procesar-pago" method="POST">
+            <form id="compraForm" method="POST">
                 <input type="hidden" name="foto_id" value="1">
                 <button type="submit" class="btn btn-dark mt-2">Comprar Foto</button>
             </form>
         </div>
         <div class="col-md-4 mb-4">
             <img src="/img/IMG_3639.jpg" alt="Foto deportiva 2" class="img-fluid rounded">
-            <form action="/procesar-pago" method="POST">
+            <form id="compraForm" method="POST">
                 <input type="hidden" name="foto_id" value="2">
                 <button type="submit" class="btn btn-dark mt-2">Comprar Foto</button>
-            </form>
+            </form>            
         </div>
         <div class="col-md-4 mb-4">
             <img src="/img/7..JPG" alt="Foto deportiva 3" class="img-fluid rounded">
-            <form action="/procesar-pago" method="POST">
+            <form id="compraForm" method="POST">
                 <input type="hidden" name="foto_id" value="3">
                 <button type="submit" class="btn btn-dark mt-2">Comprar Foto</button>
             </form>
+            
+            <script>
+                const form = document.getElementById('compraForm');
+                const backendURL = window.location.origin.includes('localhost') 
+                    ? 'http://localhost:3000/procesar-pago' 
+                    : 'https://disparosdeportivos.cl/procesar-pago';
+                
+                form.action = backendURL;
+            </script>
+            
         </div>
     </div>
 </section>
-
-</head>
-
-<body>
 
 </body>
 

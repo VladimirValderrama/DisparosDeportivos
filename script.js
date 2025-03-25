@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             eventosPagina.forEach(evento => {
                 eventosContainer.innerHTML += `
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-4">
                         <div class="card bg-dark text-white">
                             <picture>
                                 <source srcset="${evento.img}.webp" type="image/webp">

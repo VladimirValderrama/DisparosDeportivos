@@ -16,6 +16,8 @@ const app = express();
 // Configurar Express para manejar datos JSON
 app.use(express.json());
 app.use(cors());
+app.use(express.static('public')); // Asegúrate de que tus archivos HTML están en 'public'
+
 
 // Conectar a MongoDB usando la URI desde el archivo .env
 mongoose.connect(process.env.MONGO_URI)

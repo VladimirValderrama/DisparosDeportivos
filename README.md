@@ -1,6 +1,24 @@
 # DisparosDeportivos
 Sitio web dinámico con JavaScript de portafolio y venta de fotografías.
 
+
+## 🛠️ Tecnologías utilizadas
+- HTML, CSS, JavaScript
+- Bootstrap 5
+- Fetch API para peticiones
+- Servidor en Node.js
+
+## 📂 Estructura del Proyecto
+
+📁 src/ → Código fuente
+📁 public/ → Archivos estáticos
+📄 index.html → Página principal
+📄 script.js → Lógica del cliente
+
+VS Code tiene extensiones como Markdown Preview para verlo con formato bonito.
+Escribe primero en Markdown en VS Code. Luego, si necesitas un documento más formal, convierte el .md a PDF o Word con herramientas como Pandoc o simplemente copiando y pegando en Word.
+
+
 - No es una SPA:
  1. No maneja rutas dinámicamente. Las secciones de la página (#about, #gallery, #contact) están en la misma página, pero no se usa un enrutador en el frontend para gestionar vistas dinámicamente.
  2. La página se carga completamente desde el servidor, sin actualizar solo partes específicas bajo demanda.
@@ -18,3 +36,4 @@ Para convertirla en una SPA:
  2. Implementar un router en JavaScript (como React Router o Vue Router) para manejar las secciones sin recargar.
  3. Hacer que la sección de "Últimos Eventos" cargue dinámicamente desde una API con AJAX o Fetch.
  4. Usar history.pushState() para cambiar la URL sin recargar.
+

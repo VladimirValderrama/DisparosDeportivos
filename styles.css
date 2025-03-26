@@ -42,3 +42,81 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    margin: 50px auto;
+    gap: 40px; /* Espacio entre columnas */
+}
+
+/* Imagen de perfil */
+.about-image img {
+    width: 250px; /* Tamaño fijo */
+    height: 350px;
+    border-radius: 0%; /* Hace la imagen circular */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    filter: grayscale(100%); /* Convierte la imagen a blanco y negro */
+    transition: filter 0.5s ease-in-out; /* Transición suave */
+}
+
+.about-image img:hover {
+    filter: grayscale(0%); /* Vuelve a su color original al pasar el mouse */
+}
+
+/* Texto */
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Diseño responsive */
+@media screen and (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* En móviles, las columnas se apilan */
+        text-align: center;
+    }
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.social-links img {
+    width: 30px;
+    margin: 0 10px;
+}

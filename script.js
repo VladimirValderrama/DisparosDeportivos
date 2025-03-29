@@ -38,19 +38,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 🟢 PAGINACIÓN DE EVENTOS
     const eventos = [
-        { img: "img/IMG_4033", titulo: "Club Deportes Ovalle - Academia Quiro Sport", enlace: "detalle_albums.html" },
+
+        { img: "img/Ciclismo", titulo: "Carrera Ciclismo 'Los Virtuales' Por la Inclusión en el Ciclismo", enlace: "detalle_albums.html" },
+        { img: "img/paratletismo", titulo: "Campeonato Nacional de Para Atletismo", enlace: "detalle_albums.html" },
+        { img: "img/futsaldown", titulo: "Campeonato Sudamericano de Futsal Down", enlace: "detalle_albums.html" },
         { img: "img/team para chile", titulo: "Recibimiento Team Para Chile - Palacio de la Moneda", enlace: "detalle_albums.html" },
         { img: "img/breaking", titulo: "Encuentro Breaking - Instituto Nacional de Deportes", enlace: "detalle_albums.html" },
-        { img: "img/Ciclismo", titulo: "Ciclismo 'Los Virtuales'", enlace: "detalle_albums.html" },
         { img: "img/nacionalrugby", titulo: "Nacional Rugby en Silla de Ruedas", enlace: "detalle_albums.html" },
         { img: "img/boxeo", titulo: "Velada Exhibicición Fechibox", enlace: "detalle_albums.html" },
-        { img: "img/futsaldown", titulo: "Sudamericano de Futsal Down", enlace: "detalle_albums.html" },
         { img: "img/natacionldes", titulo: "Natación Ligas Deportivas Educación Superior", enlace: "detalle_albums.html" },
-        { img: "img/paratletismo", titulo: "Campeonato Nacional de Para Atletismo", enlace: "detalle_albums.html" },
+        { img: "img/IMG_4033", titulo: "Club Deportes Ovalle - Academia Quiro Sport", enlace: "detalle_albums.html" },
         // Agrega más eventos aquí
     ];
 
-    const eventosPorPagina = 6; // Número de eventos por página
+    const eventosPorPagina = 9; // Número de eventos por página
     let paginaActual = 1;
     const totalPaginas = Math.ceil(eventos.length / eventosPorPagina);
 

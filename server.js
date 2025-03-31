@@ -18,6 +18,11 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static('public')); // Asegúrate de que tus archivos HTML están en 'public'
 
+// Ruta para servir la página principal
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));  // Asegúrate de que 'index.html' esté en la carpeta 'public'
+});
+
 
 // Conectar a MongoDB usando la URI desde el archivo .env
 mongoose.connect(process.env.MONGO_URI)

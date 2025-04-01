@@ -20,14 +20,14 @@
         "enlace": "detalle_albums.html?evento=team_para_chile"
     },
     {
-        "img": "img/breaking",
-        "titulo": "Encuentro Breaking - Instituto Nacional de Deportes",
-        "enlace": "detalle_albums.html?evento=encuentro_breaking"
-    },
-    {
         "img": "img/nacionalrugby",
         "titulo": "Nacional Rugby en Silla de Ruedas",
         "enlace": "detalle_albums.html?evento=nacional_rugby"
+    },
+    {
+        "img": "img/breaking",
+        "titulo": "Encuentro Breaking - Instituto Nacional de Deportes",
+        "enlace": "detalle_albums.html?evento=encuentro_breaking"
     },
     {
         "img": "img/boxeo",
@@ -35,13 +35,13 @@
         "enlace": "detalle_albums.html?evento=velada_exhibicion"
     },
     {
-        "img": "img/natacionldes",
-        "titulo": "Natación Ligas Deportivas Educación Superior",
-        "enlace": "detalle_albums.html?evento=natacion_ldes"
-    },
-    {
         "img": "img/IMG_4033",
         "titulo": "Club Deportes Ovalle - Academia Quiro Sport",
         "enlace": "detalle_albums.html?evento=club_deportes_ovalle"
+    },
+    {
+        "img": "img/futsaldown",
+        "titulo": "3ra Fecha Campeonato Nacional Skateboarding",
+        "enlace": "detalle_albums.html?evento=skate"
     }
 ]

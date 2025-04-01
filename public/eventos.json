@@ -35,12 +35,12 @@
         "enlace": "detalle_albums.html?evento=velada_exhibicion"
     },
     {
-        "img": "img/IMG_4033",
-        "titulo": "Club Deportes Ovalle - Academia Quiro Sport",
+        "img": "img/ovalleportada",
+        "titulo": "Club Deportes Ovalle 2024",
         "enlace": "detalle_albums.html?evento=club_deportes_ovalle"
     },
     {
-        "img": "img/futsaldown",
+        "img": "img/skate",
         "titulo": "3ra Fecha Campeonato Nacional Skateboarding",
         "enlace": "detalle_albums.html?evento=skate"
     }

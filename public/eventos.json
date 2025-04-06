@@ -15,14 +15,19 @@
         "enlace": "detalle_albums.html?evento=futsal_down"
     },
     {
-        "img": "img/teamparachile",
-        "titulo": "Recibimiento Team Para Chile - Palacio de la Moneda",
-        "enlace": "detalle_albums.html?evento=team_para_chile"
-    },
-    {
         "img": "img/nacionalrugby",
         "titulo": "Nacional Rugby en Silla de Ruedas",
         "enlace": "detalle_albums.html?evento=nacional_rugby"
+    },
+    {
+        "img": "img/teamparachile",
+        "titulo": "Recibimiento Team Chile - Palacio de la Moneda",
+        "enlace": "detalle_albums.html?evento=team_para_chile"
+    },
+    {
+        "img": "img/team_chile",
+        "titulo": "Recibimiento Team Para Chile - Palacio de la Moneda",
+        "enlace": "detalle_albums.html?evento=team_chile"
     },
     {
         "img": "img/breakingportada",

@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 🟢 INICIAR Paginación
     function iniciarPaginacion(eventos) {
-        const eventosPorPagina = 9;
+        const eventosPorPagina = 6;
         let paginaActual = 1;
         const totalPaginas = Math.ceil(eventos.length / eventosPorPagina);
 

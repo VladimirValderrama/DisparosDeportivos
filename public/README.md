@@ -121,10 +121,6 @@ VS Code tiene extensiones como Markdown Preview para verlo con formato bonito.
 Escribe primero en Markdown en VS Code. Luego, si necesitas un documento más formal, convierte el .md a PDF o Word con herramientas como Pandoc o simplemente copiando y pegando en Word.
 
 
-
-
-kjklñ
-
 - No es una SPA:
  1. No maneja rutas dinámicamente. Las secciones de la página (#about, #gallery, #contact) están en la misma página, pero no se usa un enrutador en el frontend para gestionar vistas dinámicamente.
  2. La página se carga completamente desde el servidor, sin actualizar solo partes específicas bajo demanda.

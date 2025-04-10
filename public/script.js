@@ -1,40 +1,70 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log("DOM completamente cargado");
 
-    // 🟢 FORMULARIO DE CONTACTO
-    const form = document.getElementById("contactForm");
-    if (form) {
-        form.addEventListener("submit", async function (event) {
-            event.preventDefault();
+// 🟢 FORMULARIO DE CONTACTO
+const form = document.getElementById("contactForm");
+const submitBtn = document.getElementById("submitBtn"); // 🔧 Mejora: referencia al botón
+const feedback = document.getElementById("form-feedback"); // 🔧 Mejora: div para feedback
 
-            const nombre = document.getElementById("nombre")?.value;
-            const email = document.getElementById("email")?.value;
-            const tipo_consulta = document.getElementById("tipo_consulta")?.value;
-            const mensaje = document.getElementById("mensaje")?.value;
+// 🆕 Agregado: función para mostrar mensajes al usuario
+function mostrarMensaje(mensaje, tipo = "success") {
+    feedback.textContent = mensaje;
+    feedback.style.color = tipo === "success" ? "green" : "red";
+}
 
-            console.log("Valores del formulario:", { nombre, email, tipo_consulta, mensaje });
+if (form) {
+    form.addEventListener("submit", async function (event) {
+        event.preventDefault();
 
-            if (!nombre || !email || !tipo_consulta || !mensaje) {
-                console.error("Faltan campos en el formulario");
-                return;
-            }
+        const nombre = document.getElementById("nombre")?.value;
+        const email = document.getElementById("email")?.value;
+        const tipo_consulta = document.getElementById("tipo_consulta")?.value;
+        const mensaje = document.getElementById("mensaje")?.value;
 
-            try {
-                const response = await fetch("http://localhost:3000/enviar-mensaje", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ nombre, email, tipo_consulta, mensaje }),
-                });
+        console.log("Valores del formulario:", { nombre, email, tipo_consulta, mensaje });
 
-                const data = await response.json();
-                console.log("Respuesta del servidor:", data);
-            } catch (error) {
-                console.error("Error al conectar con el servidor:", error);
-            }
-        });
-    } else {
-        console.error("Formulario no encontrado en el HTML");
-    }
+        if (!nombre || !email || !tipo_consulta || !mensaje) {
+            mostrarMensaje("Completa todos los campos del formulario.", "error"); // 🔧 Mejora: mensaje visible
+            return;
+        }
+
+        // 🔧 Mejora: validación básica de email y largo del mensaje
+        const emailValido = /\S+@\S+\.\S+/.test(email);
+        if (!emailValido) {
+            mostrarMensaje("Ingresa un email válido", "error");
+            return;
+        }
+
+        if (mensaje.length < 10) {
+            mostrarMensaje("El mensaje debe tener al menos 10 caracteres", "error");
+            return;
+        }
+
+        submitBtn.disabled = true; // 🔧 Mejora: evitar doble clic
+        mostrarMensaje("Enviando...", "success"); // 🔧 Mejora: feedback de carga
+
+        try {
+            const response = await fetch("http://localhost:3000/enviar-mensaje", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ nombre, email, tipo_consulta, mensaje }),
+            });
+
+            const data = await response.json();
+            console.log("Respuesta del servidor:", data);
+
+            mostrarMensaje("Mensaje enviado correctamente. Gracias por contactarnos.", "success"); // 🔧 Mejora
+            form.reset(); // 🔧 Mejora: limpiar formulario
+        } catch (error) {
+            console.error("Error al conectar con el servidor:", error);
+            mostrarMensaje("Hubo un error al enviar el mensaje. Intenta más tarde.", "error"); // 🔧 Mejora
+        } finally {
+            submitBtn.disabled = false; // 🔧 Mejora: volver a habilitar botón
+        }
+    });
+} else {
+    console.error("Formulario no encontrado en el HTML");
+}
 
     // 🟢 PAGINACIÓN DE EVENTOS
     // Cargar eventos desde el archivo JSON

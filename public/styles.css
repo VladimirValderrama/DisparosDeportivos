@@ -144,3 +144,14 @@ footer {
         padding: 10px 0;
     }
 }
+
+
+.banner {
+    background: url('img/Banner_Normal.jpg') center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}

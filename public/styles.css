@@ -122,15 +122,6 @@ footer {
 }
 
 
-    
-.navbar-collapse {
-    z-index: 1050;
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3Csvg ... tu ícono ... %3C/svg%3E");
-}
-
 
 @media (max-width: 768px) {
     .navbar-collapse {
@@ -146,12 +137,3 @@ footer {
 }
 
 
-.banner {
-    background: url('img/Banner_Normal.jpg') center/cover no-repeat;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-}

@@ -43,8 +43,11 @@ if (form) {
         submitBtn.disabled = true; // 🔧 Mejora: evitar doble clic
         mostrarMensaje("Enviando...", "success"); // 🔧 Mejora: feedback de carga
 
+        const baseURL = window.location.origin;
+        const endpoint = `${baseURL}/enviar-mensaje`;
+
         try {
-            const response = await fetch("http://localhost:3000/enviar-mensaje", {
+            const response = await fetch(endpoint, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ nombre, email, tipo_consulta, mensaje }),

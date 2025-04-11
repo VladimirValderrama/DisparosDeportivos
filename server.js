@@ -16,7 +16,7 @@ const app = express();
 // Configurar Express para manejar datos JSON
 app.use(express.json());
 app.use(cors());
-app.use(express.static('public')); // Asegúrate de que tus archivos HTML están en 'public'
+app.use(express.static(path.join(__dirname, 'public'))); // Asegúrate de que tus archivos HTML están en 'public'
 
 // Ruta para servir la página principal
 app.get('/', (req, res) => {
@@ -150,7 +150,9 @@ app.post('/enviar-mensaje', async (req, res) => {
     }
   });
 
-
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

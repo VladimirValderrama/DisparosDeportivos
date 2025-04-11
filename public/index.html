@@ -77,7 +77,7 @@
     <section class="banner d-flex align-items-center justify-content-center pb-4" style="height:fit-content">
         <div class="container text-center mt-3">
             <h1 class="text-dark" style="font-size: 2rem;">Capturando la emoción del deporte</h1>
-            <a href="#contact" class="btn btn-light mt-3">Reserva ahora</a>
+            <a href="#contact" class="btn btn-dark mt-3">Reserva ahora</a>
 
         </div>
     </section>
@@ -196,28 +196,30 @@
 
     <script>
         document.getElementById('contactForm').addEventListener('submit', async function(event) {
-            event.preventDefault(); // Evita que la página se recargue
-
+            event.preventDefault();
+    
             const nombre = document.getElementById('nombre').value;
             const email = document.getElementById('email').value;
             const tipo_consulta = document.getElementById('tipo_consulta').value;
             const mensaje = document.getElementById('mensaje').value;
             const respuesta = document.getElementById('respuesta');
-
+    
             try {
-                // Enviar los datos al servidor
-                const response = await fetch('http://localhost:3000/enviar-mensaje', {
+                const baseUrl = window.location.origin;
+                const endpoint = `${baseUrl}/enviar-mensaje`;
+    
+                const response = await fetch(endpoint, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ nombre, email, tipo_consulta, mensaje })
                 });
-
+    
                 const data = await response.json();
-
+    
                 if (response.ok) {
                     respuesta.textContent = "✅ Mensaje enviado correctamente";
                     respuesta.style.color = "green";
-                    document.getElementById('contactForm').reset(); // Limpia el formulario
+                    document.getElementById('contactForm').reset();
                 } else {
                     respuesta.textContent = "❌ Error al enviar mensaje: " + data.error;
                     respuesta.style.color = "red";
@@ -229,6 +231,7 @@
             }
         });
     </script>
+    
 
     <!-- Pie de Página -->
     <footer class="bg-dark text-white py-4">

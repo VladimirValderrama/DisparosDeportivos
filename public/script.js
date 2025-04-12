@@ -41,8 +41,11 @@ if (form) {
         }
         mostrarMensaje("Enviando...", "success"); // 🔧 Mejora: feedback de carga
 
-        const baseURL = window.location.origin;
-        const endpoint = `${baseURL}/enviar-mensaje`;
+        const endpoint =
+        window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+          ? 'http://localhost:3000/enviar-mensaje'
+          : '/enviar-mensaje';
+      
 
         try {
             const response = await fetch(endpoint, {
@@ -51,11 +54,18 @@ if (form) {
                 body: JSON.stringify({ nombre, email, tipo_consulta, mensaje }),
             });
 
-            const data = await response.json();
-            console.log("Respuesta del servidor:", data);
+            const text = await response.text(); // 👈 cambiar de .json() a .text()
 
-            mostrarMensaje("Mensaje enviado correctamente. Gracias por contactarnos.", "success"); // 🔧 Mejora
-            form.reset(); // 🔧 Mejora: limpiar formulario
+            try {
+                const data = JSON.parse(text);
+                console.log("Respuesta del servidor:", data);
+                mostrarMensaje("Mensaje enviado correctamente. Gracias por contactarnos.", "success");
+                form.reset();
+            } catch (e) {
+                console.error("Respuesta no es JSON válida:", text);
+                mostrarMensaje("Respuesta inesperada del servidor.", "error");
+            }
+
         } catch (error) {
             console.error("Error al conectar con el servidor:", error);
             mostrarMensaje("Hubo un error al enviar el mensaje. Intenta más tarde.", "error"); // 🔧 Mejora

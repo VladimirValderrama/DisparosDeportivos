@@ -187,50 +187,14 @@
                 <textarea id="mensaje" name="mensaje" class="form-control" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
             </div>
             <div class="text-center">
-                <button type="submit" class="btn btn-dark">Enviar Mensaje</button>
+                <button type="submit" id="submitBtn" class="btn btn-dark">Enviar Mensaje</button>
             </div>
+
+            <div id="form-feedback" class="text-center mt-3"></div>
             <p id="respuesta" style="text-align:center; margin-top:10px;"></p>
         </form>
-
     </section>
 
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', async function(event) {
-            event.preventDefault();
-    
-            const nombre = document.getElementById('nombre').value;
-            const email = document.getElementById('email').value;
-            const tipo_consulta = document.getElementById('tipo_consulta').value;
-            const mensaje = document.getElementById('mensaje').value;
-            const respuesta = document.getElementById('respuesta');
-    
-            try {
-                const baseUrl = window.location.origin;
-                const endpoint = `${baseUrl}/enviar-mensaje`;
-    
-                const response = await fetch(endpoint, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ nombre, email, tipo_consulta, mensaje })
-                });
-    
-                const data = await response.json();
-    
-                if (response.ok) {
-                    respuesta.textContent = "✅ Mensaje enviado correctamente";
-                    respuesta.style.color = "green";
-                    document.getElementById('contactForm').reset();
-                } else {
-                    respuesta.textContent = "❌ Error al enviar mensaje: " + data.error;
-                    respuesta.style.color = "red";
-                }
-            } catch (error) {
-                console.error("Error:", error);
-                respuesta.textContent = "❌ Error al conectar con el servidor";
-                respuesta.style.color = "red";
-            }
-        });
-    </script>
     
 
     <!-- Pie de Página -->
@@ -257,7 +221,7 @@
 <script src="script.js" defer></script>
 </body>
 
-
+http
 
 </html>
 

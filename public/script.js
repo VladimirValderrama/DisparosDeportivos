@@ -39,8 +39,6 @@ if (form) {
             mostrarMensaje("El mensaje debe tener al menos 10 caracteres", "error");
             return;
         }
-
-        submitBtn.disabled = true; // 🔧 Mejora: evitar doble clic
         mostrarMensaje("Enviando...", "success"); // 🔧 Mejora: feedback de carga
 
         const baseURL = window.location.origin;

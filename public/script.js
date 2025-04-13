@@ -44,7 +44,7 @@ if (form) {
         const endpoint =
         window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
           ? 'http://localhost:3000/enviar-mensaje'
-          : '/enviar-mensaje';
+          : 'https://backend-9awr.onrender.com/enviar-mensaje';
       
 
         try {

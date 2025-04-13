@@ -1,5 +1,10 @@
 [
     {
+    "img": "img/historicos10",
+    "titulo": "Históricos Selección Chilena - Ex CDO",
+    "enlace": "detalle_albums.html?evento=historicos"
+    },
+    {
         "img": "img/Ciclismo",
         "titulo": "Carrera Ciclismo 'Los Virtuales' Por la Inclusión en el Ciclismo",
         "enlace": "detalle_albums.html?evento=ciclismo_virtual"

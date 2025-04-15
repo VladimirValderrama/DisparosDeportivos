@@ -34,7 +34,7 @@ Permite a los usuarios explorar galerías de imágenes, contactar al fotógrafo 
 │── 📜 package-lock.json   # Archivo de bloqueo de dependencias
 │── 📜 README.md           # Documentación del proyecto
 │── 📜 script.js           # Lógica del frontend
-│── 📜 server.js           # Servidor en Node.js (backend)
+│── 📜 server.js           # Servidor en Node.js (backend) SUBIDO A RENDER.COM, JUNTO A LOS ENV NECESARIOS
 │── 📜 styles.css          # Estilos personalizados
 
 

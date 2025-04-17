@@ -152,3 +152,21 @@ footer {
 .bold {
     font-weight: bold;
 }
+
+
+html, body {
+    height: 100%; /* Asegura que la altura de la página cubra toda la pantalla */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}

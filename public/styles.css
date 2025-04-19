@@ -170,3 +170,35 @@ main {
 footer {
     margin-top: auto; /* Empuja el footer hacia abajo */
 }
+
+
+
+
+/* Carrusel de logos */
+.media-logos img {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.media-logos img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Cards de prensa */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+/* AOS override para mejor fluidez */
+[data-aos] {
+    transition-duration: 0.6s !important;
+    transition-timing-function: ease-out !important;
+}

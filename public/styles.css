@@ -175,17 +175,82 @@ footer {
 
 
 /* Carrusel de logos */
+
+
+.media-marquee-wrapper {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    max-width: 60%; /* ajusta el ancho del carrusel */
+    margin: 0 auto;  /* centrado */
+}
+
+
+/* Carrusel que se mueve */
+.media-marquee {
+    display: flex;
+    gap: 2rem;
+    animation: scroll-left 15s linear infinite;
+    align-items: center;
+    will-change: transform;
+}
+
+
+
 .media-logos img {
     opacity: 0.7;
     transition: all 0.3s ease-in-out;
-    max-height: 50px;
+    height: 50px;
     object-fit: contain;
+    flex-shrink: 0;
 }
 
 .media-logos img:hover {
     opacity: 1;
     transform: scale(1.1);
 }
+
+
+/* Pausa la animación cuando pasas el mouse */
+.media-marquee-wrapper:hover .media-marquee {
+    animation-play-state: paused;
+}
+
+.media-marquee img {
+    height: 50px;
+    flex-shrink: 0;
+}
+
+/* Animación de desplazamiento */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .media-marquee {
+        gap: 1rem; /* menos espacio entre logos */
+        animation-duration: 20s; /* animación más lenta en móvil */
+    }
+
+    .media-logos img {
+        max-height: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .media-logos img {
+        max-height: 35px;
+    }
+}
+
+
+
+
 
 /* Cards de prensa */
 .card {

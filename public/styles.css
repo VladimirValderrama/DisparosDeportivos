@@ -181,7 +181,7 @@ footer {
     overflow: hidden;
     position: relative;
     width: 100%;
-    max-width: 60%; /* ajusta el ancho del carrusel */
+    max-width: 75%; /* ajusta el ancho del carrusel */
     margin: 0 auto;  /* centrado */
 }
 

@@ -143,11 +143,13 @@
                 evento.fotos.forEach(foto => {
                     eventDetailsContainer.innerHTML += `
                         <div class="col-md-4 mb-4">
-                            <img src="${foto}" alt="Foto del evento" class="img-fluid rounded">
+                            <img src="${foto}" alt="Foto del evento" class="img-fluid rounded"> 
+                            <!--
                             <form id="compraForm" method="POST">
                                 <input type="hidden" name="foto_id" value="${foto}">
                                 <button type="submit" class="btn btn-dark mt-2">Comprar Foto</button>
                             </form>
+                            -->
                         </div>
                     `;
                 });

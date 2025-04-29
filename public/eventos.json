@@ -1,13 +1,18 @@
 [
     {
+        "img": "img/tenisfind1",
+        "titulo": "Copa Tenis Club Lawn Mundial",
+        "enlace": "detalle_albums.html?evento=findtenis"
+    },
+    {
         "img": "img/basketsr1",
         "titulo": "Concentrado Básquetbol Silla de Ruedas - Team Para Chile",
         "enlace": "detalle_albums.html?evento=basketsr"
     },
     {
-    "img": "img/historicos10",
-    "titulo": "Históricos Selección Chilena - Ex CDO",
-    "enlace": "detalle_albums.html?evento=historicos"
+        "img": "img/historicos10",
+        "titulo": "Históricos Selección Chilena - Ex CDO",
+        "enlace": "detalle_albums.html?evento=historicos"
     },
     {
         "img": "img/Ciclismo",

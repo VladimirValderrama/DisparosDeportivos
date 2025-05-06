@@ -1,5 +1,11 @@
 [
     {
+        "img": "img/orlandoguaita",
+        "titulo": "Grand Prix XLIII Sudamericano Orlando Guaita 2025",
+        "enlace": "detalle_albums.html?evento=orlandoguaita"
+
+    },
+    {
         "img": "img/findtenis",
         "titulo": "Copa Tenis Club Lawn Mundial",
         "enlace": "detalle_albums.html?evento=findtenis"

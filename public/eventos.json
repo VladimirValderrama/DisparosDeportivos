@@ -1,5 +1,10 @@
 [
     {
+        "img":"img/copachilepista",
+        "titulo": "Copa Chile Pista Internacional",
+        "enlace": "detalle_albums.html?evento=copachilepista"
+    }
+    {
         "img": "img/orlandoguaita",
         "titulo": "Grand Prix XLIII Sudamericano Orlando Guaita 2025",
         "enlace": "detalle_albums.html?evento=orlandoguaita"

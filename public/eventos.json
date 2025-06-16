@@ -1,5 +1,10 @@
 [
     {
+        "img":"img/boxingmexico",
+        "titulo": "Velada Club México - Ovalle Boxing",
+        "enlace": "detalle_albums.html?evento=boxingmexico"
+    },
+    {
         "img":"img/copachilepista",
         "titulo": "Copa Chile Pista Internacional - Velódromo Peñalolén",
         "enlace": "detalle_albums.html?evento=copachilepista"

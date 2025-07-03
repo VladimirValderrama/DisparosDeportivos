@@ -19,7 +19,6 @@ const carpetaImagenes = './img'; // Cambia esto según tu carpeta
             });
     }
 });
-
 */
 
 fs.readdirSync(carpetaImagenes).forEach(file => {

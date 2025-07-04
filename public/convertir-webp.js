@@ -20,7 +20,6 @@ const carpetaImagenes = './img'; // Cambia esto según tu carpeta
     }
 });
 */
-
 fs.readdirSync(carpetaImagenes).forEach(file => {
     if (/\.(jpg|jpeg|png)$/i.test(file)) {
         const inputPath = path.join(carpetaImagenes, file);

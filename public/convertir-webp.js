@@ -42,3 +42,7 @@ fs.readdirSync(carpetaImagenes).forEach(file => {
         }
     }
 });
+
+
+
+

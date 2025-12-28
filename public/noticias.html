@@ -14,45 +14,51 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fotografía deportiva profesional en eventos, atletas y momentos únicos en el deporte. Capturamos la pasión en cada disparo.">
-    <meta name="keywords" content="fotografía deportiva, eventos deportivos, fotos de deportes, sesiones deportivas">
-
-    <title>Disparos Deportivos - Fotografía Deportiva</title>
-   
-    <!-- Bootstrap 5 CSS -->
-
+    <meta name="description" content="Fotografía deportiva profesional en eventos, atletas y momentos únicos en el deporte. Capturamos la pasión en cada disparo">
+    <title>Sobre mí - Disparos Deportivos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fuente "Poppins" de Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 
-<!-- Bootstrap Icons -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+   <!-- Fuente "Poppins" de Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 
-<link rel="icon" href="img/newlogo.png" type="image/png">
+</head>
 
-<link rel="stylesheet" href="styles.css">
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-md navbar-light bg-white navbar-custom sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/newlogo.png" alt="Logo Disparos Deportivos" loading="lazy">
+            <span class="lead escribir" style="font-size: 0.8rem;">¡La pasión del deporte en cada disparo!</span>                
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link destacado" href="parquemet.html">Portafolio Parquemet ¡Nuevo!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre mí</a>
+                    </li>
+
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="prensa.html">Prensa</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 </head>
 <body>
-
-    <!-- Sección Ultimos Eventos -->
-    <section class="my-0">
-        <div class="container">
-            <h2 class="text-center mb-4">Últimos Eventos</h2>
-            <div class="row justify-content-center" id="eventosContainer"> 
-            </div>
-        </div>
-
-        <!-- Controles de Paginación -->
-        <div class="text-center mt-4">
-            <button id="prevPage" class="btn btn-dark me-2" disabled>Anterior</button>
-            <span id="pageIndicator">Página 1</span>
-            <button id="nextPage" class="btn btn-dark ms-2">Siguiente</button>
-        </div>
-
-    </section>
-
-
 
     <section class="container my-3">
         <div class="row justify-content-center">
@@ -60,11 +66,11 @@
 
             <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
                 <div class="card h-100 shadow-sm">
-                    <img src="img/logos/laregion.JPG" class="card-img-top" alt="Nota Diario El Día" loading="lazy">
+                    <!-- AQUIEL LINK A LA IMAGEN--><img src="" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body">
-                        <h5 class="card-title">Hinchas podrán diseñar y elegir la camiseta de Deportes Ovalle</h5>
-                        <p class="card-text"><strong>Diario La Región</strong> - 17 de abril, 2025</p>
-                        <a href="https://www.diariolaregion.cl/hinchas-podran-disenar-y-elegir-la-camiseta-con-que-deportes-ovalle-retornara-al-futbol-competitivo/" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
+                        <h5 class="card-title">Noticia1</h5>
+                        <p class="card-text"><strong>QUE MEDIO</strong> - FECHA DE LA NOTICIA</p>
+                        <!--LINK DE LA NOTICIA? --><a href="" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
                     </div>
                 </div>
             </div>
@@ -72,93 +78,77 @@
 
             <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
                 <div class="card h-100 shadow-sm">
-                    <img src="img/logos/montecarlonota.JPG" class="card-img-top" alt="Nota Diario El Día" loading="lazy">
+                    <!-- AQUIEL LINK A LA IMAGEN--><img src="" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body">
-                        <h5 class="card-title">Hinchas podrán diseñar y elegir la camiseta con que Deportes Ovalle retornará al fútbol competitivo</h5>
-                        <p class="card-text"><strong>Radio Montecarlo</strong> - 17 de abril, 2025</p>
-                        <a href="https://www.radiomontecarlo.cl/hinchas-podran-disenar-y-elegir-la-camiseta-con-que-deportes-ovalle-retornara-al-futbol-competitivo/" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
+                        <h5 class="card-title">Noticia1</h5>
+                        <p class="card-text"><strong>QUE MEDIO</strong> - FECHA DE LA NOTICIA</p>
+                        <!--LINK DE LA NOTICIA? --><a href="" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
                     </div>
                 </div>
             </div>
-        
+
+
 
             <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
                 <div class="card h-100 shadow-sm">
-                    <img src="img/logos/el_dia_nota2.JPG" class="card-img-top" alt="Nota Diario El Día" loading="lazy">
+                    <!-- AQUIEL LINK A LA IMAGEN--><img src="" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body">
-                        <h5 class="card-title">Hinchas podrán diseñar y elegir la camiseta de Deportes Ovalle</h5>
-                        <p class="card-text"><strong>Diario El Día</strong> - 17 de abril, 2025</p>
-                        <a href="https://www.diarioeldia.cl/noticias/2025/04/17/126197-hinchas-podran-disenar-y-elegir-la-camiseta-de-cd-ovalle-en-su-esperado-retorno-asi-puedes-participar" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
+                        <h5 class="card-title">Noticia1</h5>
+                        <p class="card-text"><strong>QUE MEDIO</strong> - FECHA DE LA NOTICIA</p>
+                        <!--LINK DE LA NOTICIA? --><a href="" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
                     </div>
                 </div>
             </div>
+            
+            
+            <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
+                <div class="card h-100 shadow-sm">
+                    <!-- AQUIEL LINK A LA IMAGEN--><img src="" class="card-img-top" alt="" loading="lazy">
+                    <div class="card-body">
+                        <h5 class="card-title">Noticia1</h5>
+                        <p class="card-text"><strong>QUE MEDIO</strong> - FECHA DE LA NOTICIA</p>
+                        <!--LINK DE LA NOTICIA? --><a href="" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
+                    </div>
+                </div>
+            </div>
+
+
 
             <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
                 <div class="card h-100 shadow-sm">
-                    <img src="img/logos/Copachibasketsr.JPG" class="card-img-top" alt="paralimpico.cl" loading="lazy">
+                    <!-- AQUIEL LINK A LA IMAGEN--><img src="" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body">
-                        <h5 class="card-title">El Team Para Chile de Baloncesto en Silla de Ruedas se concentra enfocado en los JJ.PP Juveniles Chile 2025</h5>
-                        <p class="card-text"><strong>Comité Paralímpico de Chile</strong> - 31 de marzo, 2025</p>
-                        <a href="https://paralimpico.cl/baloncesto-sr-se-concentra-enfocados-en-chile-2025/" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 mb-4" data-aos="fade-up">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/logos/notacomunicativa.JPG" class="card-img-top" alt="Portada El Ovallino" loading="lazy">
-                    <div class="card-body">
-                        <h5 class="card-title">"Deportes Ovalle está en el corazón de los Ovallinos": Históricos Destacan el regreso del CDO a la competencia</h5>
-                        <p class="card-text"><strong>Radio Comunicativa</strong> - 27 de marzo, 2025</p>
-                        <a href="https://radiocomunicativa.cl/2025/03/deportes-ovalle-esta-en-el-corazon-de-los-ovallinos-historicos-destacan-el-regreso-del-cdo-a-la-competencia/" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
-                    </div>
-                </div>
-            </div>
-    
-
-            <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
-                <div class="card h-100 shadow-sm">
-                    <img src="img/logos/Copachirugbysr.JPG" class="card-img-top" alt="paralimpico.cl" loading="lazy">
-                    <div class="card-body">
-                        <h5 class="card-title">Wallmapu: Tetracampeón del Campeonato Nacional de Rugby en Silla de Ruedas</h5>
-                        <p class="card-text"><strong>Comité Paralímpico de Chile</strong> - 9 de diciembre, 2024</p>
-                        <a href="https://paralimpico.cl/wallmapu-tetracampeon-del-campeonato-nacional/" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
+                        <h5 class="card-title">Noticia1</h5>
+                        <p class="card-text"><strong>QUE MEDIO</strong> - FECHA DE LA NOTICIA</p>
+                        <!--LINK DE LA NOTICIA? --><a href="" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
                 <div class="card h-100 shadow-sm">
-                    <img src="img/logos/portada5.JPG" class="card-img-top" alt="Nota Diario El Día" loading="lazy">
+                    <!-- AQUIEL LINK A LA IMAGEN--><img src="" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body">
-                        <h5 class="card-title">¡Anhelado retorno! Deportes Ovalle postula a la tercera división 2025</h5>
-                        <p class="card-text"><strong>Diario El Ovallino</strong> - 3 de diciembre, 2024</p>
-                        <a href="https://www.elovallino.cl/deportes-ovalle-postula-a-la-tercera-division-2025/" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
+                        <h5 class="card-title">Noticia1</h5>
+                        <p class="card-text"><strong>QUE MEDIO</strong> - FECHA DE LA NOTICIA</p>
+                        <!--LINK DE LA NOTICIA? --><a href="" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
                     </div>
                 </div>
             </div>
 
+
             <div class="col-md-4 mb-4" data-aos="fade-up"> <!--modifica col-md-4 a col-lg-3 para 4 elementos por fila-->
                 <div class="card h-100 shadow-sm">
-                    <img src="img/logos/portada4.jpg" class="card-img-top" alt="Nota Diario El Día" loading="lazy">
+                    <!-- AQUIEL LINK A LA IMAGEN--><img src="" class="card-img-top" alt="" loading="lazy">
                     <div class="card-body">
-                        <h5 class="card-title">Deportes Ovalle Sub-19 inicia la liguilla final como local en Monte Patria</h5>
-                        <p class="card-text"><strong>Diario El Día</strong> - 4 de agosto, 2024</p>
-                        <a href="https://www.elovallino.cl/articulo/deportes-ovalle-sub-19-inicia-liguilla-final-como-local-en-monte-patria/" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
+                        <h5 class="card-title">Noticia1</h5>
+                        <p class="card-text"><strong>QUE MEDIO</strong> - FECHA DE LA NOTICIA</p>
+                        <!--LINK DE LA NOTICIA? --><a href="" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-4" data-aos="fade-up">
-                <div class="card h-100 shadow-sm">
-                    <img src="img/portada.webp" class="card-img-top" alt="Portada El Ovallino" loading="lazy">
-                    <div class="card-body">
-                        <h5 class="card-title">CDO Sub-19 se juega su liderato ante Aguará</h5>
-                        <p class="card-text"><strong>El Ovallino</strong> - 4 de julio, 2024</p>
-                        <a href="https://enlace-al-articulo.com" target="_blank" class="btn btn-primary btn-sm">Ver artículo</a>
-                    </div>
-                </div>
-            </div>
-    
+
+
 
             <!-- Agrega más tarjetas aquí dentro de la misma row -->
     
@@ -166,4 +156,25 @@
     </section>
 
 
+    <!-- Pie de Página -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024-2025 Disparos Deportivos. Todos los derechos reservados.</p>
+            <div>
+                <a href="https://instagram.com/disparosdeportivos" class="text-white me-3">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a>
+                <a href="https://web.facebook.com/profile.php?id=61561034021739" class="text-white">
+                    <i class="bi bi-facebook"></i> Facebook
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap 5 JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    
+<script src="script.js" defer></script>
 </body>
+
+</html>

@@ -13,7 +13,6 @@ const cors = require('cors'); // Asegura que no haya problemas con CORS
 // Crear la aplicación de Express
 const app = express();
 
-app.use(express.static(path.join(__dirname))) //express para noticias
 app.get('/api/lo-que-sea', (req, res) => {
   res.json({ ok: true })
 })
@@ -21,8 +20,8 @@ app.get('/api/lo-que-sea', (req, res) => {
 
 
 // Configurar Express para manejar datos JSON
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
 app.use(express.static('public')); // Asegúrate de que tus archivos HTML están en 'public'
 
 // Ruta para servir la página principal
@@ -109,18 +108,6 @@ app.get('/confirmacion_pago', (req, res) => {
 });
 
 
-app.get('/confirmacion_pago', (req, res) => { // Pagina de confirmacion de pago
-  const foto_id = req.query.foto_id; 
-  res.send(`
-      <html>
-          <head><title>Confirmación de Pago</title></head>
-          <body>
-              <h1>✅ ¡Gracias por tu compra!</h1>
-              <p>Has comprado la foto con ID: ${foto_id}</p>
-          </body>
-      </html>
-  `);
-});
 
 
 // Ruta para manejar el envío del formulario de contacto

@@ -18,9 +18,6 @@ app.get('/api/lo-que-sea', (req, res) => {
   res.json({ ok: true })
 })
 
-app.listen(3000, () => {
-  console.log('Servidor activo en http://localhost:3000')
-})
 
 
 // Configurar Express para manejar datos JSON
@@ -166,4 +163,3 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
 });
-

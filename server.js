@@ -13,6 +13,16 @@ const cors = require('cors'); // Asegura que no haya problemas con CORS
 // Crear la aplicación de Express
 const app = express();
 
+app.use(express.static(path.join(__dirname))) //express para noticias
+app.get('/api/lo-que-sea', (req, res) => {
+  res.json({ ok: true })
+})
+
+app.listen(3000, () => {
+  console.log('Servidor activo en http://localhost:3000')
+})
+
+
 // Configurar Express para manejar datos JSON
 app.use(express.json());
 app.use(cors());

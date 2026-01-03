@@ -4,15 +4,15 @@
     "titulo": "Países Bajos derrotó a Argentina y es campeón del Mundial Junior Femenino de Hockey Santiago 2025",
     "fecha": "15 de Diciembre 2025",
     "lugar": "Santiago",
-    "imagen": "joki-1.webp",
-    "contenido": "<p>Países Bajos se coronó campeón del Mundial Junior Femenino de Hockey tras una final intensa disputada en Santiago.</p><p>El torneo reunió a las mejores selecciones juveniles del mundo.</p>"
+    "imagen": "/img/joki-1.webp",
+    "contenido": "<p>Países Bajos se coronó campeón del Mundial Junior Femenino de Hockey tras una final intensa disputada en Santiago. El torneo reunió a las mejores selecciones juveniles del mundo. </p>"
   },
   {
     "id": "ranking-fifa-chile-2025",
     "titulo": "Selección chilena de Fútbol cierra el 2025 con leve ascenso en ranking FIFA",
     "fecha": "22 de Diciembre 2025",
     "lugar": "Chile",
-    "imagen": "laroja25.webp",
+    "imagen": "/img/laroja25.webp",
     "contenido": "<p>La Roja cerró el año con una leve mejora en el ranking FIFA, aunque se mantiene en la parte baja de Sudamérica.</p>"
   }
 ]

@@ -13,7 +13,7 @@ fetch('articulos.json')
 
     document.getElementById('titulo').innerText = noticia.titulo
     document.getElementById('meta').innerText = `${noticia.fecha} - ${noticia.lugar}`
-    document.getElementById('imagen').src = `img/${noticia.imagen}`
+    document.getElementById('imagen').src = noticia.imagen
     document.getElementById('contenido').innerHTML = noticia.contenido
   })
   .catch(error => {

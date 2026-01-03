@@ -1,19 +1,1270 @@
 [
   {
-    "id": "hockey-junior-2025",
-    "titulo": "Países Bajos derrotó a Argentina y es campeón del Mundial Junior Femenino de Hockey Santiago 2025",
-    "fecha": "15 de Diciembre 2025",
-    "lugar": "Santiago",
-    "imagen": "/img/joki-1.webp",
-    "contenido": "<p>Países Bajos se coronó campeón del Mundial Junior Femenino de Hockey tras una final intensa disputada en Santiago. El torneo reunió a las mejores selecciones juveniles del mundo. </p>"
+    "id": "cierre-deporte-chileno-2025",
+    "titulo": "Deporte chileno cierra el 2025 con foco en el nuevo ciclo internacional",
+    "fecha": "28 de Diciembre 2025",
+    "lugar": "Chile",
+    "imagen": "/img/cierre-deporte-2025.webp",
+    "contenido": "<p>El deporte chileno cerró el año 2025 con evaluaciones institucionales y deportivas, marcadas por la organización de megaeventos internacionales y el inicio del nuevo ciclo competitivo rumbo a 2026.</p>"
   },
   {
-    "id": "ranking-fifa-chile-2025",
-    "titulo": "Selección chilena de Fútbol cierra el 2025 con leve ascenso en ranking FIFA",
-    "fecha": "22 de Diciembre 2025",
+    "id": "resumen-deporte-mundial-2025",
+    "titulo": "El deporte mundial despide el 2025 tras un año marcado por megaeventos",
+    "fecha": "28 de Diciembre 2025",
+    "lugar": "Mundo",
+    "imagen": "/img/deporte-mundial-2025.webp",
+    "contenido": "<p>El 2025 dejó grandes hitos deportivos a nivel global, con mundiales juveniles, eventos continentales y finales de alto impacto que marcaron la agenda internacional.</p>"
+  },
+  {
+    "id": "balance-ministerio-deporte-2025",
+    "titulo": "Ministerio del Deporte presenta balance anual marcado por megaeventos en Chile",
+    "fecha": "21 de Diciembre 2025",
     "lugar": "Chile",
-    "imagen": "/img/laroja25.webp",
-    "contenido": "<p>La Roja cerró el año con una leve mejora en el ranking FIFA, aunque se mantiene en la parte baja de Sudamérica.</p>"
+    "imagen": "/img/balance-mindep-2025.webp",
+    "contenido": "<p>El Ministerio del Deporte realizó el balance anual destacando la realización del Mundial Sub-20 y los Juegos Parapanamericanos Juveniles como hitos clave del 2025.</p>"
+  },
+  {
+    "id": "resumen-deportivo-global-2025",
+    "titulo": "El deporte mundial destaca a Chile como uno de los grandes anfitriones del año",
+    "fecha": "21 de Diciembre 2025",
+    "lugar": "Internacional",
+    "imagen": "/img/chile-anfitrion-2025.webp",
+    "contenido": "<p>Medios internacionales resaltaron la capacidad organizativa de Chile tras un año con múltiples eventos de alto nivel realizados en el país.</p>"
+  },
+  {
+    "id": "mundial-clubes-fifa-2025-final",
+    "titulo": "Se define el Mundial de Clubes FIFA 2025 con presencia de campeones continentales",
+    "fecha": "14 de Diciembre 2025",
+    "lugar": "Internacional",
+    "imagen": "/img/mundial-clubes-2025.webp",
+    "contenido": "<p>El Mundial de Clubes FIFA 2025 llegó a su definición con los mejores equipos de cada continente disputando el título planetario.</p>"
+  },
+  {
+    "id": "chile-mundiales-cierre-2025",
+    "titulo": "Atletas chilenos cierran el año compitiendo en mundiales de distintas disciplinas",
+    "fecha": "07 de Diciembre 2025",
+    "lugar": "Internacional",
+    "imagen": "/img/chilenos-mundiales-2025.webp",
+    "contenido": "<p>Deportistas nacionales participaron en campeonatos mundiales de cierre de temporada, consolidando presencia internacional tras un año intenso.</p>"
+  },
+  {
+    "id": "final-libertadores-sudamericana-2025",
+    "titulo": "Se disputan las finales de Copa Libertadores y Sudamericana 2025",
+    "fecha": "30 de Noviembre 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/finales-conmebol-2025.webp",
+    "contenido": "<p>Las competencias de clubes más importantes de Sudamérica llegaron a su fin con finales que captaron la atención continental.</p>"
+  },
+  {
+    "id": "clausura-parapanamericanos-juveniles-2025",
+    "titulo": "Chile clausura con éxito los Juegos Parapanamericanos Juveniles Santiago 2025",
+    "fecha": "23 de Noviembre 2025",
+    "lugar": "Santiago",
+    "imagen": "/img/clausura-para-juveniles-2025.webp",
+    "contenido": "<p>Con una emotiva ceremonia de clausura finalizaron los Juegos Parapanamericanos Juveniles, dejando un fuerte legado inclusivo en el país.</p>"
+  },
+  {
+    "id": "medallas-chile-parapanamericanos-juveniles",
+    "titulo": "Chile logra medallas históricas en los Juegos Parapanamericanos Juveniles",
+    "fecha": "16 de Noviembre 2025",
+    "lugar": "Chile",
+    "imagen": "/img/medallas-para-juveniles-2025.webp",
+    "contenido": "<p>La delegación chilena firmó una actuación histórica en los Juegos Parapanamericanos Juveniles, sumando múltiples preseas en diversas disciplinas.</p>"
+  },
+  {
+    "id": "inauguracion-parapanamericanos-juveniles-2025",
+    "titulo": "Chile inaugura los Juegos Parapanamericanos Juveniles Santiago 2025",
+    "fecha": "09 de Noviembre 2025",
+    "lugar": "Santiago",
+    "imagen": "/img/inauguracion-para-juveniles.webp",
+    "contenido": "<p>Santiago dio inicio oficial a los Juegos Parapanamericanos Juveniles 2025 con la llegada de delegaciones de todo el continente.</p>"
+  },
+  {
+    "id": "chile-medallas-asu-2025",
+    "titulo": "Chile suma medallas y finales en los Juegos Panamericanos Junior ASU 2025",
+    "fecha": "02 de Noviembre 2025",
+    "lugar": "Asunción",
+    "imagen": "/img/asu-medallas-chile.webp",
+    "contenido": "<p>La delegación chilena cerró su participación en ASU 2025 con medallas y finales que proyectan a nuevas figuras del deporte nacional.</p>"
+  },
+  {
+    "id": "chile-debut-asu-2025",
+    "titulo": "Chile debuta en los Juegos Panamericanos Junior ASU 2025",
+    "fecha": "26 de Octubre 2025",
+    "lugar": "Asunción",
+    "imagen": "/img/asu-debut-chile.webp",
+    "contenido": "<p>Chile inició su participación en los Juegos Panamericanos Junior ASU 2025, evento clave para el desarrollo de jóvenes deportistas del continente.</p>"
+  },
+
+  {
+    "id": "clasificatorias-chile-post-mundial-sub20",
+    "titulo": "Chile retoma las Clasificatorias tras el impacto organizativo del Mundial Sub-20",
+    "fecha": "05 de Octubre 2025",
+    "lugar": "Chile",
+    "imagen": "/img/chile-clasificatorias-2025.webp",
+    "contenido": "<p>La selección chilena volvió a competir en Clasificatorias Sudamericanas luego del cierre del Mundial Sub-20, retomando el foco deportivo rumbo al Mundial 2026.</p>"
+  },
+  {
+    "id": "inicio-nba-2025-2026",
+    "titulo": "Comienza la temporada NBA 2025-2026 con renovadas expectativas",
+    "fecha": "05 de Octubre 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/nba-2025-2026.webp",
+    "contenido": "<p>La NBA dio inicio a una nueva temporada marcada por cambios de planteles, jóvenes figuras emergentes y altas expectativas competitivas.</p>"
+  },
+  {
+    "id": "balance-deporte-chileno-segundo-semestre",
+    "titulo": "Deporte chileno inicia balance competitivo rumbo al segundo semestre del ciclo",
+    "fecha": "29 de Junio 2025",
+    "lugar": "Chile",
+    "imagen": "/img/balance-segundo-semestre.webp",
+    "contenido": "<p>Las autoridades deportivas realizaron un balance del primer semestre, proyectando ajustes y prioridades para la segunda mitad del año.</p>"
+  },
+  {
+    "id": "eurocopa-femenina-2025",
+    "titulo": "Eurocopa femenina y torneos continentales concentran la atención europea",
+    "fecha": "29 de Junio 2025",
+    "lugar": "Europa",
+    "imagen": "/img/eurocopa-femenina-2025.webp",
+    "contenido": "<p>La Eurocopa femenina se desarrolló junto a otros torneos continentales, consolidando el crecimiento del fútbol femenino en Europa.</p>"
+  },
+  {
+    "id": "finales-nba-2025-campeon",
+    "titulo": "La NBA corona a su campeón tras intensas Finales 2025",
+    "fecha": "22 de Junio 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/finales-nba-2025.webp",
+    "contenido": "<p>Las Finales de la NBA 2025 definieron al nuevo campeón luego de una serie de alto nivel y gran seguimiento global.</p>"
+  },
+  {
+    "id": "chile-cierre-torneos-continentales-2025",
+    "titulo": "Chile cierra su participación en torneos continentales del primer semestre",
+    "fecha": "22 de Junio 2025",
+    "lugar": "Chile",
+    "imagen": "/img/cierre-torneos-continentales.webp",
+    "contenido": "<p>La delegación chilena concluyó su participación en competencias continentales, evaluando resultados y proyecciones para la segunda mitad del año.</p>"
+  },
+  {
+    "id": "finales-nba-2025-inicio",
+    "titulo": "Comienzan las Finales de la NBA 2025 con alta expectación mundial",
+    "fecha": "15 de Junio 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/inicio-finales-nba-2025.webp",
+    "contenido": "<p>Las Finales de la NBA arrancaron con los mejores equipos de la temporada regular disputando el título de la liga.</p>"
+  },
+  {
+    "id": "fecha-fifa-clasificatorias-junio-2025",
+    "titulo": "Selección chilena disputa una nueva fecha FIFA de Clasificatorias",
+    "fecha": "15 de Junio 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/fecha-fifa-junio-2025.webp",
+    "contenido": "<p>La Roja afrontó una nueva doble fecha de Clasificatorias Sudamericanas en su camino hacia el Mundial 2026.</p>"
+  },
+  {
+    "id": "diamond-league-chilenos-2025",
+    "titulo": "Atletas chilenos compiten en etapas europeas de la Diamond League",
+    "fecha": "08 de Junio 2025",
+    "lugar": "Europa",
+    "imagen": "/img/diamond-league-chile.webp",
+    "contenido": "<p>Representantes del atletismo chileno participaron en prestigiosas fechas de la Diamond League, enfrentando a la élite mundial.</p>"
+  },
+  {
+    "id": "roland-garros-semifinales-2025",
+    "titulo": "Roland Garros define a sus semifinalistas en París",
+    "fecha": "08 de Junio 2025",
+    "lugar": "París",
+    "imagen": "/img/roland-garros-semifinales.webp",
+    "contenido": "<p>El segundo Grand Slam del año entró en su fase decisiva con partidos de alto nivel en el cuadro masculino y femenino.</p>"
+  },
+  {
+    "id": "chile-roland-garros-2025",
+    "titulo": "Chile dice presente en el cuadro principal de Roland Garros 2025",
+    "fecha": "01 de Junio 2025",
+    "lugar": "París",
+    "imagen": "/img/chile-roland-garros-2025.webp",
+    "contenido": "<p>Tenistas chilenos participaron en el cuadro principal de Roland Garros, sumando experiencia en el máximo nivel del circuito.</p>"
+  },
+  {
+    "id": "inicio-roland-garros-2025",
+    "titulo": "Roland Garros inicia su edición 2025 en París",
+    "fecha": "01 de Junio 2025",
+    "lugar": "París",
+    "imagen": "/img/inicio-roland-garros-2025.webp",
+    "contenido": "<p>El Grand Slam sobre arcilla comenzó con gran expectación y la presencia de los principales favoritos del circuito ATP y WTA.</p>"
+  },
+  {
+    "id": "tenistas-chilenos-previa-roland-garros",
+    "titulo": "Tenistas chilenos compiten en la antesala de Roland Garros",
+    "fecha": "25 de Mayo 2025",
+    "lugar": "Europa",
+    "imagen": "/img/previa-roland-garros-chile.webp",
+    "contenido": "<p>Los representantes nacionales disputaron torneos previos buscando ritmo y clasificación para el segundo Grand Slam del año.</p>"
+  },
+  {
+    "id": "finales-conferencia-nba-2025",
+    "titulo": "Las Finales de Conferencia de la NBA elevan la tensión competitiva",
+    "fecha": "25 de Mayo 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/finales-conferencia-nba.webp",
+    "contenido": "<p>Los equipos finalistas de cada conferencia disputaron series intensas para acceder a las Finales de la NBA.</p>"
+  },
+
+
+  {
+    "id": "nba-playoffs-2025-inicio",
+    "titulo": "Comienzan los NBA Playoffs 2025 con máxima intensidad competitiva",
+    "fecha": "04 de Mayo 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/nba-playoffs-2025.webp",
+    "contenido": "<p>La postemporada de la NBA dio inicio con los mejores equipos de la temporada regular luchando por el título en series al mejor de siete partidos.</p>"
+  },
+  {
+    "id": "chile-torneos-juveniles-colectivos-2025",
+    "titulo": "Chile alberga torneos internacionales juveniles en deportes colectivos",
+    "fecha": "04 de Mayo 2025",
+    "lugar": "Chile",
+    "imagen": "/img/juveniles-colectivos-chile-2025.webp",
+    "contenido": "<p>El país fue sede de diversos torneos juveniles internacionales, reforzando su rol como anfitrión deportivo regional.</p>"
+  },
+  {
+    "id": "copas-mundo-remo-canotaje-chile",
+    "titulo": "Deportistas chilenos destacan en Copas del Mundo de remo y canotaje",
+    "fecha": "27 de Abril 2025",
+    "lugar": "Europa",
+    "imagen": "/img/remo-canotaje-cdm.webp",
+    "contenido": "<p>La delegación chilena logró finales y resultados destacados en fechas internacionales de remo y canotaje.</p>"
+  },
+  {
+    "id": "nba-play-in-2025",
+    "titulo": "El NBA Play-In concentra la atención del básquet mundial",
+    "fecha": "27 de Abril 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/nba-playin-2025.webp",
+    "contenido": "<p>La fase Play-In definió los últimos clasificados a los Playoffs de la NBA en una serie de partidos decisivos.</p>"
+  },
+  {
+    "id": "medallas-sudamericano-atletismo-chile-2025",
+    "titulo": "Atletas chilenos suman medallas en campeonatos sudamericanos de atletismo",
+    "fecha": "20 de Abril 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/sudamericano-atletismo-2025.webp",
+    "contenido": "<p>El atletismo chileno consiguió medallas y marcas relevantes en campeonatos sudamericanos del calendario 2025.</p>"
+  },
+  {
+    "id": "nba-clasificados-playoffs-2025",
+    "titulo": "La NBA define a los clasificados directos a los Playoffs 2025",
+    "fecha": "20 de Abril 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/nba-clasificados-playoffs.webp",
+    "contenido": "<p>La temporada regular de la NBA entró en su recta final con la definición de los equipos clasificados directamente a la postemporada.</p>"
+  },
+  {
+    "id": "triunfos-clubes-chilenos-conmebol-2025",
+    "titulo": "Clubes chilenos logran triunfos clave como locales en torneos CONMEBOL",
+    "fecha": "13 de Abril 2025",
+    "lugar": "Chile",
+    "imagen": "/img/clubes-chilenos-conmebol.webp",
+    "contenido": "<p>Los equipos nacionales obtuvieron resultados importantes como locales en Copa Libertadores y Sudamericana.</p>"
+  },
+  {
+    "id": "masters-montecarlo-2025",
+    "titulo": "El Masters 1000 de Montecarlo marca el inicio fuerte de la gira europea",
+    "fecha": "13 de Abril 2025",
+    "lugar": "Montecarlo",
+    "imagen": "/img/montecarlo-2025.webp",
+    "contenido": "<p>El circuito ATP inició su gira europea sobre arcilla con el tradicional Masters 1000 de Montecarlo.</p>"
+  },
+  {
+    "id": "libertadores-sudamericana-grupos-2025",
+    "titulo": "Clubes chilenos inician su participación en la fase de grupos CONMEBOL",
+    "fecha": "06 de Abril 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/libertadores-grupos-2025.webp",
+    "contenido": "<p>Los representantes chilenos debutaron en la fase de grupos de Copa Libertadores y Sudamericana 2025.</p>"
+  },
+  {
+    "id": "mlb-inicio-temporada-2025",
+    "titulo": "Comienza oficialmente la temporada MLB 2025",
+    "fecha": "30 de Marzo 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/mlb-2025.webp",
+    "contenido": "<p>La Major League Baseball dio inicio a una nueva temporada con altas expectativas competitivas.</p>"
+  },
+  {
+    "id": "campeonatos-nacionales-chile-2025",
+    "titulo": "Chile desarrolla campeonatos nacionales clave del primer semestre",
+    "fecha": "30 de Marzo 2025",
+    "lugar": "Chile",
+    "imagen": "/img/campeonatos-nacionales-2025.webp",
+    "contenido": "<p>Federaciones deportivas chilenas organizaron campeonatos nacionales fundamentales para el calendario competitivo.</p>"
+  },
+  {
+    "id": "clasificatorios-continentales-chile-2025",
+    "titulo": "Chile participa en torneos clasificatorios continentales en múltiples deportes",
+    "fecha": "23 de Marzo 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/clasificatorios-continentales.webp",
+    "contenido": "<p>Deportistas nacionales compitieron en clasificatorios continentales rumbo a eventos internacionales del ciclo.</p>"
+  },
+  {
+    "id": "masters-miami-2025",
+    "titulo": "El Masters 1000 de Miami entra en su fase decisiva",
+    "fecha": "23 de Marzo 2025",
+    "lugar": "Miami",
+    "imagen": "/img/miami-open-2025.webp",
+    "contenido": "<p>El torneo de Miami reunió a las principales figuras del tenis mundial en su tramo decisivo.</p>"
+  },
+  {
+    "id": "atletismo-chileno-giras-internacionales-2025",
+    "titulo": "Atletismo chileno logra marcas destacadas en giras internacionales",
+    "fecha": "16 de Marzo 2025",
+    "lugar": "Europa",
+    "imagen": "/img/atletismo-giras-2025.webp",
+    "contenido": "<p>Atletas nacionales alcanzaron marcas relevantes durante giras internacionales del circuito atlético.</p>"
+  },
+  {
+    "id": "indian-wells-2025",
+    "titulo": "Indian Wells corona a sus campeones del Masters 1000",
+    "fecha": "16 de Marzo 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/indian-wells-2025.webp",
+    "contenido": "<p>El primer Masters 1000 del año concluyó con finales de alto nivel competitivo.</p>"
+  },
+  {
+    "id": "remo-canotaje-sudamericano-2025",
+    "titulo": "Remeros y canoístas chilenos destacan en campeonatos sudamericanos",
+    "fecha": "09 de Marzo 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/remo-canotaje-sudamericano.webp",
+    "contenido": "<p>Chile logró finales y podios en campeonatos sudamericanos de remo y canotaje.</p>"
+  },
+  {
+    "id": "nba-rumbo-playoffs-2025",
+    "titulo": "La NBA comienza a perfilar a los clasificados a Playoffs",
+    "fecha": "09 de Marzo 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/nba-rumbo-playoffs.webp",
+    "contenido": "<p>La recta final de la temporada regular empezó a definir a los equipos protagonistas.</p>"
+  },
+  {
+    "id": "eventos-extremos-juveniles-chile-2025",
+    "titulo": "Chile organiza eventos internacionales de deportes extremos y juveniles",
+    "fecha": "02 de Marzo 2025",
+    "lugar": "Chile",
+    "imagen": "/img/extremos-juveniles-2025.webp",
+    "contenido": "<p>El país fue sede de competencias juveniles y de deportes extremos con participación internacional.</p>"
+  },
+  {
+    "id": "champions-cuartos-2025",
+    "titulo": "La Champions League define a sus clasificados a cuartos de final",
+    "fecha": "02 de Marzo 2025",
+    "lugar": "Europa",
+    "imagen": "/img/champions-cuartos-2025.webp",
+    "contenido": "<p>La máxima competencia de clubes europeos avanzó hacia su fase decisiva.</p>"
+  },
+  {
+    "id": "podios-surf-urbano-chile-2025",
+    "titulo": "Deportistas chilenos logran podios en surf y deportes urbanos",
+    "fecha": "23 de Febrero 2025",
+    "lugar": "Internacional",
+    "imagen": "/img/surf-urbano-chile.webp",
+    "contenido": "<p>Representantes nacionales obtuvieron resultados destacados en competencias internacionales de surf y deportes urbanos.</p>"
+  },
+  {
+    "id": "giras-atp-wta-latinoamerica-2025",
+    "titulo": "Las giras ATP y WTA latinoamericanas entran en su recta final",
+    "fecha": "23 de Febrero 2025",
+    "lugar": "Latinoamérica",
+    "imagen": "/img/giras-atp-wta.webp",
+    "contenido": "<p>El circuito profesional de tenis cerró su paso por Sudamérica antes de la gira norteamericana.</p>"
+  },
+  {
+    "id": "indoor-sudamericanos-chile-2025",
+    "titulo": "Atletas chilenos compiten en torneos indoor y circuitos sudamericanos",
+    "fecha": "16 de Febrero 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/indoor-sudamericanos.webp",
+    "contenido": "<p>El calendario indoor y sudamericano marcó el inicio del año competitivo para el atletismo chileno.</p>"
+  },
+  {
+    "id": "nba-post-allstar-2025",
+    "titulo": "La NBA retoma su temporada tras el All-Star Weekend",
+    "fecha": "16 de Febrero 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/nba-post-allstar.webp",
+    "contenido": "<p>La liga volvió a la competencia con foco en la definición de los puestos de Playoffs.</p>"
+  },
+  {
+    "id": "sudamericanos-juveniles-chile-2025",
+    "titulo": "Chile alberga campeonatos sudamericanos juveniles en distintas disciplinas",
+    "fecha": "09 de Febrero 2025",
+    "lugar": "Chile",
+    "imagen": "/img/sudamericanos-juveniles-2025.webp",
+    "contenido": "<p>El país recibió delegaciones juveniles de Sudamérica en múltiples disciplinas deportivas.</p>"
+  },
+  {
+    "id": "superbowl-lix-2025",
+    "titulo": "El Super Bowl LIX marca récords de audiencia global",
+    "fecha": "09 de Febrero 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/superbowl-lix.webp",
+    "contenido": "<p>La final de la NFL volvió a consolidarse como uno de los eventos deportivos más vistos del mundo.</p>"
+  },
+  {
+    "id": "trabajos-clasificatorias-chile-2025",
+    "titulo": "La selección chilena inicia trabajos del año con foco en Clasificatorias",
+    "fecha": "02 de Febrero 2025",
+    "lugar": "Chile",
+    "imagen": "/img/trabajos-clasificatorias.webp",
+    "contenido": "<p>La Roja comenzó su planificación anual de cara a las próximas fechas rumbo al Mundial 2026.</p>"
+  },
+  {
+    "id": "nfl-finalistas-superbowl-lix",
+    "titulo": "La NFL define a los finalistas del Super Bowl LIX",
+    "fecha": "02 de Febrero 2025",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/finalistas-superbowl.webp",
+    "contenido": "<p>Las finales de conferencia determinaron a los equipos que disputarían el título de la NFL.</p>"
+  },
+  {
+    "id": "australian-open-finales-2025",
+    "titulo": "El Australian Open 2025 consagra a sus campeones",
+    "fecha": "26 de Enero 2025",
+    "lugar": "Melbourne",
+    "imagen": "/img/australian-open-finales.webp",
+    "contenido": "<p>El primer Grand Slam del año cerró con finales de alto nivel y figuras consagradas.</p>"
+  },
+  {
+    "id": "chile-australian-open-2025",
+    "titulo": "Chile cierra su participación en el Australian Open 2025",
+    "fecha": "26 de Enero 2025",
+    "lugar": "Melbourne",
+    "imagen": "/img/chile-australian-open.webp",
+    "contenido": "<p>Los tenistas chilenos concluyeron su paso por el primer Grand Slam del año con actuaciones competitivas.</p>"
+  },
+  {
+    "id": "tenistas-chilenos-australian-open-2025",
+    "titulo": "Tenistas chilenos disputan el cuadro principal del Australian Open 2025",
+    "fecha": "19 de Enero 2025",
+    "lugar": "Melbourne",
+    "imagen": "/img/chilenos-ausopen.webp",
+    "contenido": "<p>Chile tuvo representación en el cuadro principal del Abierto de Australia, enfrentando a rivales de alto nivel.</p>"
+  },
+  {
+    "id": "dakar-2025-fase-exigente",
+    "titulo": "El Rally Dakar 2025 entra en su fase más exigente en Arabia Saudita",
+    "fecha": "12 de Enero 2025",
+    "lugar": "Arabia Saudita",
+    "imagen": "/img/dakar-exigente.webp",
+    "contenido": "<p>La competencia más dura del mundo vivió sus etapas más complejas en desierto saudí.</p>"
+  },
+  {
+    "id": "chile-dakar-2025",
+    "titulo": "Chile destaca en las primeras etapas del Rally Dakar 2025",
+    "fecha": "12 de Enero 2025",
+    "lugar": "Arabia Saudita",
+    "imagen": "/img/chile-dakar-2025.webp",
+    "contenido": "<p>Los pilotos nacionales tuvieron un inicio competitivo en el Dakar 2025.</p>"
+  },
+  {
+    "id": "inicio-dakar-2025",
+    "titulo": "Comienza el Rally Dakar 2025 con fuerte presencia sudamericana",
+    "fecha": "05 de Enero 2025",
+    "lugar": "Arabia Saudita",
+    "imagen": "/img/inicio-dakar-2025.webp",
+    "contenido": "<p>El Dakar volvió a reunir a los mejores pilotos del mundo en una exigente travesía por Medio Oriente.</p>"
+  },
+
+  {
+    "id": "cierre-deporte-chileno-2024-proyecciones",
+    "titulo": "Deporte chileno cierra 2024 con evaluaciones federativas y proyecciones",
+    "fecha": "29 de Diciembre 2024",
+    "lugar": "Chile",
+    "imagen": "/img/cierre-deportivo-2024.webp",
+    "contenido": "<p>El deporte chileno cerró el año con evaluaciones internas y proyecciones estratégicas de cara al nuevo ciclo olímpico.</p>"
+  },
+  {
+    "id": "resumen-deportivo-mundial-2024",
+    "titulo": "Resumen deportivo mundial marca los grandes hitos de 2024",
+    "fecha": "29 de Diciembre 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/resumen-mundial-2024.webp",
+    "contenido": "<p>El deporte global cerró el año con balances que destacaron los principales eventos y protagonistas de la temporada.</p>"
+  },
+  {
+    "id": "calendario-deportivo-chile-2025",
+    "titulo": "Chile proyecta su calendario de competencias internacionales para 2025",
+    "fecha": "22 de Diciembre 2024",
+    "lugar": "Chile",
+    "imagen": "/img/calendario-2025.webp",
+    "contenido": "<p>El Ministerio del Deporte presentó la planificación de competencias y eventos internacionales para el año 2025.</p>"
+  },
+  {
+    "id": "cierre-temporada-atp-2024",
+    "titulo": "Cierre oficial de la temporada ATP 2024 reúne a los mejores del circuito",
+    "fecha": "22 de Diciembre 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/cierre-atp-2024.webp",
+    "contenido": "<p>El circuito ATP cerró su temporada destacando a los principales protagonistas del año tenístico.</p>"
+  },
+  {
+    "id": "chilenos-mundiales-combate-acuaticos",
+    "titulo": "Atletas chilenos compiten en mundiales de deportes de combate y acuáticos",
+    "fecha": "15 de Diciembre 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/mundiales-combate-acuaticos.webp",
+    "contenido": "<p>Representantes nacionales participaron en campeonatos mundiales de disciplinas de combate y deportes acuáticos.</p>"
+  },
+  {
+    "id": "mundial-natacion-piscina-corta-2024",
+    "titulo": "Mundial de natación en piscina corta reúne a las principales potencias",
+    "fecha": "15 de Diciembre 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/mundial-natacion-2024.webp",
+    "contenido": "<p>Las grandes potencias de la natación compitieron en el Mundial de piscina corta, cerrando el calendario acuático.</p>"
+  },
+  {
+    "id": "balance-anual-deporte-chileno-2024",
+    "titulo": "Ministerio del Deporte presenta balance del año deportivo en Chile",
+    "fecha": "08 de Diciembre 2024",
+    "lugar": "Chile",
+    "imagen": "/img/balance-ministerio-2024.webp",
+    "contenido": "<p>Las autoridades deportivas realizaron un balance del año marcado por los Juegos Olímpicos y Paralímpicos.</p>"
+  },
+  {
+    "id": "mundial-clubes-fifa-2024-definicion",
+    "titulo": "Se define el campeón del Mundial de Clubes FIFA 2024",
+    "fecha": "08 de Diciembre 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/mundial-clubes-2024.webp",
+    "contenido": "<p>El Mundial de Clubes FIFA cerró su edición 2024 con una final seguida a nivel global.</p>"
+  },
+  {
+    "id": "cierre-temporada-internacional-chile-2024",
+    "titulo": "Chile cierra la temporada internacional con medallas regionales",
+    "fecha": "01 de Diciembre 2024",
+    "lugar": "Chile",
+    "imagen": "/img/cierre-temporada-chile.webp",
+    "contenido": "<p>La delegación chilena concluyó el calendario internacional sumando medallas en competencias regionales.</p>"
+  },
+  {
+    "id": "mundial-clubes-fifa-2024-inicio",
+    "titulo": "Comienza la Copa Mundial de Clubes FIFA 2024",
+    "fecha": "01 de Diciembre 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/inicio-mundial-clubes.webp",
+    "contenido": "<p>Los campeones continentales iniciaron la disputa por el título mundial de clubes FIFA.</p>"
+  },
+  {
+    "id": "copa-davis-finales-2024",
+    "titulo": "Finales de la Copa Davis 2024 concentran la atención del tenis mundial",
+    "fecha": "24 de Noviembre 2024",
+    "lugar": "Europa",
+    "imagen": "/img/copa-davis-2024.webp",
+    "contenido": "<p>Las mejores selecciones del mundo compitieron en la fase final de la Copa Davis.</p>"
+  },
+  {
+    "id": "chile-destaca-panamericanos-sudamericanos-2024",
+    "titulo": "Deportistas chilenos destacan en campeonatos sudamericanos y panamericanos",
+    "fecha": "24 de Noviembre 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/panamericanos-sudamericanos.webp",
+    "contenido": "<p>Chile logró resultados destacados en campeonatos regionales y panamericanos del calendario 2024.</p>"
+  },
+  {
+    "id": "clasificatorias-noviembre-2024",
+    "titulo": "Chile disputa nuevas fechas decisivas de Clasificatorias Sudamericanas",
+    "fecha": "17 de Noviembre 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/clasificatorias-noviembre.webp",
+    "contenido": "<p>La selección chilena enfrentó partidos clave en su camino rumbo al Mundial 2026.</p>"
+  },
+  {
+    "id": "atp-finals-2024",
+    "titulo": "ATP Finals 2024 reúnen a los mejores tenistas del año",
+    "fecha": "17 de Noviembre 2024",
+    "lugar": "Turín",
+    "imagen": "/img/atp-finals-2024.webp",
+    "contenido": "<p>Los ocho mejores tenistas del circuito disputaron el torneo que cerró la temporada ATP.</p>"
+  },
+  {
+    "id": "final-libertadores-2024",
+    "titulo": "La final de la Copa Libertadores 2024 define al campeón continental",
+    "fecha": "10 de Noviembre 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/final-libertadores-2024.webp",
+    "contenido": "<p>La Copa Libertadores cerró su edición 2024 con una final de alto impacto continental.</p>"
+  },
+  {
+    "id": "chile-sedes-eventos-2025",
+    "titulo": "Chile asegura sedes de eventos deportivos internacionales para 2025",
+    "fecha": "10 de Noviembre 2024",
+    "lugar": "Chile",
+    "imagen": "/img/sedes-2025.webp",
+    "contenido": "<p>El país confirmó la organización de importantes eventos internacionales para la temporada 2025.</p>"
+  },
+  {
+    "id": "masters-paris-bercy-2024",
+    "titulo": "Comienza el Masters 1000 de París-Bercy",
+    "fecha": "03 de Noviembre 2024",
+    "lugar": "París",
+    "imagen": "/img/paris-bercy-2024.webp",
+    "contenido": "<p>El último Masters 1000 del año inició su cuadro principal en la capital francesa.</p>"
+  },
+  {
+    "id": "chile-brilla-atletismo-natacion-2024",
+    "titulo": "Deportistas chilenos brillan en torneos internacionales de atletismo y natación",
+    "fecha": "03 de Noviembre 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/atletismo-natacion.webp",
+    "contenido": "<p>La delegación chilena logró actuaciones destacadas en competencias internacionales.</p>"
+  },
+  {
+    "id": "mlb-serie-mundial-2024",
+    "titulo": "La Serie Mundial MLB 2024 acapara la atención deportiva global",
+    "fecha": "27 de Octubre 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/serie-mundial-mlb.webp",
+    "contenido": "<p>La final del béisbol profesional estadounidense concentró la atención de fanáticos en todo el mundo.</p>"
+  },
+  {
+    "id": "clubes-chilenos-cierre-conmebol-2024",
+    "titulo": "Clubes chilenos cierran su participación internacional en torneos CONMEBOL",
+    "fecha": "27 de Octubre 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/cierre-conmebol.webp",
+    "contenido": "<p>Los equipos nacionales concluyeron su participación en competencias continentales.</p>"
+  },
+  {
+    "id": "la-roja-duelos-clave-2024",
+    "titulo": "La Roja enfrenta duelos clave rumbo al Mundial 2026",
+    "fecha": "20 de Octubre 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/duelos-clave-2024.webp",
+    "contenido": "<p>La selección chilena disputó partidos determinantes en su camino clasificatorio.</p>"
+  },
+  {
+    "id": "messi-mls-2024",
+    "titulo": "Lionel Messi protagoniza la recta final de la temporada MLS",
+    "fecha": "20 de Octubre 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/messi-mls.webp",
+    "contenido": "<p>El astro argentino lideró a su equipo en el tramo final del campeonato estadounidense.</p>"
+  },
+  {
+    "id": "fecha-fifa-octubre-2024",
+    "titulo": "Chile vuelve a competir en fechas FIFA de Clasificatorias Sudamericanas",
+    "fecha": "13 de Octubre 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/fecha-fifa-octubre.webp",
+    "contenido": "<p>La Roja regresó a la competencia oficial tras el ciclo olímpico de París 2024.</p>"
+  },
+  {
+    "id": "masters-shanghai-final-2024",
+    "titulo": "El Masters 1000 de Shanghái entra en su recta final",
+    "fecha": "13 de Octubre 2024",
+    "lugar": "Shanghái",
+    "imagen": "/img/shanghai-2024.webp",
+    "contenido": "<p>El torneo asiático definió a sus finalistas en una semana de alto nivel tenístico.</p>"
+  },
+  {
+    "id": "chile-cierra-paralimpicos-paris-2024",
+    "titulo": "Chile cierra su participación en los Juegos Paralímpicos París 2024",
+    "fecha": "22 de Septiembre 2024",
+    "lugar": "París",
+    "imagen": "/img/cierre-paralimpicos-paris.webp",
+    "contenido": "<p>La delegación chilena finalizó su actuación en los Juegos Paralímpicos París 2024, sumando experiencia y actuaciones destacadas en diversas disciplinas.</p>"
+  },
+  {
+    "id": "inicio-ligas-basquet-europa-2024",
+    "titulo": "Comienzan las ligas europeas de básquet tras el cierre olímpico",
+    "fecha": "22 de Septiembre 2024",
+    "lugar": "Europa",
+    "imagen": "/img/basquet-europa-2024.webp",
+    "contenido": "<p>Las principales ligas europeas de básquet dieron inicio a su nueva temporada luego del receso marcado por París 2024.</p>"
+  },
+  {
+    "id": "chile-destaca-paralimpicos-paris-2024",
+    "titulo": "Chile suma actuaciones destacadas durante los Juegos Paralímpicos París 2024",
+    "fecha": "15 de Septiembre 2024",
+    "lugar": "París",
+    "imagen": "/img/chile-paralimpicos-destacados.webp",
+    "contenido": "<p>Los deportistas paralímpicos chilenos lograron finales y marcas relevantes en la recta final de la competencia.</p>"
+  },
+  {
+    "id": "final-us-open-2024",
+    "titulo": "El US Open 2024 define a sus campeones en Nueva York",
+    "fecha": "15 de Septiembre 2024",
+    "lugar": "Nueva York",
+    "imagen": "/img/final-usopen-2024.webp",
+    "contenido": "<p>El último Grand Slam del año cerró con finales de alto nivel en Flushing Meadows.</p>"
+  },
+  {
+    "id": "inicio-paralimpicos-paris-2024",
+    "titulo": "Chile inicia su participación en los Juegos Paralímpicos París 2024",
+    "fecha": "08 de Septiembre 2024",
+    "lugar": "París",
+    "imagen": "/img/inicio-paralimpicos-paris.webp",
+    "contenido": "<p>La delegación chilena debutó en los Juegos Paralímpicos con presencia en diversas disciplinas.</p>"
+  },
+  {
+    "id": "inicio-temporada-nfl-2024",
+    "titulo": "Comienza la temporada NFL 2024 con alta expectación",
+    "fecha": "08 de Septiembre 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/inicio-nfl-2024.webp",
+    "contenido": "<p>La NFL dio inicio a su temporada regular con los primeros partidos del calendario.</p>"
+  },
+  {
+    "id": "chile-inicia-ciclo-la2028",
+    "titulo": "Chile inicia oficialmente su ciclo olímpico rumbo a Los Ángeles 2028",
+    "fecha": "01 de Septiembre 2024",
+    "lugar": "Chile",
+    "imagen": "/img/ciclo-la2028-chile.webp",
+    "contenido": "<p>Tras el cierre de París 2024, el deporte chileno comenzó su planificación estratégica hacia el próximo ciclo olímpico.</p>"
+  },
+  {
+    "id": "previa-paralimpicos-paris-2024",
+    "titulo": "París afina los preparativos finales para los Juegos Paralímpicos 2024",
+    "fecha": "01 de Septiembre 2024",
+    "lugar": "París",
+    "imagen": "/img/previa-paralimpicos-2024.webp",
+    "contenido": "<p>La capital francesa ultimó detalles logísticos y operativos antes del inicio de los Juegos Paralímpicos.</p>"
+  },
+  {
+    "id": "chile-evalua-paris-2024",
+    "titulo": "Chile evalúa su desempeño tras los Juegos Olímpicos París 2024",
+    "fecha": "25 de Agosto 2024",
+    "lugar": "Chile",
+    "imagen": "/img/evaluacion-paris-chile.webp",
+    "contenido": "<p>Autoridades y federaciones analizaron los resultados obtenidos por el Team Chile en los Juegos Olímpicos.</p>"
+  },
+  {
+    "id": "inicio-us-open-2024",
+    "titulo": "Comienza el US Open 2024 en Nueva York",
+    "fecha": "25 de Agosto 2024",
+    "lugar": "Nueva York",
+    "imagen": "/img/inicio-usopen.webp",
+    "contenido": "<p>El último Grand Slam del año dio inicio con la presencia de las principales figuras del tenis mundial.</p>"
+  },
+  {
+    "id": "clausura-jjoo-paris-2024",
+    "titulo": "París clausura los Juegos Olímpicos 2024 con una ceremonia histórica",
+    "fecha": "18 de Agosto 2024",
+    "lugar": "París",
+    "imagen": "/img/clausura-jjoo.webp",
+    "contenido": "<p>Los Juegos Olímpicos París 2024 cerraron oficialmente tras dos semanas de competencia global.</p>"
+  },
+  {
+    "id": "balance-global-paris-2024",
+    "titulo": "El mundo deportivo realiza balance global de los Juegos Olímpicos París 2024",
+    "fecha": "18 de Agosto 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/balance-global-paris.webp",
+    "contenido": "<p>Organismos y medios internacionales analizaron el impacto deportivo y organizativo de París 2024.</p>"
+  },
+  {
+    "id": "chile-diplomas-olimpicos-paris-2024",
+    "titulo": "Chile logra diplomas olímpicos durante París 2024",
+    "fecha": "11 de Agosto 2024",
+    "lugar": "París",
+    "imagen": "/img/diplomas-olimpicos.webp",
+    "contenido": "<p>El Team Chile obtuvo diplomas olímpicos en diversas disciplinas durante los Juegos.</p>"
+  },
+  {
+    "id": "finales-atletismo-natacion-paris",
+    "titulo": "Se disputan las finales olímpicas de atletismo y natación en París 2024",
+    "fecha": "11 de Agosto 2024",
+    "lugar": "París",
+    "imagen": "/img/finales-atletismo-natacion-paris.webp",
+    "contenido": "<p>Las pruebas más emblemáticas del programa olímpico definieron a sus campeones.</p>"
+  },
+  {
+    "id": "chile-compite-judo-remo-tenis",
+    "titulo": "Chile continúa compitiendo en judo, remo y tenis en París 2024",
+    "fecha": "04 de Agosto 2024",
+    "lugar": "París",
+    "imagen": "/img/chile-judo-remo-tenis-paris.webp",
+    "contenido": "<p>Los deportistas nacionales siguieron su participación en distintas disciplinas olímpicas.</p>"
+  },
+  {
+    "id": "liderazgo-medallero-paris",
+    "titulo": "Estados Unidos y China lideran el medallero en París 2024",
+    "fecha": "04 de Agosto 2024",
+    "lugar": "París",
+    "imagen": "/img/medallero-paris-2024.webp",
+    "contenido": "<p>Las potencias olímpicas se ubicaron en los primeros lugares del medallero general.</p>"
+  },
+  {
+    "id": "inauguracion-jjoo-paris",
+    "titulo": "Se inauguran los Juegos Olímpicos París 2024 con una ceremonia sin precedentes",
+    "fecha": "28 de Julio 2024",
+    "lugar": "París",
+    "imagen": "/img/inauguracion-paris-2024.webp",
+    "contenido": "<p>París dio inicio a los Juegos Olímpicos con una ceremonia inaugural desarrollada en el río Sena.</p>"
+  },
+  {
+    "id": "chile-debuta-atletismo-natacion-paris",
+    "titulo": "Chile debuta en atletismo y natación en los Juegos Olímpicos París 2024",
+    "fecha": "28 de Julio 2024",
+    "lugar": "París",
+    "imagen": "/img/debut-chile-paris.webp",
+    "contenido": "<p>El Team Chile inició su participación olímpica en disciplinas clave del programa.</p>"
+  },
+  {
+    "id": "delegacion-chilena-viaja-paris",
+    "titulo": "La delegación chilena viaja a París para disputar los Juegos Olímpicos 2024",
+    "fecha": "21 de Julio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/viaje-delegacion-paris.webp",
+    "contenido": "<p>Los deportistas nacionales emprendieron viaje rumbo a Francia para representar al país en París 2024.</p>"
+  },
+  {
+    "id": "paris-2024-ceremonia-inaugural-preparativos",
+    "titulo": "París 2024 afina los detalles para su histórica ceremonia inaugural",
+    "fecha": "21 de Julio 2024",
+    "lugar": "París",
+    "imagen": "/img/paris-2024-inauguracion.webp",
+    "contenido": "<p>La organización de París 2024 ultimó los preparativos de la ceremonia inaugural, que se desarrollará de manera inédita a lo largo del río Sena.</p>"
+  },
+  {
+    "id": "chile-ultimos-campamentos-olimpicos",
+    "titulo": "Chile realiza los últimos campamentos olímpicos antes de París 2024",
+    "fecha": "14 de Julio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/campamentos-olimpicos-chile.webp",
+    "contenido": "<p>Los atletas chilenos completaron sus últimos campamentos de entrenamiento afinando detalles técnicos y físicos antes de los Juegos Olímpicos.</p>"
+  },
+  {
+    "id": "final-wimbledon-2024",
+    "titulo": "Wimbledon 2024 disputa su final y corona a los campeones en Londres",
+    "fecha": "14 de Julio 2024",
+    "lugar": "Londres",
+    "imagen": "/img/final-wimbledon-2024.webp",
+    "contenido": "<p>El torneo de Wimbledon cerró su edición 2024 con una final de alto nivel en el All England Club.</p>"
+  },
+  {
+    "id": "chile-equipo-olimpico-paris-2024",
+    "titulo": "Chile presenta oficialmente su equipo olímpico para París 2024",
+    "fecha": "07 de Julio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/equipo-olimpico-chile-2024.webp",
+    "contenido": "<p>El Comité Olímpico de Chile presentó oficialmente al equipo que representará al país en los Juegos Olímpicos de París 2024.</p>"
+  },
+  {
+    "id": "tour-de-france-2024-inicio",
+    "titulo": "El Tour de Francia 2024 entra en su primera semana de competencia",
+    "fecha": "07 de Julio 2024",
+    "lugar": "Francia",
+    "imagen": "/img/tour-france-2024.webp",
+    "contenido": "<p>La ronda gala inició una nueva edición con etapas exigentes y los principales favoritos al título.</p>"
+  },
+  {
+    "id": "chile-clasificacion-natacion-paris-2024",
+    "titulo": "Chile completa su clasificación olímpica en natación para París 2024",
+    "fecha": "30 de Junio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/natacion-clasificados-paris.webp",
+    "contenido": "<p>Nadadores chilenos aseguraron su presencia olímpica tras cumplir las marcas exigidas rumbo a París 2024.</p>"
+  },
+  {
+    "id": "clasificatorios-olimpicos-basquet-fin",
+    "titulo": "Finalizan los clasificatorios olímpicos de básquet rumbo a París 2024",
+    "fecha": "30 de Junio 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/clasificatorios-basquet-olimpicos.webp",
+    "contenido": "<p>Los torneos clasificatorios de básquet llegaron a su fin, definiendo a los últimos equipos presentes en París 2024.</p>"
+  },
+  {
+    "id": "chile-nomina-olimpica-parcial",
+    "titulo": "Chile anuncia una nómina olímpica parcial para París 2024",
+    "fecha": "23 de Junio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/nomina-olimpica-parcial.webp",
+    "contenido": "<p>El Team Chile dio a conocer una primera nómina de atletas clasificados a los Juegos Olímpicos.</p>"
+  },
+  {
+    "id": "usa-lidera-trials-atletismo",
+    "titulo": "Estados Unidos lidera las pruebas olímpicas de atletismo rumbo a París",
+    "fecha": "23 de Junio 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/trials-atletismo-usa.webp",
+    "contenido": "<p>Los trials estadounidenses mostraron un alto nivel competitivo de cara a los Juegos Olímpicos.</p>"
+  },
+  {
+    "id": "chile-cupos-atletismo-paris",
+    "titulo": "Chile suma nuevos cupos olímpicos en atletismo",
+    "fecha": "16 de Junio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/atletismo-cupos-olimpicos.webp",
+    "contenido": "<p>El atletismo chileno aseguró nuevos representantes para París 2024 tras lograr marcas clasificatorias.</p>"
+  },
+  {
+    "id": "inicio-eurocopa-2024",
+    "titulo": "La Eurocopa 2024 arranca en Alemania con expectativa total",
+    "fecha": "16 de Junio 2024",
+    "lugar": "Alemania",
+    "imagen": "/img/eurocopa-2024.webp",
+    "contenido": "<p>La Eurocopa comenzó oficialmente en Alemania reuniendo a las principales selecciones del continente.</p>"
+  },
+  {
+    "id": "chile-remadores-canoistas-clasificados",
+    "titulo": "Chile confirma clasificados olímpicos en remo y canotaje",
+    "fecha": "09 de Junio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/remo-canotaje-paris.webp",
+    "contenido": "<p>El Team Chile confirmó la clasificación de remeros y canoístas para los Juegos Olímpicos.</p>"
+  },
+  {
+    "id": "inicio-finales-nba-2024",
+    "titulo": "Comienzan las Finales de la NBA 2024",
+    "fecha": "09 de Junio 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/finales-nba-2024.webp",
+    "contenido": "<p>La NBA inició sus Finales con los mejores equipos de la temporada disputando el título.</p>"
+  },
+  {
+    "id": "chile-clasifica-nuevos-atletas-paris",
+    "titulo": "Chile clasifica nuevos atletas a los Juegos Olímpicos de París 2024",
+    "fecha": "02 de Junio 2024",
+    "lugar": "Chile",
+    "imagen": "/img/nuevos-clasificados-paris.webp",
+    "contenido": "<p>El número de atletas chilenos clasificados a París 2024 siguió aumentando en distintas disciplinas.</p>"
+  },
+  {
+    "id": "roland-garros-fase-decisiva-2024",
+    "titulo": "Roland Garros entra en su fase decisiva en París",
+    "fecha": "02 de Junio 2024",
+    "lugar": "París",
+    "imagen": "/img/roland-garros-2024.webp",
+    "contenido": "<p>El segundo Grand Slam del año avanzó hacia las rondas finales con duelos de alto nivel.</p>"
+  },
+  {
+    "id": "chile-cierra-preparacion-paris-2024",
+    "titulo": "Chile cierra su preparación rumbo a los Juegos Olímpicos París 2024",
+    "fecha": "26 de Mayo 2024",
+    "lugar": "Chile",
+    "imagen": "/img/cierre-preparacion-paris.webp",
+    "contenido": "<p>El Team Chile finalizó su planificación competitiva y logística de cara a los Juegos Olímpicos de París 2024.</p>"
+  },
+  {
+    "id": "final-europa-league-2024",
+    "titulo": "La Europa League define a su campeón en la final continental",
+    "fecha": "26 de Mayo 2024",
+    "lugar": "Europa",
+    "imagen": "/img/europa-league-final-2024.webp",
+    "contenido": "<p>La UEFA Europa League disputó su final con un duelo de alto nivel entre los mejores equipos del torneo.</p>"
+  },
+  {
+    "id": "chile-medallas-panamericano-atletismo",
+    "titulo": "Chile logra medallas en el Campeonato Panamericano de Atletismo",
+    "fecha": "19 de Mayo 2024",
+    "lugar": "América",
+    "imagen": "/img/panamericano-atletismo-chile.webp",
+    "contenido": "<p>El atletismo chileno sumó medallas y finales en el Campeonato Panamericano, reafirmando su crecimiento regional.</p>"
+  },
+  {
+    "id": "real-madrid-final-champions-2024",
+    "titulo": "Real Madrid clasifica a la final de la Champions League 2024",
+    "fecha": "19 de Mayo 2024",
+    "lugar": "Europa",
+    "imagen": "/img/real-madrid-champions-2024.webp",
+    "contenido": "<p>El conjunto español aseguró su lugar en la final de la UEFA Champions League tras superar una exigente semifinal.</p>"
+  },
+  {
+    "id": "chile-tenistas-clasifican-roland-garros",
+    "titulo": "Chile clasifica tenistas al cuadro principal de Roland Garros",
+    "fecha": "12 de Mayo 2024",
+    "lugar": "Chile",
+    "imagen": "/img/chilenos-roland-garros.webp",
+    "contenido": "<p>Tenistas chilenos aseguraron su participación en el cuadro principal del segundo Grand Slam del año.</p>"
+  },
+  {
+    "id": "iga-swiatek-titulo-wta-mayo-2024",
+    "titulo": "Iga Swiatek conquista un nuevo título en el circuito WTA",
+    "fecha": "12 de Mayo 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/swiatek-wta-2024.webp",
+    "contenido": "<p>La número uno del mundo sumó un nuevo trofeo en la gira europea sobre arcilla.</p>"
+  },
+  {
+    "id": "chile-medallas-panamericano-karate",
+    "titulo": "Chile suma medallas en el Campeonato Panamericano de Karate",
+    "fecha": "05 de Mayo 2024",
+    "lugar": "América",
+    "imagen": "/img/karate-panamericano-chile.webp",
+    "contenido": "<p>La delegación chilena logró podios destacados en el Panamericano de Karate.</p>"
+  },
+  {
+    "id": "inicio-giro-italia-2024",
+    "titulo": "Comienza el Giro de Italia 2024 con etapas de alta exigencia",
+    "fecha": "05 de Mayo 2024",
+    "lugar": "Italia",
+    "imagen": "/img/giro-italia-2024.webp",
+    "contenido": "<p>La primera gran vuelta del año inició con una competencia intensa entre los favoritos al título.</p>"
+  },
+  {
+    "id": "chile-podios-esqui-nautico-copa-mundo",
+    "titulo": "Chile logra podios en la Copa del Mundo de Esquí Náutico",
+    "fecha": "28 de Abril 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/esqui-nautico-chile.webp",
+    "contenido": "<p>Representantes nacionales destacaron en fechas de la Copa del Mundo de Esquí Náutico.</p>"
+  },
+  {
+    "id": "barcelona-gana-clasico-2024",
+    "titulo": "Barcelona se queda con el clásico español en LaLiga",
+    "fecha": "28 de Abril 2024",
+    "lugar": "España",
+    "imagen": "/img/barcelona-clasico-2024.webp",
+    "contenido": "<p>El FC Barcelona venció a su clásico rival en un partido clave del campeonato español.</p>"
+  },
+  {
+    "id": "chile-panamericano-taekwondo",
+    "titulo": "Chile destaca en el Campeonato Panamericano de Taekwondo",
+    "fecha": "21 de Abril 2024",
+    "lugar": "América",
+    "imagen": "/img/taekwondo-panamericano.webp",
+    "contenido": "<p>La selección chilena de taekwondo sumó resultados destacados en el certamen continental.</p>"
+  },
+  {
+    "id": "inicio-playoffs-nba-2024",
+    "titulo": "Comienzan los playoffs de la NBA 2024",
+    "fecha": "21 de Abril 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/playoffs-nba-2024.webp",
+    "contenido": "<p>La postemporada de la NBA inició con series intensas entre los mejores equipos del año.</p>"
+  },
+  {
+    "id": "chile-medallas-sudamericano-natacion",
+    "titulo": "Chile gana medallas en el Sudamericano de Natación",
+    "fecha": "14 de Abril 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/natacion-sudamericano-chile.webp",
+    "contenido": "<p>Los nadadores chilenos obtuvieron medallas y finales en el Campeonato Sudamericano.</p>"
+  },
+  {
+    "id": "masters-augusta-definicion-2024",
+    "titulo": "El Masters de Augusta entra en su definición final",
+    "fecha": "14 de Abril 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/masters-augusta-2024.webp",
+    "contenido": "<p>El torneo de golf más tradicional del mundo vivió jornadas decisivas en Augusta.</p>"
+  },
+  {
+    "id": "chile-clasifica-canotaje-paris",
+    "titulo": "Chile suma clasificados olímpicos en canotaje para París 2024",
+    "fecha": "07 de Abril 2024",
+    "lugar": "Chile",
+    "imagen": "/img/canotaje-paris-2024.webp",
+    "contenido": "<p>El canotaje chileno aseguró nuevos cupos para los Juegos Olímpicos de París 2024.</p>"
+  },
+  {
+    "id": "real-madrid-champions-avanza",
+    "titulo": "Real Madrid avanza en la UEFA Champions League",
+    "fecha": "07 de Abril 2024",
+    "lugar": "Europa",
+    "imagen": "/img/real-madrid-champions-avanza.webp",
+    "contenido": "<p>El club español avanzó de ronda en la Champions League tras una serie exigente.</p>"
+  },
+  {
+    "id": "chile-oro-sudamericano-remo",
+    "titulo": "Chile obtiene oro en el Campeonato Sudamericano de Remo",
+    "fecha": "31 de Marzo 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/remo-sudamericano-chile.webp",
+    "contenido": "<p>La delegación chilena de remo consiguió medallas de oro y consolidó su dominio regional.</p>"
+  },
+  {
+    "id": "inicio-mlb-2024",
+    "titulo": "La MLB inicia oficialmente la temporada 2024",
+    "fecha": "31 de Marzo 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/mlb-2024-inicio.webp",
+    "contenido": "<p>El béisbol de Grandes Ligas dio inicio a una nueva temporada con gran expectación.</p>"
+  },
+  {
+    "id": "chile-mundial-indoor-atletismo",
+    "titulo": "Chile participa en el Mundial Indoor de Atletismo",
+    "fecha": "24 de Marzo 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/mundial-indoor-atletismo.webp",
+    "contenido": "<p>Atletas chilenos representaron al país en el Mundial Indoor enfrentando a la élite mundial.</p>"
+  },
+  {
+    "id": "lebron-nuevo-record-nba",
+    "titulo": "LeBron James supera un nuevo récord histórico en la NBA",
+    "fecha": "24 de Marzo 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/lebron-record-2024.webp",
+    "contenido": "<p>LeBron James volvió a hacer historia al superar una nueva marca en su extensa carrera.</p>"
+  },
+  {
+    "id": "chile-panamericano-lucha-medallas",
+    "titulo": "Chile logra medallas en el Panamericano de Lucha",
+    "fecha": "17 de Marzo 2024",
+    "lugar": "América",
+    "imagen": "/img/lucha-panamericano-chile.webp",
+    "contenido": "<p>Luchadores chilenos alcanzaron podios en el campeonato continental.</p>"
+  },
+  {
+    "id": "inicio-temporada-formula1-2024",
+    "titulo": "La Fórmula 1 inicia oficialmente la temporada 2024",
+    "fecha": "17 de Marzo 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/formula1-2024.webp",
+    "contenido": "<p>La máxima categoría del automovilismo dio inicio a una nueva temporada.</p>"
+  },
+  {
+    "id": "chile-nadadores-clasifican-paris",
+    "titulo": "Chile clasifica nadadores a los Juegos Olímpicos de París 2024",
+    "fecha": "10 de Marzo 2024",
+    "lugar": "Chile",
+    "imagen": "/img/natacion-paris-chile.webp",
+    "contenido": "<p>La natación chilena sumó representantes clasificados a los Juegos Olímpicos.</p>"
+  },
+  {
+    "id": "alcaraz-gana-masters-1000",
+    "titulo": "Carlos Alcaraz conquista un Masters 1000 en el circuito ATP",
+    "fecha": "10 de Marzo 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/alcaraz-masters-1000.webp",
+    "contenido": "<p>El tenista español se consagró campeón en un nuevo torneo Masters 1000.</p>"
+  },
+  {
+    "id": "chile-podios-ciclismo-pista",
+    "titulo": "Chile suma podios en el ciclismo de pista internacional",
+    "fecha": "03 de Marzo 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/ciclismo-pista-chile.webp",
+    "contenido": "<p>Los ciclistas chilenos lograron destacadas actuaciones en competencias internacionales.</p>"
+  },
+  {
+    "id": "verstappen-gana-gp-bahrein-2024",
+    "titulo": "Max Verstappen gana el Gran Premio de Bahréin",
+    "fecha": "03 de Marzo 2024",
+    "lugar": "Bahréin",
+    "imagen": "/img/verstappen-bahrein-2024.webp",
+    "contenido": "<p>El piloto neerlandés inició la temporada con una sólida victoria en Bahréin.</p>"
+  },
+  {
+    "id": "chile-sub20-atletismo-sudamericano",
+    "titulo": "Chile destaca en el Sudamericano Sub-20 de Atletismo",
+    "fecha": "25 de Febrero 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/sub20-atletismo-chile.webp",
+    "contenido": "<p>La selección chilena juvenil logró finales y marcas destacadas en el Sudamericano Sub-20.</p>"
+  },
+  {
+    "id": "liverpool-lider-premier-2024",
+    "titulo": "Liverpool lidera la Premier League en una temporada ajustada",
+    "fecha": "25 de Febrero 2024",
+    "lugar": "Inglaterra",
+    "imagen": "/img/liverpool-premier-2024.webp",
+    "contenido": "<p>El conjunto inglés se posicionó como líder del campeonato en una cerrada lucha por el título.</p>"
+  },
+  {
+    "id": "chile-roja-femenina-amistosos",
+    "titulo": "La Roja femenina disputa amistosos internacionales de preparación",
+    "fecha": "18 de Febrero 2024",
+    "lugar": "Internacional",
+    "imagen": "/img/roja-femenina-amistosos.webp",
+    "contenido": "<p>La selección femenina jugó partidos amistosos como parte de su proceso competitivo.</p>"
+  },
+  {
+    "id": "nadal-anuncia-regreso-2024",
+    "titulo": "Rafael Nadal anuncia su regreso al circuito profesional",
+    "fecha": "18 de Febrero 2024",
+    "lugar": "España",
+    "imagen": "/img/nadal-regreso-2024.webp",
+    "contenido": "<p>El tenista español confirmó su retorno a la competencia tras superar lesiones.</p>"
+  },
+  {
+    "id": "chile-clasifica-atletas-paris",
+    "titulo": "Chile clasifica atletas a los Juegos Olímpicos de París 2024",
+    "fecha": "11 de Febrero 2024",
+    "lugar": "Chile",
+    "imagen": "/img/atletas-paris-2024.webp",
+    "contenido": "<p>El Team Chile continuó asegurando cupos olímpicos en distintas disciplinas.</p>"
+  },
+  {
+    "id": "chiefs-ganan-superbowl",
+    "titulo": "Kansas City Chiefs se consagran campeones del Super Bowl",
+    "fecha": "11 de Febrero 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/superbowl-chiefs.webp",
+    "contenido": "<p>Los Chiefs se quedaron con el título de la NFL tras una final de alto impacto.</p>"
+  },
+  {
+    "id": "chile-medallas-panamericano-judo",
+    "titulo": "Chile obtiene medallas en el torneo Panamericano de Judo",
+    "fecha": "04 de Febrero 2024",
+    "lugar": "América",
+    "imagen": "/img/judo-panamericano-chile.webp",
+    "contenido": "<p>Judocas chilenos alcanzaron el podio en el campeonato continental.</p>"
+  },
+  {
+    "id": "luka-doncic-brilla-nba",
+    "titulo": "Luka Dončić protagoniza actuaciones estelares en la NBA",
+    "fecha": "04 de Febrero 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/doncic-nba-2024.webp",
+    "contenido": "<p>El base esloveno destacó con actuaciones sobresalientes durante la temporada regular.</p>"
+  },
+  {
+    "id": "palestino-clasifica-libertadores",
+    "titulo": "Palestino clasifica a la Copa Libertadores tras sólida campaña",
+    "fecha": "28 de Enero 2024",
+    "lugar": "Chile",
+    "imagen": "/img/palestino-libertadores.webp",
+    "contenido": "<p>El club chileno aseguró su clasificación al máximo torneo continental de clubes.</p>"
+  },
+  {
+    "id": "chiefs-avanzan-final-nfl",
+    "titulo": "Kansas City Chiefs avanzan a la final de la NFL",
+    "fecha": "28 de Enero 2024",
+    "lugar": "Estados Unidos",
+    "imagen": "/img/chiefs-final-nfl.webp",
+    "contenido": "<p>Los Chiefs lograron avanzar al Super Bowl tras imponerse en la final de conferencia.</p>"
+  },
+  {
+    "id": "chile-finales-atletismo-indoor",
+    "titulo": "Chile suma finales en el Sudamericano de Atletismo Indoor",
+    "fecha": "21 de Enero 2024",
+    "lugar": "Sudamérica",
+    "imagen": "/img/atletismo-indoor-chile.webp",
+    "contenido": "<p>Atletas chilenos accedieron a finales en el Sudamericano Indoor, mostrando buen inicio de temporada.</p>"
+  },
+  {
+    "id": "inicio-australian-open-2024",
+    "titulo": "Comienza el Abierto de Australia 2024 en Melbourne",
+    "fecha": "21 de Enero 2024",
+    "lugar": "Melbourne",
+    "imagen": "/img/australian-open-2024.webp",
+    "contenido": "<p>El primer Grand Slam del año dio inicio con la presencia de las principales figuras del tenis mundial.</p>"
+  },
+  {
+    "id": "chile-dakar-quintanilla-2024",
+    "titulo": "Chile debuta en el Dakar 2024 con Pablo Quintanilla",
+    "fecha": "14 de Enero 2024",
+    "lugar": "Arabia Saudita",
+    "imagen": "/img/dakar-quintanilla-2024.webp",
+    "contenido": "<p>Pablo Quintanilla encabezó la participación chilena en el Rally Dakar 2024.</p>"
+  },
+  {
+    "id": "djokovic-avanza-australia-2024",
+    "titulo": "Novak Djokovic avanza con autoridad en el Abierto de Australia",
+    "fecha": "14 de Enero 2024",
+    "lugar": "Melbourne",
+    "imagen": "/img/djokovic-australia-2024.webp",
+    "contenido": "<p>El número uno del mundo avanzó sin mayores complicaciones en las primeras rondas del torneo.</p>"
   }
 ]
+
+
+
+
+
+
+
 

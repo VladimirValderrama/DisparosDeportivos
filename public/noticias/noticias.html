@@ -26,6 +26,14 @@
 </head>
 
 <body>
+
+
+
+
+
+
+
+
     <!-- Navegación -->
     <nav class="navbar navbar-expand-md navbar-light bg-white navbar-custom sticky-top">
         <div class="container-fluid">
@@ -60,12 +68,24 @@
     </nav>
 
 
-
-
-    <section class="container my-3">
-        <div class="row justify-content-center" id="noticias-container">
+    <!-- Sección Ultimos Eventos -->
+    <section class="my-0">
+        <div class="container">
+            <h2 class="text-center mb-4">Últimos Eventos</h2>
+            <div class="row justify-content-center" id="eventosContainer"> 
+            </div>
         </div>
+
+        <!-- Controles de Paginación -->
+        <div class="text-center mt-4">
+            <button id="prevPage" class="btn btn-dark me-2" disabled>Anterior</button>
+            <span id="pageIndicator">Página 1</span>
+            <button id="nextPage" class="btn btn-dark ms-2">Siguiente</button>
+        </div>
+
     </section>
+
+
 
 
     <!-- Pie de Página -->

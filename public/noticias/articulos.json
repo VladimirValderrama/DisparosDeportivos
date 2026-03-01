@@ -1,5 +1,70 @@
 [
   {
+    "id": "",
+    "titulo": "",
+    "fecha": "",
+    "lugar": "",
+    "imagen": "/img/.webp",
+    "contenido": "<p></p>"  },  
+  {
+    "id": "",
+    "titulo": "",
+    "fecha": "",
+    "lugar": "",
+    "imagen": "/img/.webp",
+    "contenido": "<p></p>"  },
+  {
+    "id": "",
+    "titulo": "",
+    "fecha": "",
+    "lugar": "",
+    "imagen": "/img/.webp",
+    "contenido": "<p></p>"  },
+  {
+    "id": "",
+    "titulo": "",
+    "fecha": "",
+    "lugar": "",
+    "imagen": "/img/.webp",
+    "contenido": "<p></p>"  },
+  {
+    "id": "hernik-von-appen-accidente",
+    "titulo": "Henrik Von Appen sufrió accidente y queda fuera de los Juegos Olímpicos de Invierno",
+    "fecha": "03 de Febrero de 2026",
+    "lugar": "Suiza",
+    "imagen": "/img/henrik-von-appen.webp",
+    "contenido": "<p></p>"  },
+  {
+    "id": "muerte-enluta-futbol-chileno",
+    "titulo": "Luto en el fútbol nacional: Fallece Jorge 'Coke' Rodríguez.",
+    "fecha": "02 de Febrero 2026",
+    "lugar": "Chile",
+    "imagen": "/img/jorge-coke-rodriguez.webp",
+    "contenido": "<p>Luto en el fútbol chileno: muere Jorge “Coke” Rodríguez, referente de San Antonio Unido y Deportes Concepción</p>\n\n<p> El exdefensa hizo carrera en San Antonio y Deportes Concepción, clubes donde dejó una huella imborrable. </p> <p> El fútbol chileno perdió a uno de sus 'históricos' luego que se confirmara el fallecimiento de Jorge 'Coke' Rodríguez, exdefensa de San Antonio Unido, Coquimbo Unido, Naval de Talcahuano y Deportes Concepción en la década del '80. <p> 'Lamentamos profundamente el fallecimiento de don Jorge ‘Coke’ Rodríguez, ex jugador y capitán del club entre los años 1987 y 1989', expresó el cuadro penquista. 'Don Jorge también fue parte de nuestra institución como funcionario en el área de scouting y fútbol formativo, aportando con su experiencia compromiso al desarrollo del club', complementó.</p> Jorge “Coke” Rodríguez fue parte importante del SAU, ganándose el respeto y cariño de la hinchada por su amor a la camiseta y su profesionalismo dentro y fuera de la cancha. Su paso por San Antonio Unido fue el que lo consagró como un referente querido por el pueblo lila', puntualizó el medio partidario Canal 2 FM Chilena. El Colegio Profesional de Entrenadores de Fútbol se sumó a las condolencias y destacó la faceta formativa que tenía el exdefensa. </p>" },
+
+
+  {
+    "id": "",
+    "titulo": "",
+    "fecha": "",
+    "lugar": "",
+    "imagen": "/img/.webp",
+    "contenido": "<p></p>"  },
+  {
+    "id": "",
+    "titulo": "",
+    "fecha": "",
+    "lugar": "",
+    "imagen": "/img/.webp",
+    "contenido": "<p></p>"  },
+  {
+    "id": "",
+    "titulo": "",
+    "fecha": "",
+    "lugar": "",
+    "imagen": "/img/.webp",
+    "contenido": "<p></p>"  },
+  {
     "id": "cierre-deporte-chileno-2025",
     "titulo": "Deporte chileno cierra el 2025 con foco en el nuevo ciclo internacional",
     "fecha": "28 de Diciembre 2025",

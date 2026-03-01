@@ -18,7 +18,7 @@
 
     // 🟢 INICIAR Paginación
     function iniciarPaginacion(eventos) {
-        const eventosPorPagina = 6;
+        const eventosPorPagina = 9;
         let paginaActual = 1;
         const totalPaginas = Math.ceil(eventos.length / eventosPorPagina);
 

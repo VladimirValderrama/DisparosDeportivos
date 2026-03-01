@@ -95,7 +95,7 @@ if (form) {
 
 function iniciarPaginacionNoticias(noticias) {
 
-    const noticiasPorPagina = 6;
+    const noticiasPorPagina = 9;
     let paginaActual = 1;
     const totalPaginas = Math.ceil(noticias.length / noticiasPorPagina);
 
@@ -117,7 +117,7 @@ function iniciarPaginacionNoticias(noticias) {
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 shadow-sm">
                         
-                        <a href="articulo.html?id=${noticia.id}">
+                        <a href='noticias/articulo.html?id=${noticia.id}'>
                             <img src="${noticia.imagen}" 
                                  class="card-img-top" 
                                  loading="lazy"
@@ -126,7 +126,7 @@ function iniciarPaginacionNoticias(noticias) {
 
                         <div class="card-body">
                             <h5 class="card-title">
-                                <a href="articulo.html?id=${noticia.id}" 
+                                <a href='noticias/articulo.html?id=${noticia.id}' 
                                    class="text-decoration-none text-dark">
                                     ${noticia.titulo}
                                 </a>

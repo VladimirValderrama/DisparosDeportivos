@@ -251,4 +251,20 @@ cargarNoticias();
 
 
 
+
+const path = require("path");
+const app = express();
+
+app.use(express.static("public"));
+
+app.get("/:page", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", req.params.page + ".html"), (err) => {
+    if (err) {
+      res.status(404).send("Página no encontrada");
+    }
+  });
+});
+
+app.listen(3000);
+
 });

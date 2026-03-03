@@ -1,5 +1,30 @@
 [
     {
+        "img":"img/bories-17",
+        "titulo": "Pretemporada C.D Bories - Puerto Natales",
+        "enlace": "detalle_albums.html?evento=cdbories"
+    },
+    {
+        "img":"img/copauc2026",
+        "titulo": "Copa UC Ovalle Verano 2026",
+        "enlace": "detalle_albums.html?evento=copauc2026"
+    },
+    {
+        "img":"img/pruebasCDO",
+        "titulo": "Prueba de Jugadores Club Deportes Ovalle 2026",
+        "enlace": "detalle_albums.html?evento=pruebasCDO"
+    },
+    {
+        "img":"img/cobreloahistoricos",
+        "titulo": "50° Aniversario Ascenso Club Deportes Ovalle",
+        "enlace": "detalle_albums.html?evento=cobreloahistoricos"
+    },
+    {
+        "img":"img/parapanjuv",
+        "titulo": "Juegos Parapanamericanos Juveniles Chile 2025",
+        "enlace": "detalle_albums.html?evento=parapanjuv"
+    },
+    {
         "img":"img/boxingmexico",
         "titulo": "Velada Club México - Ovalle Boxing",
         "enlace": "detalle_albums.html?evento=boxingmexico"

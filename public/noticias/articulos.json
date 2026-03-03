@@ -4,7 +4,7 @@
     "titulo": "",
     "fecha": "",
     "lugar": "",
-    "imagen": "/img/vini-jr-racismo.webp",
+    "imagen": "/img/.webp",
     "contenido": "<p></p>"  },  
   {
     "id": "",
@@ -12,28 +12,63 @@
     "fecha": "",
     "lugar": "",
     "imagen": "/img/.webp",
-    "contenido": "<p></p>"  },
+    "contenido": "<p></p>"  },  
   {
-    "id": "",
-    "titulo": "",
-    "fecha": "",
-    "lugar": "",
+    "id": "egan-bernal-top-10-clasica-faun-ardeche-2026",
+    "titulo": "Egan Bernal firmó sólida actuación en la Clásica Faun-Ardèche 2026",
+    "fecha": "28 de Febrero de 2026",
+    "lugar": "Francia",
+    "imagen": "/img/egan-faun.webp",
+    "contenido": "<p>Egan Bernal inició su temporada europea este 2026 con una destacada presentación en la Clásica Faun-Ardèche, luego de haber brillado en el Campeonato Nacional, donde ganó la prueba de ruta y fue quinto en la contrarreloj.</p><p>El colombiano integró la formación de INEOS Grenadiers junto a Dorian Godon, Axel Laurance, Bob Jungels, Andrew August, Jack Haig y Brandon Rivera. Sin embargo, la victoria quedó en manos del francés Paul Seixas, quien se impuso en solitario con un tiempo de 4h 37' 22''.</p><p>Bernal tuvo un inicio prometedor, pero a falta de 44 kilómetros sufrió en un exigente ascenso tras un fuerte ataque del grupo puntero. Aunque perdió contacto en ese momento, logró regular su ritmo, enlazar con perseguidores y mantenerse competitivo hasta cruzar la meta dentro del top 10.</p><p>Finalmente, el 'escarabajo' terminó séptimo, a 2' 34'' del vencedor. El podio lo completaron Jan Christen y Lenny Martinez, ambos a 1' 48''. Ahora, Bernal continuará su calendario en Francia con la Clásica Faun Drome, una prueba de 189 kilómetros que volverá a poner a prueba su resistencia en terreno montañoso.</p>"
+  },
+  {
+    "id": "ignacio-buse-caida-thiago-tirante-chile-open-2026",
+    "titulo": "Ignacio Buse luchó hasta el final pero cayó ante Thiago Tirante en el Chile Open 2026",
+    "fecha": "24 de Febrero de 2026",
+    "lugar": "Santiago, Chile",
+    "imagen": "/img/buse-chileopen.webp",
+    "contenido": "<p>Ignacio Buse protagonizó un intenso duelo en los dieciseisavos de final del ATP 250 Chile Open 2026, pero terminó inclinándose ante el argentino Thiago Agustín Tirante en un partido que se resolvió en tie break.</p><p>El peruano, actual 66° del ranking ATP, cayó por 2-6, 7-6(0) y 7-6(2) tras más de dos horas y media de juego. Luego de ceder el primer set, reaccionó con carácter, elevó su nivel en los momentos de mayor presión y forzó un tercer parcial que se definió por detalles.</p><p>Más allá del resultado, Buse confirmó su crecimiento en la gira sudamericana de arcilla, sosteniendo largos intercambios y compitiendo de igual a igual ante un rival situado dentro del Top 80 mundial. Llegaba a Santiago con confianza tras su actuación en Río y con el antecedente de un cruce previo ante Tirante en el Challenger de Modena 2025.</p><p>El encuentro se disputó en el Complejo Mario Caracci Onetto del Club Deportivo Universidad Católica. Ahora, Buse centrará su atención en la modalidad de dobles, donde buscará seguir sumando minutos y experiencia en el certamen chileno.</p>"
+  },
+  {
+    "id": "lindsey-vonn-muerte-perro-leo-lesion-milano-cortina-2026",
+    "titulo": "Lindsey Vonn enfrenta duro golpe emocional tras grave lesión en Milano-Cortina 2026",
+    "fecha": "18 de Febrero de 2026",
+    "lugar": "Italia",
+    "imagen": "/img/perro-atleta-milano.webp",
+    "contenido": "<p>La campeona olímpica Lindsey Vonn atraviesa uno de los momentos más complejos de su vida. Luego de fracturarse la tibia durante los Juegos Olímpicos de Invierno de Milano-Cortina 2026 y someterse a cuatro cirugías, la esquiadora estadounidense confirmó la muerte de su perro Leo.</p><p>El accidente ocurrió el 8 de febrero en la pista Olympia delle Tofane, en Cortina d'Ampezzo, donde sufrió una fractura compleja en la pierna izquierda. Tras ser intervenida en el hospital Ca’ Foncello de Treviso y permanecer diez días internada, fue trasladada en avión medicalizado a Estados Unidos para continuar su recuperación.</p><p>Desde el hospital relató el difícil proceso: 'Mi pierna sigue destrozada... ¡pero por fin vuelvo a casa! Unidad de Cuidados Intensivos - Ambulancia - Avión - Ambulancia – Hospital'.</p><p>En medio de ese escenario, recibió el golpe más doloroso: la partida de Leo, a quien consideraba parte fundamental de su familia. 'Han sido unos de los días más difíciles de mi vida y todavía no he empezado a procesar su partida', expresó.</p><p>Vonn reconoció que la lesión es más grave de lo que parecía inicialmente y que el camino de recuperación será largo, aunque mantiene la esperanza de volver algún día a competir en la montaña.</p>"
+  },
+  {
+    "id": "vinicius-junior-denuncia-racismo-benfica-real-madrid-champions",
+    "titulo": "La grave acusación de Vinícius Júnior en el Benfica vs. Real Madrid por Champions League",
+    "fecha": "17 de Febrero de 2026",
+    "lugar": "Lisboa, Portugal",
+    "imagen": "/img/vini-jr-racismo.webp",
+    "contenido": "<p>Vinícius Júnior protagonizó un tenso episodio en el duelo entre Benfica y Real Madrid por la ida de la ronda eliminatoria de la Champions League. Tras anotar a los 50 minutos, su celebración generó molestia en el público del Estádio da Luz.</p><p>El árbitro francés François Letexier decidió detener el encuentro y activar el protocolo contra el racismo luego de que el delantero denunciara un insulto discriminatorio. 'Me dijo mono, mono', afirmó el brasileño al juez central, apuntando contra el argentino Gianluca Prestianni.</p><p>La situación provocó discusiones entre jugadores y miembros de ambos cuerpos técnicos, mientras el atacante merengue permanecía sentado en señal de protesta. Después de varios minutos de interrupción, el partido se reanudó con el marcador 0-1 a favor del conjunto español.</p>"
+  },
+  {
+    "id": "julia-simon-oro-polemico-gesto-juegos-invierno-2026",
+    "titulo": "Julia Simon ganó el oro y desató polémica con su celebración en los Juegos de Invierno",
+    "fecha": "12 de Febrero de 2026",
+    "lugar": "Italia",
     "imagen": "/img/julia-simon-gesto.webp",
-    "contenido": "<p></p>"  },
+    "contenido": "<p>La biatleta francesa Julia Simon volvió a quedar en el centro de la atención tras conquistar la medalla de oro en la prueba de 15 kilómetros en los Juegos Olímpicos de Invierno. La deportista, que anteriormente había sido sancionada por un caso de robo a compañeros, celebró con un gesto que generó controversia.</p><p>Simon, de 29 años, firmó una actuación sobresaliente al acertar 19 de 20 disparos y cruzar la meta con 53 segundos de ventaja sobre su compatriota Lou Jeanmonnot. Se trató de su primera presea dorada individual en la cita y la segunda en Italia, luego del triunfo en el relevo mixto.</p><p>Sin embargo, más allá de su rendimiento deportivo, el foco se trasladó a su festejo, el cual fue interpretado por algunos sectores como provocador y reavivó el debate en torno a su historial fuera de la pista.</p>"
+  },
   {
-    "id": "",
-    "titulo": "",
-    "fecha": "",
-    "lugar": "",
-    "imagen": "/img/ilia-malinin-salto.webp",
-    "contenido": "<p></p>"  },
+    "id": "ilia-malinin-backflip-oro-juegos-invierno-2026",
+    "titulo": "Ilia Malinin realizó el histórico backflip y ganó el oro olímpico",
+    "fecha": "09 de Febrero de 2026",
+    "lugar": "Italia",
+    "imagen": "/img/malinin-salto.webp",
+    "contenido": "<p>El patinador estadounidense Ilia Malinin se convirtió en una de las grandes figuras de los Juegos Olímpicos de Invierno tras ejecutar un salto que estuvo prohibido durante cinco décadas. Su impecable backflip lo llevó directamente a la medalla de oro.</p><p>La maniobra había sido vetada desde 1977 por la Unión Internacional de Patinaje, luego de que Terry Kubicka la realizara en Innsbruck 1976, debido a su complejidad y riesgo. Sin embargo, desde 2024 volvió a estar permitida en competencia.</p><p>Aunque no fue el primero en intentarlo en la era moderna, Malinin sí destacó por ejecutarlo de forma limpia y aterrizar sobre una sola cuchilla, lo que fue ampliamente valorado por el análisis técnico posterior.</p><p>Entre los asistentes sorprendidos estuvo Novak Djokovic, quien fue captado llevándose las manos a la cabeza ante la espectacular acción del joven patinador, apodado el 'Dios del hielo'.</p>"
+  },
   {
-    "id": "hernik-von-appen-accidente",
-    "titulo": "Henrik Von Appen sufrió accidente y queda fuera de los Juegos Olímpicos de Invierno",
+    "id": "henrik-von-appen-accidente-milano-cortina-2026",
+    "titulo": "Henrik Von Appen sufrió grave accidente y quedó fuera de Milano-Cortina 2026",
     "fecha": "03 de Febrero de 2026",
     "lugar": "Suiza",
     "imagen": "/img/henrik-von-appen.webp",
-    "contenido": "<p></p>"  },
+    "contenido": "<p>El esquí chileno recibió un duro golpe luego de confirmarse que Henrik Von Appen no podrá competir en los Juegos Olímpicos de Invierno de Milano-Cortina 2026. El deportista sufrió una fuerte caída durante una fecha de la Copa del Mundo en Crans-Montana, impactando contra las mallas de protección.</p><p>De acuerdo con el comunicado oficial del Team Chile, el accidente le provocó múltiples lesiones, incluyendo una laceración facial que requirió suturas y una lesión tipo 'asa de balde' en el menisco interno de la rodilla derecha.</p><p>Tras exámenes médicos realizados en Suiza e Italia, el equipo encabezado por el doctor José Ángel Rubio determinó que no estaba en condiciones de competir.</p><p>La baja se produce en el mejor momento de su carrera, luego de lograr un histórico 16° lugar en Copa del Mundo, récord latinoamericano. Desde Italia, el propio esquiador lamentó la situación: 'Hicimos todo lo posible, pero el daño es demasiado grande y demasiado cerca de las carreras olímpicas'.</p><p>Von Appen deberá someterse a cirugía y afrontar un extenso proceso de recuperación, mientras el Comité Olímpico de Chile trabaja en la búsqueda de un reemplazo para las pruebas que comenzarán el 7 de febrero en Bormio.</p>"
+  },
   {
     "id": "muerte-enluta-futbol-chileno",
     "titulo": "Luto en el fútbol nacional: Fallece Jorge 'Coke' Rodríguez.",
@@ -41,8 +76,6 @@
     "lugar": "Chile",
     "imagen": "/img/jorge-coke-rodriguez.webp",
     "contenido": "<p>Luto en el fútbol chileno: muere Jorge “Coke” Rodríguez, referente de San Antonio Unido y Deportes Concepción</p>\n\n<p> El exdefensa hizo carrera en San Antonio y Deportes Concepción, clubes donde dejó una huella imborrable. </p> <p> El fútbol chileno perdió a uno de sus 'históricos' luego que se confirmara el fallecimiento de Jorge 'Coke' Rodríguez, exdefensa de San Antonio Unido, Coquimbo Unido, Naval de Talcahuano y Deportes Concepción en la década del '80. <p> 'Lamentamos profundamente el fallecimiento de don Jorge ‘Coke’ Rodríguez, ex jugador y capitán del club entre los años 1987 y 1989', expresó el cuadro penquista. 'Don Jorge también fue parte de nuestra institución como funcionario en el área de scouting y fútbol formativo, aportando con su experiencia compromiso al desarrollo del club', complementó.</p> Jorge “Coke” Rodríguez fue parte importante del SAU, ganándose el respeto y cariño de la hinchada por su amor a la camiseta y su profesionalismo dentro y fuera de la cancha. Su paso por San Antonio Unido fue el que lo consagró como un referente querido por el pueblo lila', puntualizó el medio partidario Canal 2 FM Chilena. El Colegio Profesional de Entrenadores de Fútbol se sumó a las condolencias y destacó la faceta formativa que tenía el exdefensa. </p>" },
-
-
   {
     "id": "",
     "titulo": "",

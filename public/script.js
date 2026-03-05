@@ -167,7 +167,7 @@ cargarNoticias();
 
 
 
-      // 🟢 PAGINACIÓN DE EVENTOS
+   /*   // 🟢 PAGINACIÓN DE EVENTOS
     // Cargar eventos desde el archivo JSON
     async function cargarEventos() {
         try {
@@ -247,11 +247,9 @@ cargarNoticias();
     }
 
     // Iniciar la carga de eventos desde el archivo JSON
-    cargarEventos();
+    cargarEventos(); 
 
-
-
-
+*/
 const path = require("path");
 const app = express();
 

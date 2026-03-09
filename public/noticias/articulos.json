@@ -1,11 +1,20 @@
 [
   {
-    "id": "",
-    "titulo": "",
-    "fecha": "",
-    "lugar": "",
-    "imagen": "/img/.webp",
-    "contenido": "<p></p>"  },  
+    "id": "santiago-sede-duelo-leyendas-america",
+    "titulo": "Santiago será sede del Duelo de Leyendas de América",
+    "fecha": "6 de marzo de 2026",
+    "lugar": "Santiago, Chile",
+    "imagen": "/img/dueloleyendas2.webp",
+    "contenido": "<p>Santiago albergará un evento especial para los seguidores del fútbol sudamericano con la realización de la Copa Duelo de Leyendas de América, torneo que se disputará entre el 27 y el 29 de marzo en el estadio Claro Arena.</p><p>El certamen reunirá a reconocidos exfutbolistas del continente que marcaron una época en sus respectivas selecciones y clubes. Durante tres jornadas, los hinchas podrán ver nuevamente en la cancha a varias de las figuras más recordadas del fútbol regional.</p><p>Entre los protagonistas del evento destaca la presencia del brasileño Ronaldinho, quien encabezará a una de las selecciones participantes y será uno de los principales atractivos del campeonato.</p><p>La competencia busca transformarse en una verdadera celebración del fútbol, combinando espectáculo, nostalgia y la oportunidad de que los fanáticos vuelvan a disfrutar de sus ídolos históricos en un ambiente festivo.</p>"
+  },
+  {
+    "id": "chile-peru-debut-duelo-leyendas-2026",
+    "titulo": "Chile debutará ante Perú en la Copa Duelo de Leyendas de América 2026",
+    "fecha": "5 de marzo de 2026",
+    "lugar": "Santiago, Chile",
+    "imagen": "/img/dueloleyendas1.webp",
+    "contenido": "<p>La Selección Chilena de Leyendas se prepara para su estreno en la Copa Duelo de Leyendas de América 2026, torneo que se disputará entre el 27 y el 29 de marzo en el estadio Claro Arena y que reunirá a ocho equipos históricos del continente.</p><p>El debut del combinado nacional será nada menos que frente a Perú, en un nuevo capítulo del clásico del Pacífico que promete intensidad y emoción dentro del formato de fútbol 7 que tendrá el campeonato.</p><p>Durante los últimos días, el plantel chileno ha realizado entrenamientos en el mismo recinto donde se disputará el torneo. En las prácticas participaron exjugadores como Gonzalo Fierro, Marcos González, Roberto Cereceda, Cristián Álvarez, Jorge Acuña, Carlos Villanueva, Jorge Valdivia, Matías Fernández y Roberto Gutiérrez.</p><p>Bajo la dirección técnica de Juvenal Olmos, el equipo ha trabajado aspectos físicos y tácticos con el objetivo de llegar en las mejores condiciones al certamen. El defensa Marcos González comentó que las sesiones han sido exigentes y dinámicas, destacando el entusiasmo del grupo.</p><p>Dentro del plantel también se vive un ambiente especial por el reencuentro entre antiguos compañeros de camarín, quienes buscan competir al máximo nivel y aspirar a quedarse con el título del torneo que reunirá a figuras como Ronaldinho representando a Brasil.</p>"
+  },
   {
     "id": "",
     "titulo": "",
@@ -28,6 +37,14 @@
     "lugar": "Santiago, Chile",
     "imagen": "/img/buse-chileopen.webp",
     "contenido": "<p>Ignacio Buse protagonizó un intenso duelo en los dieciseisavos de final del ATP 250 Chile Open 2026, pero terminó inclinándose ante el argentino Thiago Agustín Tirante en un partido que se resolvió en tie break.</p><p>El peruano, actual 66° del ranking ATP, cayó por 2-6, 7-6(0) y 7-6(2) tras más de dos horas y media de juego. Luego de ceder el primer set, reaccionó con carácter, elevó su nivel en los momentos de mayor presión y forzó un tercer parcial que se definió por detalles.</p><p>Más allá del resultado, Buse confirmó su crecimiento en la gira sudamericana de arcilla, sosteniendo largos intercambios y compitiendo de igual a igual ante un rival situado dentro del Top 80 mundial. Llegaba a Santiago con confianza tras su actuación en Río y con el antecedente de un cruce previo ante Tirante en el Challenger de Modena 2025.</p><p>El encuentro se disputó en el Complejo Mario Caracci Onetto del Club Deportivo Universidad Católica. Ahora, Buse centrará su atención en la modalidad de dobles, donde buscará seguir sumando minutos y experiencia en el certamen chileno.</p>"
+  },
+  {
+    "id": "copa-duelo-leyendas-2026-ronaldinho-claro-arena",
+    "titulo": "Con Ronaldinho a la cabeza: lo que debes saber de la Copa Duelo de Leyendas 2026",
+    "fecha": "23 de febrero de 2026",
+    "lugar": "Santiago, Chile",
+    "imagen": "/img/dueloleyendas0.webp",
+    "contenido": "<p>Chile será escenario de un inédito evento futbolístico con la realización de la Copa Duelo de Leyendas 2026, torneo internacional que reunirá a históricos jugadores sudamericanos entre el 27 y el 29 de marzo en el estadio Claro Arena.</p><p>El campeonato contará con la participación de ocho selecciones del continente: Chile, Argentina, Brasil, Uruguay, Paraguay, Colombia, Perú y Venezuela. Entre las figuras confirmadas destacan Ronaldinho, Juan Pablo Sorín, Diego Lugano, Mario Yepes, Lucas Barrios, Juan Vargas y Juan Arango, además de los chilenos Matías Fernández y Jorge Valdivia.</p><p>El torneo se disputará bajo la modalidad de fútbol 7, con partidos de 40 minutos divididos en dos tiempos de 20. Cada jornada incluirá cuatro encuentros y todas las selecciones competirán durante los tres días del evento.</p><p>La organización busca ofrecer un espectáculo pensado para toda la familia, con un ambiente cargado de nostalgia y con la posibilidad de volver a ver en la cancha a jugadores que marcaron una época en el fútbol sudamericano.</p>"
   },
   {
     "id": "lindsey-vonn-muerte-perro-leo-lesion-milano-cortina-2026",

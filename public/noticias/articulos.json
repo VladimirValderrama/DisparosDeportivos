@@ -232,8 +232,86 @@
   "contenido": "<p>El luchador grecorromano Yasmani Acosta continúa sumando reconocimientos a su destacada carrera deportiva. El medallista de plata en los Juegos Olímpicos de París 2024 fue recibido en el Palacio de La Moneda, donde participó en una ceremonia junto al Presidente Gabriel Boric y al ministro del Deporte, Jaime Pizarro.</p><p>En la actividad, el deportista fue distinguido con el Premio Nacional del Deporte 2024, galardón que reconoce su histórica actuación en la cita olímpica. Durante el encuentro, Acosta posó con el diploma que oficializa el reconocimiento y dedicó unas palabras en las que recordó el largo camino que recorrió para consolidarse como uno de los referentes del Team Chile.</p><p>Visiblemente emocionado, el atleta sorprendió al anunciar un gesto simbólico con su medalla olímpica. 'Es un privilegio estar aquí. Gracias a Chile por la oportunidad que me dio y por seguir creyendo en el deporte. Hace un año dije que esta medalla no era solo mía, sino de todos los chilenos, y hoy quiero que eso sea realidad. Quiero que quede aquí, en la casa de todos, para que forme parte del Estado de Chile y todos puedan disfrutarla', expresó.</p><p>Horas después, el deportista volvió a referirse al reconocimiento a través de sus redes sociales, donde compartió un mensaje cargado de emoción. 'Me emocioné, lloré y recordé cada sacrificio, cada caída y cada sueño que parecía imposible. Gracias a mis entrenadores, a mi familia, a mis amigos y a todos quienes me apoyaron. Esta medalla ya no es solo mía, quiero que sea un símbolo de inspiración para las nuevas generaciones. Gracias, Chile', escribió.</p><p>El gesto generó múltiples reacciones positivas. El Presidente Boric destacó la trayectoria del luchador y señaló que 'para nosotros es un orgullo que seas chileno'. Diversos deportistas del Team Chile también enviaron mensajes de felicitación, resaltando el ejemplo de perseverancia que representa Acosta dentro del deporte nacional.</p>"
   },
 
-
-
+  {
+    "id": "chile-jornada-dorada-juegos-bolivarianos",
+    "titulo": "Chile firma una jornada dorada en los Juegos Bolivarianos y escala en el medallero",
+    "fecha": "29 de noviembre de 2025",
+    "lugar": "Perú",
+    "imagen": "/img/3003-1.webp",
+    "contenido": "<p>La delegación chilena protagonizó una de sus jornadas más destacadas en los Juegos Bolivarianos al conquistar ocho medallas de oro en un solo día, consolidando su presencia en la tabla general.</p><p>El hockey césped fue uno de los grandes protagonistas, con títulos tanto en la categoría femenina como masculina tras contundentes victorias en sus respectivas finales. El dominio nacional se reflejó en marcadores amplios que evidenciaron la superioridad de ambos equipos.</p><p>En paralelo, el esquí náutico aportó varias preseas doradas gracias a destacadas actuaciones individuales, mientras que disciplinas como el taekwondo y el tiro deportivo también sumaron primeros lugares.</p><p>Con estos resultados, Chile alcanzó 24 medallas de oro, además de 22 de plata y 27 de bronce, ubicándose en el cuarto puesto del medallero, en una competencia liderada por Colombia, Venezuela y Perú.</p>"
+  },
+  {
+    "id": "chile-medallas-juegos-bolivarianos-noviembre",
+    "titulo": "Chile continúa sumando medallas y se mantiene en el podio de los Juegos Bolivarianos",
+    "fecha": "26 de noviembre de 2025",
+    "lugar": "Perú",
+    "imagen": "/img/3003-2.webp",
+    "contenido": "<p>El equipo chileno mantiene su buen rendimiento en los Juegos Bolivarianos, sumando nuevas medallas que le permiten seguir en posiciones de protagonismo dentro del medallero.</p><p>En natación, Eduardo Cisternas volvió a destacar al quedarse con el oro en los 400 metros libres, consolidando una actuación sobresaliente en el certamen. Por su parte, Kristel Kobrich cerró su participación con una medalla de bronce.</p><p>El canotaje también fue clave en la jornada, con una victoria en la prueba K4 200 metros y otras preseas en distintas categorías, reafirmando la competitividad del equipo nacional.</p><p>Con estos resultados, Chile alcanzó un total de 41 medallas y se posicionó en el tercer lugar del medallero, solo por detrás de Colombia y Venezuela.</p>"
+  },
+  {
+    "id": "josefa-ramos-promesa-patinaje-artistico",
+    "titulo": "Josefa Ramos, la joven promesa que brilla en el patinaje artístico mundial",
+    "fecha": "22 de noviembre de 2025",
+    "lugar": "Coquimbo, Chile",
+    "imagen": "/img/3003-3.webp",
+    "contenido": "<p>Con apenas 14 años, Josefa Ramos se ha convertido en una de las grandes promesas del deporte chileno tras posicionarse entre las mejores del mundo en patinaje artístico.</p><p>La deportista inició su camino en Coquimbo, donde comenzó a practicar junto a su padre de manera recreativa. Con el tiempo, su talento la llevó a competir a nivel internacional, enfrentando a rivales de mayor edad y experiencia.</p><p>Durante 2025, además, logró una medalla de bronce en los Juegos Panamericanos Junior, consolidándose como una de las figuras emergentes del Team Chile.</p><p>Su rutina combina estudios con intensos entrenamientos, en un esfuerzo constante por seguir creciendo y acercarse a su gran objetivo: alcanzar la cima del patinaje mundial.</p>"
+  },
+  {
+    "id": "bautista-de-la-pena-primer-punto-atp",
+    "titulo": "Bautista De la Pena entra al ranking ATP y marca un hito en su carrera",
+    "fecha": "20 de noviembre de 2025",
+    "lugar": "Santiago, Chile",
+    "imagen": "/img/3003-4.webp",
+    "contenido": "<p>El joven tenista Bautista De la Pena logró un importante avance en su carrera al sumar su primer punto en el ranking ATP, tras imponerse en un torneo M15 disputado en Santiago.</p><p>El triunfo marcó un antes y un después en su trayectoria, considerando que hasta ese momento no había conseguido victorias en cuadros principales del circuito profesional.</p><p>Con solo 16 años, el jugador ha optado por competir directamente en torneos adultos, lo que le ha permitido ganar experiencia frente a rivales de mayor nivel.</p><p>Pese a quedar eliminado en la siguiente ronda, su actuación lo posiciona como una de las promesas más interesantes del tenis chileno.</p>"
+  },
+  {
+    "id": "tabilo-uts-copa-davis-dudas",
+    "titulo": "La agenda de Alejandro Tabilo genera dudas sobre su presencia en la Copa Davis",
+    "fecha": "13 de noviembre de 2025",
+    "lugar": "Chile",
+    "imagen": "/img/3003-11.webp",
+    "contenido": "<p>La planificación de Alejandro Tabilo para la temporada 2026 abrió interrogantes respecto a su participación en la Copa Davis.</p><p>El tenista confirmó su presencia en un torneo de exhibición internacional que se disputará en fechas coincidentes con la fase clasificatoria del tradicional certamen por equipos.</p><p>Esta situación genera incertidumbre en torno a su disponibilidad para integrar el equipo chileno, especialmente considerando antecedentes recientes en los que priorizó su calendario individual.</p><p>La decisión final será clave para definir la conformación del plantel nacional en una instancia relevante del torneo.</p>"
+  },
+  {
+    "id": "chile-historico-parapanamericanos-juveniles",
+    "titulo": "Chile logra una actuación histórica en los Juegos Parapanamericanos Juveniles",
+    "fecha": "10 de noviembre de 2025",
+    "lugar": "Chile",
+    "imagen": "/img/3003-6.webp",
+    "contenido": "<p>El deporte paralímpico chileno alcanzó un nuevo hito tras cerrar su participación en los Juegos Parapanamericanos Juveniles con un total de 89 medallas.</p><p>La delegación nacional consiguió 25 preseas de oro, 32 de plata y 32 de bronce, superando ampliamente sus registros en ediciones anteriores.</p><p>Entre las figuras destacó Agustin Pavez, quien se transformó en el atleta más ganador del certamen con seis medallas, cinco de ellas doradas.</p><p>Chile finalizó en el cuarto lugar del medallero, consolidando el crecimiento sostenido del deporte paralímpico a nivel nacional.</p>"
+  },
+  {
+    "id": "puerto-montt-campeon-segunda-division",
+    "titulo": "Puerto Montt se consagra campeon y regresa a la Primera B",
+    "fecha": "8 de noviembre de 2025",
+    "lugar": "Puerto Montt, Chile",
+    "imagen": "/img/3003-7.webp",
+    "contenido": "<p>Deportes Puerto Montt logró el título de la Segunda División Profesional tras imponerse en un duelo clave ante su clásico rival.</p><p>El conjunto albiverde aseguró el campeonato con una campaña sólida que le permitió tomar ventaja suficiente en la tabla de posiciones.</p><p>El triunfo definitivo desató la celebración de los hinchas, quienes acompañaron al equipo en su regreso a la Primera B después de dos temporadas.</p><p>De esta forma, el club concreta su objetivo y vuelve a la categoría de ascenso del fútbol chileno.</p>"
+  },
+  {
+    "id": "antonia-vergara-top-400-wta",
+    "titulo": "Antonia Vergara alcanza el top 400 y sigue avanzando en el circuito profesional",
+    "fecha": "5 de noviembre de 2025",
+    "lugar": "Argentina",
+    "imagen": "/img/3003-8.webp",
+    "contenido": "<p>La tenista chilena Antonia Vergara continúa su progresión en el circuito profesional tras alcanzar los cuartos de final en un torneo WTA 125.</p><p>Gracias a este resultado, la jugadora ingresará por primera vez al top 400 del ranking mundial, marcando un hito en su carrera.</p><p>Su desempeño incluyó victorias ante rivales mejor posicionadas, lo que confirma su proyección a nivel internacional.</p><p>Con solo 18 años, se posiciona como una de las principales promesas del tenis sudamericano.</p>"
+  },
+  {
+    "id": "javiera-garrido-transicion-ciclismo-elite",
+    "titulo": "Javiera Garrido enfrenta el desafio de competir en la elite del ciclismo",
+    "fecha": "31 de octubre de 2025",
+    "lugar": "Chile",
+    "imagen": "/img/3003-9.webp",
+    "contenido": "<p>La ciclista chilena Javiera Garrido atraviesa una etapa clave en su carrera tras dar el salto a la categoría adulta.</p><p>En su primera experiencia en un Mundial de mayores, la deportista sumó aprendizaje enfrentando a competidoras con mayor trayectoria.</p><p>Durante este año también vivió un cambio importante al trasladarse a Estados Unidos para continuar sus estudios y entrenamientos.</p><p>A pesar de las dificultades de adaptación, mantiene su objetivo de consolidarse en la elite del ciclismo internacional.</p>"
+  },
+  {
+    "id": "miguel-morales-accidente-panamericano",
+    "titulo": "Ciclista chileno sufre grave accidente en competencia internacional",
+    "fecha": "28 de octubre de 2025",
+    "lugar": "Asunción, Paraguay",
+    "imagen": "/img/3003-10.webp",
+    "contenido": "<p>El ciclista chileno Miguel Morales sufrió un grave accidente durante su participación en el Panamericano Master disputado en Paraguay.</p><p>El deportista resultó con múltiples fracturas tras una caída en plena competencia, lo que obligó a su hospitalización en la capital paraguaya.</p><p>Debido a la complejidad de sus lesiones, se evalúa su traslado a Chile, proceso que implica altos costos médicos.</p><p>Ante esta situación, se ha impulsado una campaña solidaria para apoyar su recuperación.</p>"
+  },
 
 
 

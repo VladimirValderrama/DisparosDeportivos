@@ -2,8 +2,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 .navbar {
-    background-color: #ffffff;
+  background-color: rgba(0,0,0,0.85);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -11,6 +14,14 @@ body {
 .navbar-brand img {
     height: 120px;
     margin: 0;
+}    
+
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 55px;
+    }
+
 }
 
 .navbar-brand span {
@@ -21,23 +32,20 @@ body {
 
 .navbar-nav {
     text-align: center;
+    gap: 10px;
 }
-
 
 .navbar-nav .nav-item {
-    margin: 0 15px;
+    margin: 0;
 }
 
-.navbar-brand, .navbar-nav .nav-link {
-    color: #000000;
-}
+
 
 
 
 .nav-link {
     position: relative;
     display: inline-block;
-    position: relative;
 }
 
 .nav-link::after {
@@ -47,7 +55,7 @@ body {
     bottom: -3px;
     width: 100%;
     height: 3px;
-    background: #000000; 
+    background: #ffffff; 
     transform: scaleX(0); 
     transform-origin: right;
     transition: transform 0.3s ease-in-out;
@@ -60,9 +68,10 @@ body {
     transform-origin: left; /* <- Se anima hacia la derecha */
 }
 
-.navbar-custom {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3)
+.navbar {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
+
 .gallery img {
     width: 100%;
     height: auto;
@@ -76,7 +85,6 @@ footer {
     color: white;
     padding: 20px 10px;
 }
-
 
 
 
@@ -160,16 +168,16 @@ footer {
 
 
 @media (max-width: 768px) {
-    .navbar-collapse {
-        background-color: white;
-        padding: 10px;
-    }
+.navbar-collapse {
+    background-color: rgba(0,0,0,0.95);
+    padding: 10px;
+}
 
-    .navbar-nav .nav-link {
-        color: black;
-        text-align: center;
-        padding: 10px 0;
-    }
+.navbar-nav .nav-link {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 }
 
 
@@ -179,7 +187,7 @@ footer {
     font-size: 1rem;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 2px solid black;
+    border-right: 2px solid white;
     width: 0;
     animation: escribir 5s steps(40) infinite;
 }
@@ -287,23 +295,6 @@ footer {
     transition-duration: 0.6s !important;
     transition-timing-function: ease-out !important;
 }
-
-
-
-/* Estilo especial para el Portafolio Parquemet */
-.nav-link.destacado {
-    color: #e60000;
-    font-weight: bold;
-    position: relative;
-    animation: parpadeo 1.2s infinite;
-
-}
-
-
-
-
-
-
 
 
 /* Estilo especial para el Portafolio Parquemet */

@@ -505,6 +505,19 @@
   "imagen": "/img/diablas-derrota-argentina-copa-panamericana.webp",
   "contenido": "<p>La selección chilena femenina de hockey césped perdió ante Argentina en semifinales de la Copa Panamericana, quedando fuera de la lucha por el título.</p><p>El equipo trasandino fue superior y se impuso por 2-0, aprovechando sus oportunidades y controlando el juego durante gran parte del encuentro.</p><p>A pesar de la derrota, Chile aún tiene opciones de clasificar al Mundial a través de un torneo premundial que se disputará más adelante.</p><p>Las Diablas jugarán por el tercer lugar, buscando cerrar su participación con una victoria.</p>"
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
   "id": "leon-marchand-record-mundial-200-estilos",
   "titulo": "Leon Marchand rompe récord mundial histórico y confirma su dominio en la natación",
@@ -610,165 +623,51 @@
   "contenido": "<p>El chileno Ignacio Bahamondes perdió por decisión unánime ante Rafael Fiziev en un combate disputado en Azerbaiyán por la UFC.</p><p>La pelea fue pareja, pero los derribos del rival marcaron la diferencia en las tarjetas de los jueces.</p><p>Bahamondes buscó imponer su estilo ofensivo, pero no logró concretar sus oportunidades ante un oponente sólido.</p><p>El resultado frena su racha positiva y lo obliga a replantear su camino en la división.</p>"
   },
   {
-  "id": "marchand-rompe-record-mundial-200-estilos",
-  "titulo": "Leon Marchand rompe histórico récord mundial en los 200 estilos",
-  "fecha": "30 de julio de 2025",
-  "lugar": "Singapur",
-  "imagen": "/img/marchand-rompe-record-mundial-200-estilos.webp",
-  "contenido": "<p>El nadador frances Leon Marchand deslumbró en el Mundial de natacion al establecer un nuevo récord mundial en los 200 metros estilos, con un tiempo de 1:52.69. La marca anterior, que pertenecia al estadounidense Ryan Lochte desde 2011, fue superada por un amplio margen.</p><p>El deportista de 23 años se convirtió en el primero en la historia en bajar la barrera de los 1:53 minutos en esta prueba. Su rendimiento fue especialmente destacado en el tramo de braza, donde consolidó una ventaja decisiva que le permitió cerrar la carrera con autoridad.</p><p>Marchand reafirma asi su condición de figura dominante en la natacion internacional, consolidandose como uno de los atletas mas completos del momento.</p>"
+    "id": "dramatico-estrangulamiento-mundial-judo",
+    "titulo": "Impactante escena en Mundial de judo tras dejar inconsciente a una competidora",
+    "fecha": "15 de junio de 2025",
+    "lugar": "Budapest, Hungría",
+    "imagen": "/img/dramatico-estrangulamiento-mundial-judo.webp",
+    "contenido": "<p>Una preocupante situación se vivió en el Mundial de Judo en Budapest, donde una competidora quedó inconsciente tras una llave de estrangulamiento durante un combate de la categoría femenina de menos de 57 kilos.</p><p>La francesa Martha Fawaz perdió ante la uzbeka Shukurjon Aminova en octavos de final luego de quedar inmovilizada por varios segundos. La deportista debió ser retirada en camilla tras el episodio.</p><p>El torneo reúne a los mejores exponentes del mundo, incluyendo campeones olímpicos y líderes del ranking, pero este incidente marcó la jornada por su impacto y generó preocupación sobre la seguridad en la disciplina.</p>"
   },
   {
-  "id": "pogacar-gana-cuarto-tour-de-francia",
-  "titulo": "Tadej Pogacar conquista su cuarto Tour de Francia y se acerca a las leyendas",
-  "fecha": "27 de julio de 2025",
-  "lugar": "Paris, Francia",
-  "imagen": "/img/pogacar-gana-cuarto-tour-de-francia.webp",
-  "contenido": "<p>El ciclista esloveno Tadej Pogacar logró un nuevo hito en su carrera al quedarse con su cuarto Tour de Francia, consolidandose como una de las grandes figuras del ciclismo actual. Con este triunfo, iguala el registro de Chris Froome y queda a solo una victoria de los máximos ganadores historicos.</p><p>Pogacar dominó la competencia y terminó con una amplia ventaja sobre sus rivales, destacando su regularidad y fortaleza en todas las etapas. Aunque no pudo quedarse con la victoria en la jornada final, su desempeño general fue suficiente para asegurar el maillot amarillo.</p><p>El lider del equipo UAE continúa construyendo una trayectoria que lo proyecta como uno de los grandes nombres en la historia del Tour de Francia.</p>"
-},
-{
-  "id": "estrellas-invierno-entrenan-chile",
-  "titulo": "Estrellas del esqui mundial eligen Chile para preparar los Juegos de Invierno",
-  "fecha": "27 de julio de 2025",
-  "lugar": "Santiago, Chile",
-  "imagen": "/img/estrellas-invierno-entrenan-chile.webp",
-  "contenido": "<p>Chile se convertirá en un importante centro de entrenamiento para deportistas de elite de cara a los Juegos Olimpicos de Invierno 2026. El centro de montaña El Colorado recibirá a mas de cien equipos de esqui y snowboard provenientes de distintas partes del mundo.</p><p>Entre las figuras destacadas se encuentran la estadounidense Mikaela Shiffrin y el suizo Marco Odermatt, ambos considerados referentes en sus disciplinas. Tambien participarán otros atletas de alto nivel que buscarán aprovechar las condiciones de la cordillera chilena.</p><p>La presencia de estas delegaciones posiciona al pais como un destino clave para la preparación internacional, mientras que deportistas nacionales también aprovecharán las instalaciones para su desarrollo competitivo.</p>"
-},
-{
-  "id": "chepngetich-suspendida-dopaje",
-  "titulo": "Record mundial de maraton queda bajo sospecha tras caso de dopaje",
-  "fecha": "17 de julio de 2025",
-  "lugar": "Internacional",
-  "imagen": "/img/chepngetich-suspendida-dopaje.webp",
-  "contenido": "<p>La atleta keniana Ruth Chepngetich, poseedora del récord mundial de maraton femenino, fue suspendida de manera provisional tras dar positivo en un control antidopaje. La sustancia detectada corresponde a un diuretico prohibido que puede actuar como agente enmascarante.</p><p>La deportista aceptó apartarse voluntariamente de las competencias mientras se desarrolla la investigacion, la cual esta a cargo de la Unidad de Integridad del Atletismo. El organismo no ha definido plazos para una resolucion definitiva.</p><p>El caso genera incertidumbre en el atletismo mundial, considerando que Chepngetich habia marcado un hito al convertirse en la primera mujer en bajar de las 2 horas y 10 minutos en maraton.</p>"
-},
-{
-  "id": "lebron-james-futuro-dudas-nba",
-  "titulo": "Incertidumbre sobre el futuro de LeBron James sacude la NBA",
-  "fecha": "17 de julio de 2025",
-  "lugar": "Estados Unidos",
-  "imagen": "/img/lebron-james-futuro-dudas-nba.webp",
-  "contenido": "<p>El futuro de LeBron James en la NBA vuelve a estar en duda, pese a que recientemente confirmó su continuidad en Los Angeles Lakers. Declaraciones de su entorno han revelado que el jugador no estaria completamente satisfecho con el rumbo del equipo.</p><p>El experimentado basquetbolista busca competir por un nuevo campeonato, mientras que la franquicia parece enfocada en un proyecto a largo plazo. Esta diferencia de visiones ha alimentado rumores sobre un posible cambio de equipo.</p><p>Entre los destinos que suenan aparecen equipos como Dallas Mavericks, Golden State Warriors, Los Angeles Clippers y Cleveland Cavaliers, lo que mantiene en vilo a la liga.</p>"
-},
-
-{
-  "id": "anisimova-emocion-final-wimbledon",
-  "titulo": "Anisimova rompe en llanto tras dura derrota en la final de Wimbledon",
-  "fecha": "12 de julio de 2025",
-  "lugar": "Londres, Reino Unido",
-  "imagen": "/img/anisimova-emocion-final-wimbledon.webp",
-  "contenido": "<p>Amanda Anisimova protagonizó un emotivo momento tras caer en la final de Wimbledon frente a Iga Swiatek con un contundente doble 6-0. La estadounidense no pudo contener las lagrimas durante la ceremonia de premiacion.</p><p>En su discurso, destacó el apoyo de su madre y reconoció el esfuerzo realizado durante el torneo, pese al resultado adverso. Tambien elogió a su rival por su desempeño.</p><p>La escena conmovió al publico presente y reflejó la carga emocional que implica disputar una final en uno de los torneos mas prestigiosos del tenis mundial.</p>"
-},
-{
-  "id": "muerte-boxeador-chileno-joel-mayo",
-  "titulo": "Impacto en el boxeo chileno por la muerte de Joel Mayo",
-  "fecha": "12 de julio de 2025",
-  "lugar": "Villarrica, Chile",
-  "imagen": "/img/muerte-boxeador-chileno-joel-mayo.webp",
-  "contenido": "<p>El ex boxeador chileno Joel Mayo falleció a los 53 años tras ser apuñalado en Villarrica, en un hecho que esta siendo investigado. Su muerte generó conmocion en el deporte nacional.</p><p>Mayo tuvo una destacada trayectoria, siendo campeon de Chile en varias categorias y disputando titulos mundiales. Su historia estuvo marcada por la superacion personal y una carrera forjada desde la adversidad.</p><p>El ex pugil tambien fue recordado por un dramático combate en 2001 donde estuvo cerca de perder la vida, episodio que marcó profundamente su carrera y su vida personal.</p>"
-},
-{
-  "id": "chile-golea-bolivia-amistoso",
-  "titulo": "Chile femenino golea a Bolivia antes de la Copa America",
-  "fecha": "03 de julio de 2025",
-  "lugar": "Santiago, Chile",
-  "imagen": "/img/chile-golea-bolivia-amistoso.webp",
-  "contenido": "<p>La seleccion chilena femenina cerró su preparación para la Copa America con una contundente victoria por 5-0 sobre Bolivia en un amistoso disputado en Santiago.</p><p>El equipo dirigido por Luis Mena dominó el encuentro y aseguró el resultado en los minutos finales, mostrando un buen nivel colectivo de cara al torneo continental.</p><p>Con este triunfo, la Roja llega con confianza a la competencia que se disputará en Ecuador.</p>"
-},
-{
-  "id": "chile-baja-lesion-copa-america",
-  "titulo": "Lesion golpea a Chile femenino antes de la Copa America",
-  "fecha": "02 de julio de 2025",
-  "lugar": "Chile",
-  "imagen": "/img/chile-baja-lesion-copa-america.webp",
-  "contenido": "<p>La seleccion chilena femenina sufrió una baja importante a dias del inicio de la Copa America. La mediocampista Millaray Cortes fue liberada de la convocatoria debido a una lesion.</p><p>El cuerpo tecnico decidió convocar de emergencia a Anais Alvarez para reemplazarla, buscando mantener el equilibrio del plantel.</p><p>La Roja se prepara para enfrentar un exigente grupo en el torneo continental que se disputará en Ecuador.</p>"
-},
-
-{
-  "id": "chile-derrota-eeuu-americup",
-  "titulo": "Chile sufre dura derrota ante Estados Unidos en la AmeriCup",
-  "fecha": "28 de junio de 2025",
-  "lugar": "Chile",
-  "imagen": "/img/chile-derrota-eeuu-americup.webp",
-  "contenido": "<p>La seleccion chilena femenina de basquetbol tuvo un complicado debut en la AmeriCup tras caer por 108-47 frente a Estados Unidos.</p><p>El equipo nacional mostró resistencia en el inicio, pero con el paso de los minutos la superioridad rival se hizo evidente, ampliando la diferencia en el marcador.</p><p>Pese a la derrota, Chile buscará recuperarse en los siguientes encuentros del torneo.</p>"
-},
-{
-  "id": "palestino-iluminacion-estadio",
-  "titulo": "Palestino moderniza su estadio con iluminacion para partidos nocturnos",
-  "fecha": "26 de junio de 2025",
-  "lugar": "Santiago, Chile",
-  "imagen": "/img/palestino-iluminacion-estadio.webp",
-  "contenido": "<p>El estadio Municipal de La Cisterna contará por primera vez con iluminacion artificial, permitiendo a Palestino disputar partidos en horario nocturno y cumplir con estandares internacionales.</p><p>El proyecto incluye la instalacion de torres con luminarias LED de ultima generacion, lo que mejorará la experiencia tanto para jugadores como para espectadores.</p><p>La iniciativa marca un hito en la historia del club y representa un avance en infraestructura deportiva.</p>"
-},
-{
-  "id": "martin-vidaurre-campeon-copa-del-mundo-xco",
-  "titulo": "Histórico: Martín Vidaurre gana su primera Copa del Mundo de cross country",
-  "fecha": "22 de junio de 2025",
-  "lugar": "Val di Sole, Italia",
-  "imagen": "/img/martin-vidaurre-campeon-copa-del-mundo-xco.webp",
-  "contenido": "<p>Martín Vidaurre logró un hito para el ciclismo chileno al conquistar la Copa del Mundo de cross country olímpico en Italia. El deportista tuvo una destacada actuación tras avanzar desde posiciones rezagadas y consolidar una remontada clave en las últimas vueltas.</p><p>En el tramo final de la carrera, el chileno lanzó un ataque decisivo que le permitió superar al francés Mathis Azzaro, quien lideraba gran parte de la competencia. Con un tiempo final de 1:27:42, Vidaurre se quedó con el primer lugar, seguido por Azzaro y el suizo Fabio Puntener.</p><p>Desde Team Chile destacaron su desempeño y estrategia, señalando que supo administrar energías tras una discreta actuación previa en el short track. Este triunfo marca su primer gran logro en la distancia olímpica dentro del circuito mundial.</p>"
-},
-{
-  "id": "bahamondes-derrota-ufc-fiziev",
-  "titulo": "Bahamondes cae en dura pelea ante Fiziev y pierde opción de entrar al top 10",
-  "fecha": "21 de junio de 2025",
-  "lugar": "Bakú, Azerbaiyán",
-  "imagen": "/img/bahamondes-derrota-ufc-fiziev.webp",
-  "contenido": "<p>Ignacio Bahamondes no pudo imponerse ante Rafael Fiziev en un combate de peso ligero de la UFC disputado en Azerbaiyán. El chileno cayó por decisión unánime tras una pelea intensa y equilibrada.</p><p>En un ambiente adverso, Bahamondes intentó aprovechar su mayor alcance con ataques a la cabeza, pero su rival mostró solidez defensiva y logró marcar diferencias con derribos clave durante los tres asaltos.</p><p>El resultado frena el ascenso del chileno, que venía de una racha positiva y aspiraba a ingresar al top 10 de la categoría. Con esta derrota, su récord profesional queda en 17 victorias y seis caídas.</p>"
-},
-{
-  "id": "dramatico-estrangulamiento-mundial-judo",
-  "titulo": "Impactante escena en Mundial de judo tras dejar inconsciente a una competidora",
-  "fecha": "15 de junio de 2025",
-  "lugar": "Budapest, Hungría",
-  "imagen": "/img/dramatico-estrangulamiento-mundial-judo.webp",
-  "contenido": "<p>Una preocupante situación se vivió en el Mundial de Judo en Budapest, donde una competidora quedó inconsciente tras una llave de estrangulamiento durante un combate de la categoría femenina de menos de 57 kilos.</p><p>La francesa Martha Fawaz perdió ante la uzbeka Shukurjon Aminova en octavos de final luego de quedar inmovilizada por varios segundos. La deportista debió ser retirada en camilla tras el episodio.</p><p>El torneo reúne a los mejores exponentes del mundo, incluyendo campeones olímpicos y líderes del ranking, pero este incidente marcó la jornada por su impacto y generó preocupación sobre la seguridad en la disciplina.</p>"
-},
-{
-  "id": "calendario-formula-1-2026-madrid-imola",
-  "titulo": "Fórmula 1 revela calendario 2026 con Madrid y sin Imola",
-  "fecha": "10 de junio de 2025",
-  "lugar": "Internacional",
-  "imagen": "/img/calendario-formula-1-2026-madrid-imola.webp",
-  "contenido": "<p>La Fórmula 1 anunció su calendario para la temporada 2026, que contará con 24 carreras y comenzará en marzo en Australia para finalizar en diciembre en Abu Dabi. La principal novedad es la incorporación del Gran Premio de Madrid.</p><p>El nuevo circuito urbano se disputará en septiembre y promete ser uno de los trazados más técnicos del campeonato. En contraste, el histórico Gran Premio de Imola queda fuera del calendario, lo que generó críticas desde autoridades italianas.</p><p>La temporada también marcará el inicio de una nueva era con cambios reglamentarios en motores y el uso de combustibles sostenibles, además de la llegada de nuevas marcas al campeonato.</p>"
-},
-{
-  "id": "uzbekistan-jordania-clasifican-mundial-2026",
-  "titulo": "Uzbekistán y Jordania hacen historia y clasifican por primera vez al Mundial",
-  "fecha": "5 de junio de 2025",
-  "lugar": "Internacional",
-  "imagen": "/img/uzbekistan-jordania-clasifican-mundial-2026.webp",
-  "contenido": "<p>Uzbekistán y Jordania lograron una clasificación histórica al Mundial 2026, asegurando por primera vez su presencia en una Copa del Mundo tras resultados clave en sus respectivas eliminatorias.</p><p>El conjunto uzbeko selló su paso tras empatar sin goles, mientras que Jordania aseguró su cupo con una contundente victoria y la combinación de otros resultados. Ambos se benefician del aumento de selecciones participantes en el torneo.</p><p>Además, Corea del Sur también confirmó su presencia en el certamen, sumando una nueva participación consecutiva en la máxima cita del fútbol mundial.</p>"
-},
-{
-  "id": "nueva-regla-penales-dos-toques-ifab",
-  "titulo": "Cambian regla de penales tras polémica: ahora se repetirán en ciertos casos",
-  "fecha": "03 de junio de 202",
-  "lugar": "Internacional",
-  "imagen": "/img/nueva-regla-penales-dos-toques-ifab.webp",
-  "contenido": "<p>La International Board confirmó una modificación a la regla de los penales que entrará en vigencia en julio de 2025, tras una polémica reciente en competiciones europeas.</p><p>La nueva normativa establece que si un jugador golpea accidentalmente el balón con ambos pies y convierte el gol, el lanzamiento deberá repetirse. En caso de fallar, se sancionará con tiro libre indirecto o se considerará errado en tandas.</p><p>La medida busca evitar interpretaciones controvertidas como la ocurrida en un partido reciente, entregando mayor claridad en este tipo de jugadas.</p>"
-},
-{
-  "id": "tragedia-heysel-40-anos-aniversario",
-  "titulo": "A 40 años de Heysel: la tragedia que cambió la seguridad en el fútbol",
-  "fecha": "29 de mayo  de 2025",
-  "lugar": "Bruselas, Bélgica",
-  "imagen": "/img/tragedia-heysel-40-anos-aniversario.webp",
-  "contenido": "<p>Se cumplieron 40 años de la tragedia del estadio Heysel en Bélgica, donde murieron 39 personas antes de una final europea entre Liverpool y Juventus, en uno de los episodios más oscuros del fútbol.</p><p>El desastre se produjo por una avalancha tras disturbios entre hinchas, lo que dejó cientos de heridos y evidenció graves fallas en la seguridad del recinto y en la respuesta de las autoridades.</p><p>El hecho marcó un antes y un después, obligando a organismos internacionales a implementar estrictas medidas de seguridad, como la eliminación de zonas de pie, mayor control de acceso y separación de hinchadas.</p>"
-},
+    "id": "calendario-formula-1-2026-madrid-imola",
+    "titulo": "Fórmula 1 revela calendario 2026 con Madrid y sin Imola",
+    "fecha": "10 de junio de 2025",
+    "lugar": "Internacional",
+    "imagen": "/img/calendario-formula-1-2026-madrid-imola.webp",
+    "contenido": "<p>La Fórmula 1 anunció su calendario para la temporada 2026, que contará con 24 carreras y comenzará en marzo en Australia para finalizar en diciembre en Abu Dabi. La principal novedad es la incorporación del Gran Premio de Madrid.</p><p>El nuevo circuito urbano se disputará en septiembre y promete ser uno de los trazados más técnicos del campeonato. En contraste, el histórico Gran Premio de Imola queda fuera del calendario, lo que generó críticas desde autoridades italianas.</p><p>La temporada también marcará el inicio de una nueva era con cambios reglamentarios en motores y el uso de combustibles sostenibles, además de la llegada de nuevas marcas al campeonato.</p>"
+  },
   {
-    "id": "tragedia-heysel-40-anios",
-    "titulo": "A 40 años de la tragedia de Heysel: La catástrofe que cambió la seguridad en el fútbol",
-    "fecha": "29 de mayo de 2025",
+    "id": "uzbekistan-jordania-clasifican-mundial-2026",
+    "titulo": "Uzbekistán y Jordania hacen historia y clasifican por primera vez al Mundial",
+    "fecha": "5 de junio de 2025",
+    "lugar": "Internacional",
+    "imagen": "/img/uzbekistan-jordania-clasifican-mundial-2026.webp",
+    "contenido": "<p>Uzbekistán y Jordania lograron una clasificación histórica al Mundial 2026, asegurando por primera vez su presencia en una Copa del Mundo tras resultados clave en sus respectivas eliminatorias.</p><p>El conjunto uzbeko selló su paso tras empatar sin goles, mientras que Jordania aseguró su cupo con una contundente victoria y la combinación de otros resultados. Ambos se benefician del aumento de selecciones participantes en el torneo.</p><p>Además, Corea del Sur también confirmó su presencia en el certamen, sumando una nueva participación consecutiva en la máxima cita del fútbol mundial.</p>"
+  },
+  {
+    "id": "nueva-regla-penales-dos-toques-ifab",
+    "titulo": "Cambian regla de penales tras polémica: ahora se repetirán en ciertos casos",
+    "fecha": "03 de junio de 202",
+    "lugar": "Internacional",
+    "imagen": "/img/nueva-regla-penales-dos-toques-ifab.webp",
+    "contenido": "<p>La International Board confirmó una modificación a la regla de los penales que entrará en vigencia en julio de 2025, tras una polémica reciente en competiciones europeas.</p><p>La nueva normativa establece que si un jugador golpea accidentalmente el balón con ambos pies y convierte el gol, el lanzamiento deberá repetirse. En caso de fallar, se sancionará con tiro libre indirecto o se considerará errado en tandas.</p><p>La medida busca evitar interpretaciones controvertidas como la ocurrida en un partido reciente, entregando mayor claridad en este tipo de jugadas.</p>"
+  },
+  {
+    "id": "tragedia-heysel-40-anos-aniversario",
+    "titulo": "A 40 años de Heysel: la tragedia que cambió la seguridad en el fútbol",
+    "fecha": "29 de mayo  de 2025",
     "lugar": "Bruselas, Bélgica",
-    "imagen": "/img/3003-20.jpg",
-    "contenido": "<p>Bélgica conmemoró un nuevo aniversario de la tragedia de Heysel, ocurrida en 1985 durante la final de la Copa de Europa entre Liverpool y Juventus, que dejó 39 muertos y más de 600 heridos.</p><p>El desastre se produjo tras una avalancha provocada por hinchas ingleses que acorralaron a los aficionados italianos, generando pánico y aplastamientos en las graderías del estadio.</p><p>La magnitud de la tragedia obligó a organismos como la UEFA y la FIFA a reformar profundamente las normas de seguridad en los estadios, incluyendo la eliminación de vallas, instalación de asientos y mayor control de acceso.</p><p>Además, los clubes ingleses fueron sancionados con la exclusión de competiciones europeas durante varios años, marcando un antes y un después en el fútbol mundial.</p>"
+    "imagen": "/img/tragedia-heysel-40-anos-aniversario.webp",
+    "contenido": "<p>Se cumplieron 40 años de la tragedia del estadio Heysel en Bélgica, donde murieron 39 personas antes de una final europea entre Liverpool y Juventus, en uno de los episodios más oscuros del fútbol.</p><p>El desastre se produjo por una avalancha tras disturbios entre hinchas, lo que dejó cientos de heridos y evidenció graves fallas en la seguridad del recinto y en la respuesta de las autoridades.</p><p>El hecho marcó un antes y un después, obligando a organismos internacionales a implementar estrictas medidas de seguridad, como la eliminación de zonas de pie, mayor control de acceso y separación de hinchadas.</p>"
   },
   {
     "id": "basquetbolistas-chile-mundial-3x3",
     "titulo": "Quiénes son las basquetbolistas que clasificaron a Chile al Mundial 3x3",
     "fecha": "26 de mayo de 2025",
     "lugar": "Chile",
-    "imagen": "/img/3003-21.jpg",
+    "imagen": "/img/3003-21.webp",
     "contenido": "<p>La selección femenina de básquetbol 3x3 clasificó al Mundial tras vencer a Egipto en el Premundial, asegurando su presencia en el torneo que se disputará en Mongolia.</p><p>El equipo está compuesto por Ziomara Morrison, Fernanda Ovalle, Valentina Ojeda y Francisca Salvatierra, quienes han destacado tanto en el ámbito nacional como internacional.</p><p>El combinado nacional viene de obtener importantes resultados, como el bronce en los Juegos Panamericanos de Santiago 2023, consolidando el crecimiento de esta disciplina en Chile.</p><p>En el Mundial, Chile integrará el Grupo B junto a potencias como Estados Unidos, Países Bajos, República Checa y Japón.</p>"
   },
   {
@@ -776,15 +675,34 @@
     "titulo": "Luka Modric anuncia su salida del Real Madrid tras 13 años en el club",
     "fecha": "22 de mayo de 2025",
     "lugar": "Madrid, España",
-    "imagen": "/img/3003-22.jpg",
+    "imagen": "/img/3003-22.webp",
     "contenido": "<p>Luka Modric confirmó que dejará el Real Madrid tras el Mundial de Clubes, poniendo fin a una exitosa etapa de 13 años en el club.</p><p>El mediocampista croata, ganador del Balón de Oro en 2018, se despedirá como el jugador más laureado en la historia del equipo, con 28 títulos.</p><p>En una emotiva carta, el volante agradeció al club, a sus compañeros y a la afición, destacando los momentos inolvidables vividos en el Santiago Bernabéu.</p><p>Su salida marca el cierre de una de las etapas más exitosas en la historia reciente del conjunto español.</p>"
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   {
     "id": "ronnie-fernandez-palestino-refuerzo",
     "titulo": "Palestino anuncia a Ronnie Fernández como refuerzo para el segundo semestre",
     "fecha": "21 de mayo de 2025",
     "lugar": "Santiago, Chile",
-    "imagen": "/img/3003-23.jpg",
+    "imagen": "/img/3003-23.webp",
     "contenido": "<p>Palestino confirmó el fichaje del delantero Ronnie Fernández como refuerzo para la segunda parte de la temporada.</p><p>El atacante chileno regresa al país tras su paso por el Selangor de Malasia, donde anotó 12 goles en 32 partidos.</p><p>Con experiencia en la selección chilena y en diversos clubes internacionales, Fernández buscará aportar en el Campeonato Nacional y la Copa Sudamericana.</p><p>El jugador suma más de 130 goles en su carrera profesional.</p>"
   },
   {
@@ -792,7 +710,7 @@
     "titulo": "Christiane Endler queda a un paso de la final de la Champions League femenina",
     "fecha": "19 de abril de 2025",
     "lugar": "Londres, Inglaterra",
-    "imagen": "/img/3003-24.jpg",
+    "imagen": "/img/3003-24.webp",
     "contenido": "<p>Christiane Endler fue figura en el triunfo del Olympique de Lyon por 2-1 ante Arsenal en la semifinal de ida de la Champions League femenina.</p><p>La portera chilena tuvo una destacada actuación en Londres, pese a un polémico penal sancionado en su contra mediante el VAR.</p><p>El equipo francés quedó con ventaja para el partido de vuelta, donde buscará asegurar su paso a la final del torneo europeo.</p><p>Endler ya sabe lo que es ganar este certamen, tras consagrarse campeona en la temporada 2021-2022.</p>"
   },
   {
@@ -800,7 +718,7 @@
     "titulo": "Quién es Diego Dedura-Palomero, el joven alemán-chileno que sorprende en el ATP",
     "fecha": "16 de abril de 2025",
     "lugar": "Munich, Alemania",
-    "imagen": "/img/3003-25.jpg",
+    "imagen": "/img/3003-25.webp",
     "contenido": "<p>Diego Dedura-Palomero, tenista de 17 años con raíces chilenas, sorprendió al vencer a Denis Shapovalov en el ATP 500 de Munich.</p><p>El joven ingresó como lucky loser y logró un triunfo histórico, convirtiéndose en uno de los jugadores más prometedores de su generación.</p><p>Su celebración tras la victoria se viralizó en redes sociales, generando diversas reacciones.</p><p>Aunque representa a Alemania, mantiene vínculos con Chile, donde ha competido en torneos juveniles.</p>"
   },
   {
@@ -808,31 +726,31 @@
     "titulo": "De superar un cáncer a rozar el podio: La historia de resiliencia de Héctor Flores",
     "fecha": "12 de abril de 2025",
     "lugar": "Buenos Aires, Argentina",
-    "imagen": "/img/3003-26.jpg",
+    "imagen": "/img/3003-26.webp",
     "contenido": "<p>El tirador chileno Héctor Flores logró un destacado cuarto lugar en una Copa del Mundo tras superar un complejo tratamiento contra el cáncer.</p><p>El deportista fue diagnosticado en 2024 y debió someterse a cirugías y quimioterapia, sin abandonar su vínculo con el deporte.</p><p>Durante su recuperación, continuó entrenando y apoyando a jóvenes deportistas, demostrando una gran fortaleza.</p><p>Hoy apunta a clasificar a los Juegos Olímpicos de Los Ángeles 2028.</p>"
   },
   {
     "id": "chile-sub17-semifinal-brasil",
     "titulo": "Chile va por la hazaña ante Brasil en semifinales del Sudamericano Sub 17",
-    "fecha": "3 de abril de 2025",
+    "fecha": "03 de abril de 2025",
     "lugar": "Sudamérica",
-    "imagen": "/img/3003-27.jpg",
+    "imagen": "/img/3003-27.webp",
     "contenido": "<p>La selección chilena Sub 17 enfrentará a Brasil en semifinales del Sudamericano con la ilusión de hacer historia.</p><p>El equipo nacional ya aseguró su clasificación al Mundial de la categoría, pero ahora busca avanzar a la final del torneo.</p><p>Chile nunca ha vencido a Brasil en esta competencia, lo que convierte el desafío en una verdadera hazaña.</p><p>El ganador disputará el título del campeonato continental.</p>"
   },
   {
     "id": "thomas-muller-adios-bayern",
     "titulo": "Thomas Müller anuncia su salida del Bayern tras 25 años en el club",
-    "fecha": "5 de abril de 2025",
+    "fecha": "05 de abril de 2025",
     "lugar": "Múnich, Alemania",
-    "imagen": "/img/3003-28.jpg",
+    "imagen": "/img/3003-28.webp",
     "contenido": "<p>Thomas Müller confirmó que dejará el Bayern de Múnich tras 25 años en la institución.</p><p>El jugador alemán se despedirá como uno de los más exitosos en la historia del club, con 33 títulos.</p><p>Su último partido será en el Mundial de Clubes, cerrando una carrera marcada por la fidelidad y los logros.</p><p>El Bayern destacó su legado como una de las grandes figuras del fútbol alemán.</p>"
   },
   {
     "id": "tsunoda-redbull-oportunidad",
     "titulo": "Yuki Tsunoda recibe su gran oportunidad en Red Bull tras polémico cambio",
-    "fecha": "1 de abril de 2025",
+    "fecha": "01 de abril de 2025",
     "lugar": "Japón",
-    "imagen": "/img/3003-29.jpg",
+    "imagen": "/img/3003-29.webp",
     "contenido": "<p>Red Bull decidió reemplazar a Liam Lawson por Yuki Tsunoda tras solo dos carreras en la temporada de Fórmula 1.</p><p>El piloto japonés asumirá el desafío con la presión de competir al más alto nivel, justo antes del Gran Premio de Japón.</p><p>Tsunoda ha mostrado progresos en los últimos años y ahora tendrá la oportunidad de consolidarse en un equipo de élite.</p><p>El cambio generó polémica en el paddock por la rapidez de la decisión.</p>"
   },
   
@@ -841,7 +759,7 @@
     "titulo": "Quién es Alexandra Eala, la desconocida filipina 140 del mundo y pupila de Nadal que revoluciona el tenis y está en semifinales de Miami",
     "fecha": "27 de marzo de 2025",
     "lugar": "Miami, Estados Unidos",
-    "imagen": "/img/3003-26.jpg",
+    "imagen": "/img/75.webp",
     "contenido": "<p>Alexandra Eala se convirtió en la gran revelación del WTA de Miami tras avanzar a semifinales con una campaña impecable. La filipina de 19 años, ubicada en el puesto 140 del ranking, sorprendió al encadenar triunfos ante varias rivales de peso sin ceder sets.</p><p>Formada en la Rafa Nadal Academy, Eala dejó en el camino a Katie Volynets, Jelena Ostapenko, Madison Keys, Paula Badosa e Iga Swiatek, una de las jugadoras más dominantes del circuito. Ahora va por otro golpe cuando enfrente a Jessica Pegula por un lugar en la final.</p><p>Su actuación llamó tanto la atención que incluso Rafael Nadal le dedicó un mensaje de felicitación en redes sociales. La propia tenista reconoció que sueña con ganar Grand Slams y llegar al número uno del mundo, mientras sigue instalada como una de las grandes historias de la semana en Miami.</p>"
   },
   {
@@ -849,7 +767,7 @@
     "titulo": "Bochorno en El Alto: Fernando Costa, presidente del fútbol boliviano, se va a los golpes con hinchas tras empate con Uruguay",
     "fecha": "25 de marzo de 2025",
     "lugar": "El Alto, Bolivia",
-    "imagen": "/img/3003-26.jpg",
+    "imagen": "/img/123.webp",
     "contenido": "<p>Bolivia empató sin goles ante Uruguay por las clasificatorias sudamericanas, pero el resultado terminó opacado por un episodio de violencia fuera de la cancha. Fernando Costa, presidente de la federación boliviana, quedó envuelto en una pelea con hinchas molestos por el empate.</p><p>En las imágenes también aparece su hijo, Andrés Costa, presidente de Always Ready, en medio de los empujones. La situación solo se logró controlar con intervención policial.</p><p>De acuerdo con otros reportes, el incidente involucró a más dirigentes y dejó en evidencia el clima de tensión que rodeó al encuentro en El Alto.</p>"
   },
   {
@@ -858,7 +776,7 @@
     "titulo": "Quién es Kirsty Coventry, la primera mujer presidenta en la historia del Comité Olímpico Internacional",
     "fecha": "22 de marzo de 2025",
     "lugar": "Zimbabue",      
-    "imagen": "/img/3003-27.jpg",
+    "imagen": "/img/213.webp",
     "contenido": "<p>Kirsty Coventry hizo historia al convertirse en la primera mujer en presidir el Comité Olímpico Internacional. La ex nadadora y actual ministra del Deporte, Artes y Juventudes de Zimbabue fue elegida por mayoría absoluta.</p><p>Tras su elección, destacó que también es la primera africana en ocupar el cargo y subrayó que su nombramiento puede servir de inspiración a muchas personas. Su trayectoria deportiva incluye cinco participaciones olímpicas y múltiples medallas, entre ellas dos oros.</p><p>Antes de asumir este desafío, Coventry ya había estado vinculada al COI como representante de los atletas y luego como presidenta de la Comisión de Atletas. Su llegada al puesto abre una etapa marcada por reformas, sostenibilidad y nuevos debates en el movimiento olímpico.</p>"
   },
   {
@@ -866,7 +784,7 @@
     "titulo": "La zimbabuense Kirsty Coventry elegida presidenta del Comité Olímpico Internacional",
     "fecha": "20 de marzo de 2025",
     "lugar": "Costa Navarino, Grecia",
-      "imagen": "/img/3003-28.jpg",
+      "imagen": "/img/214.webp",
     "contenido": "<p>Kirsty Coventry fue elegida presidenta del Comité Olímpico Internacional y reemplazará a Thomas Bach al término de la sesión realizada en Costa Navarino, Grecia. La zimbabuense se impuso en la primera ronda de votación y se transformó además en la primera persona africana en liderar la institución.</p><p>Con 41 años, Coventry es la más joven de los siete candidatos y llega al cargo tras una carrera olímpica brillante, con dos títulos y siete medallas. Bach dejará oficialmente el puesto en junio, después de 12 años al mando del COI.</p><p>La ex nadadora aseguró que este momento representa un enorme honor y prometió conducir la organización con orgullo, valores y confianza. Su elección abre una nueva etapa para el movimiento olímpico mundial.</p>"
   },
   {
@@ -874,7 +792,7 @@
     "titulo": "Japón se convierte en el primer clasificado por la vía de las eliminatorias al Mundial de fútbol 2026",
     "fecha": "20 de marzo de 2025",
     "lugar": "Saitama, Japón",
-      "imagen": "/img/3003-29.jpg",
+      "imagen": "/img/japonmundial.webp",
     "contenido": "<p>Japón fue el primer seleccionado en asegurar su clasificación al Mundial de fútbol 2026 por la vía de las eliminatorias. El equipo nipón derrotó 2-0 a Baréin en condición de local y aseguró su cupo con tres fechas de anticipación en Asia.</p><p>Con 19 puntos y un liderato indiscutido en el grupo C, la escuadra japonesa selló su octava presencia consecutiva en una Copa del Mundo. El primer gol fue de Daichi Kamada y el segundo lo marcó Takefusa Kubo.</p><p>El triunfo se celebró ante más de 60 mil personas en el Estadio de Saitama. Japón se sumó así a Estados Unidos, México y Canadá, ya clasificados por ser anfitriones del torneo.</p>"
   },
   {
@@ -882,15 +800,15 @@
     "titulo": "El exorbitante registro que alcanzó Stephen Curry con el que sigue haciendo historia en la NBA",
     "fecha": "14 de marzo de 2025",
     "lugar": "San Francisco, Estados Unidos",
-    "imagen": "/img/3003-30.jpg",
+    "imagen": "/img/curryrecord.webp",
     "contenido": "<p>Stephen Curry sumó otro hito a su carrera al convertirse en el primer jugador de la NBA en llegar a 4.000 triples en temporada regular. La marca cayó en la victoria de Golden State Warriors sobre Sacramento Kings por 130-104.</p><p>El base ya era el máximo triplero de la historia y ahora amplió todavía más una cifra que parecía inalcanzable. Antes, el récord pertenecía a Ray Allen, quien quedó muy por detrás de los números de Curry.</p><p>El propio jugador reconoció que nunca imaginó estirar tanto ese registro. Steve Kerr también elogió la magnitud del logro y destacó que el impacto de Curry va mucho más allá de las estadísticas, por su estilo y la forma en que transformó el juego.</p>"
   }, 
   {
     "id": "noruega-trampa-mundial-esqui-descalificacion",
-    "titulo": "Video: La trampa de Noruega en el Mundial de Esquí que terminó con su descalificación y desató un escándalo",
+    "titulo": "La trampa de Noruega en el Mundial de Esquí que terminó con su descalificación y desató un escándalo",
     "fecha": "11 de marzo de 2025",
     "lugar": "Noruega",
-    "imagen": "/img/3003-31.jpg",
+    "imagen": "/img/trampa-noruega.webp",
     "contenido": "<p>Un escándalo remeció al Mundial de Esquí luego de que se difundiera un video en el que miembros del equipo noruego manipulaban los trajes de sus deportistas. El objetivo era ganar estabilidad en el aire, algo prohibido por el reglamento.</p><p>La modificación incluyó costuras extra, alambres y cambios en los chips de homologación, lo que provocó la descalificación de varios competidores y abrió una investigación formal de la FIS.</p><p>Desde el equipo noruego admitieron lo ocurrido y reconocieron haber engañado al resto de los participantes. Además, dos patrocinadores decidieron retirar su apoyo tras el escándalo.</p>"
   },
   {
@@ -898,7 +816,7 @@
     "titulo": "Acuerdo histórico en el atletismo nacional: Maratón de Santiago vuelve a ser federado",
     "fecha": "5 de marzo de 2025",
     "lugar": "Santiago, Chile",
-    "imagen": "/img/3003-31.jpg",
+    "imagen": "/img/3003-311.webp",
     "contenido": "<p>El Maratón de Santiago volvió a quedar federado y certificado por World Athletics luego de un acuerdo entre la Fedachi y la productora Prokart. Con ello, los tiempos registrados en la competencia nuevamente serán válidos para clasificaciones internacionales.</p><p>La noticia fue celebrada por autoridades y dirigentes del atletismo chileno, que destacaron la importancia de recuperar esta certificación para el desarrollo de la disciplina en el país.</p><p>Además del componente deportivo, la organización adelantó medidas de sustentabilidad y una edición 2025 con actividades culturales y más de 1.500 atletas provenientes de distintos países de Sudamérica.</p>"
   },
   {
@@ -906,7 +824,7 @@
     "titulo": "Histórico: Chile clasificó al Mundial de Fútbol Playa tras obtener el bronce en la Copa América",
     "fecha": "2 de marzo de 2025",
     "lugar": "Internacional",
-    "imagen": "/img/3003-32.jpg",
+    "imagen": "/img/3003-322.webp",
     "contenido": "<p>Chile hizo historia al clasificar por primera vez al Mundial de Fútbol Playa tras quedarse con el tercer lugar en la Copa América. La Roja derrotó 4-3 a Colombia en un duelo muy apretado y consiguió el último cupo disponible.</p><p>El partido tuvo constantes cambios de mando y goles en momentos clave. Sebastián Bolivar, Andrés Albuerno, Héctor Tobar y Gabriel Bacian fueron determinantes en un triunfo que permitió a la selección subir al podio continental.</p><p>Con esta victoria, el equipo nacional aseguró su presencia en la cita mundialista de Seychelles, programada para mayo de 2025.</p>"
   },
   {
@@ -914,7 +832,7 @@
     "titulo": "Su fuga olímpica, por qué pensó retirarse y su momento viral en París 2024: Las vivencias de Catalina Soto, figura del ciclismo chileno",
     "fecha": "28 de febrero de 2025",
     "lugar": "España",
-    "imagen": "/img/3003-33.jpg",
+    "imagen": "/img/3003-333.webp",
     "contenido": "<p>Catalina Soto repasó distintos momentos de su carrera en una conversación con Agenda Deportes Emol TV. La ciclista chilena, que vive en el País Vasco, explicó cómo combina la exigencia del alto rendimiento con una vida cotidiana equilibrada.</p><p>La deportista recordó su paso por Tokio, donde protagonizó una fuga que llamó la atención, y también su actuación en París 2024, donde se convirtió en la primera mujer chilena en completar la prueba de ciclismo de ruta. En esa misma jornada vivió el emotivo momento en que se enteró del oro de Francisca Crovetto.</p><p>Soto también contó el periodo difícil que casi la lleva al retiro cuando compitió en Holanda, y destacó que hoy, con más madurez y apoyo, puede dedicarse por completo al ciclismo profesional.</p>"
   },
   {
@@ -922,7 +840,7 @@
     "titulo": "Fallece Boris Spassky, leyenda del ajedrez que enfrentó a Bobby Fischer en la Partida del Siglo",
     "fecha": "27 de febrero de 2025",
     "lugar": "Rusia",
-    "imagen": "/img/3003-34.jpg",
+    "imagen": "/img/3003-344.webp",
     "contenido": "<p>Boris Spassky, uno de los grandes nombres de la historia del ajedrez, murió a los 88 años según informó la Federación Rusa de Ajedrez. El excampeón mundial quedó para siempre asociado a su duelo con Bobby Fischer en 1972.</p><p>Nacido en Leningrado, Spassky fue campeón del mundo en 1969 y protagonizó una etapa inolvidable durante la Guerra Fría. Su derrota ante Fischer en Islandia marcó un antes y un después en su carrera.</p><p>En los años posteriores vivió en Francia, volvió luego a Rusia y enfrentó problemas de salud en su vejez. Su partida deja una huella profunda en la memoria del deporte ciencia.</p>"
   },
   {
@@ -930,7 +848,7 @@
     "titulo": "La Roja femenina cayó goleada ante Argentina en su primer apronte amistoso del año",
     "fecha": "22 de febrero de 2025",
     "lugar": "Santiago, Chile",
-    "imagen": "/img/3003-35.jpg",
+    "imagen": "/img/3003-35.webp",
     "contenido": "<p>La selección chilena femenina sufrió una derrota por 3-0 frente a Argentina en el estadio Bicentenario de La Florida, en su primer amistoso del año como preparación para la Copa América de Ecuador 2025.</p><p>Maricel Pereyra abrió la cuenta, Yamila Rodríguez amplió en el segundo tiempo y Agostina Holzheier cerró la goleada en un partido que dejó varios aspectos por corregir en el equipo dirigido por Luis Mena.</p><p>El duelo también marcó el regreso de Francisca Lara y el partido número 100 de Camila Sáez con la selección. Chile volverá a enfrentar a Argentina en una nueva prueba antes del torneo continental.</p>"
   },
   {
@@ -938,7 +856,7 @@
     "titulo": "Qué estamos haciendo, esto es ridículo: Las feroces críticas que despertó el formato que se estrenó en el All-Star Game de la NBA",
     "fecha": "17 de febrero de 2025",
     "lugar": "San Francisco, Estados Unidos",
-    "imagen": "/img/3003-36.jpg",
+    "imagen": "/img/3003-36.webp",
     "contenido": "<p>El nuevo formato del All-Star Game de la NBA generó una fuerte división de opiniones. La liga reemplazó el clásico Este vs. Oeste por un sistema de semifinales y final con cuatro equipos, en una búsqueda por devolverle intensidad al evento.</p><p>Stephen Curry terminó como MVP del equipo campeón, pero la noche estuvo marcada por ausencias importantes, pausas largas y una sensación de poca competitividad en varios pasajes.</p><p>Jugadores como Draymond Green y Donovan Mitchell cuestionaron duramente la idea, mientras otras figuras propusieron cambios aún más radicales para el futuro del clásico de las estrellas.</p>"
   },
   {
@@ -946,7 +864,7 @@
     "titulo": "Jannik Sinner es suspendido hasta mayo tras alcanzar acuerdo con la WADA",
     "fecha": "15 de febrero de 2025",
     "lugar": "Internacional",
-    "imagen": "/img/3003-37.jpg",
+    "imagen": "/img/3003-37.webp",
     "contenido": "<p>Jannik Sinner llegó a un acuerdo con la Agencia Mundial Antidopaje y será suspendido hasta el 4 de mayo, luego del caso por clostebol que había generado una gran polémica en el tenis mundial.</p><p>La sanción hará que el número uno del mundo se pierda torneos importantes en marzo y abril, aunque no lo dejará fuera de los Grand Slams. La WADA sostuvo que no hubo intención de dopaje, pero remarcó que el deportista sigue siendo responsable por la negligencia de su entorno.</p><p>El caso se cerró antes de que el Tribunal Arbitral del Deporte emitiera una sentencia, y el acuerdo reabrió el debate sobre los criterios disciplinarios en el circuito profesional.</p>"
   },
   {
@@ -954,7 +872,7 @@
     "titulo": "Le van a quitar los tubos: polémica y drama por muerte cerebral de promesa china tras partido amistoso en España",
     "fecha": "13 de febrero de 2025",
     "lugar": "Madrid, España",
-    "imagen": "/img/3003-38.jpg",
+    "imagen": "/img/3003-38.webp",
     "contenido": "<p>Guo Jiaxuan, una de las grandes promesas del fútbol chino, sufrió un grave accidente durante un amistoso en Madrid y quedó con muerte cerebral. El joven de 18 años recibió un rodillazo en la cabeza mientras jugaba por Beijing Guoan ante el RC Alcobendas.</p><p>La situación generó conmoción y también controversia por las dudas en torno a su tratamiento, su eventual repatriación y la responsabilidad de las instituciones involucradas. Su familia denunció demoras y falta de certezas.</p><p>Finalmente, tras la presión mediática, la federación china llegó a un acuerdo para que el futbolista pudiera volver a su país y continuar allí su atención médica.</p>"
   },
   {
@@ -970,7 +888,7 @@
     "titulo": "Hubo diferentes criterios: los bullados casos en que descalificaron a Djokovic y otros importantes tenistas",
     "fecha": "3 de febrero de 2025",
     "lugar": "Internacional",
-    "imagen": "/img/3003-40.jpg",
+    "imagen": "/img/3003-40.webp",
     "contenido": "<p>La polémica en torno al tenis volvió a poner sobre la mesa otros casos famosos de descalificaciones. El artículo recuerda incidentes protagonizados por figuras como Novak Djokovic, Denis Shapovalov y David Nalbandian, que fueron sancionados tras situaciones de conducta antideportiva o impactos involuntarios sobre árbitros.</p><p>Djokovic fue expulsado del US Open 2020 después de golpear accidentalmente a una jueza de línea con una pelota. Shapovalov vivió una exclusión similar en Copa Davis 2017, mientras Nalbandian fue descalificado en Queen’s 2012 luego de que un cartel impactara en la pierna de un juez de línea.</p><p>La comparación con un caso más reciente en el tenis chileno reabrió el debate sobre la consistencia de los criterios disciplinarios en el circuito profesional.</p>"
   },
 
@@ -1115,7 +1033,7 @@
     "titulo": "¿Por qué Swiatek sí fue sancionada y Sinner no? La explicación y la furia de Simona Halep",
     "fecha": "29 de noviembre de 2024",
     "lugar": "Internacional",
-    "imagen": "/img/swiatek-sancion.jpg",
+    "imagen": "/img/swiatek-sancion.webp",
     "contenido": "<p>La polaca Iga Swiatek fue suspendida provisionalmente tras dar positivo por trimetazidina en un control antidopaje. La Agencia para la Integridad del Tenis (ITIA) determinó que hubo contaminación en un medicamento que utilizaba para el sueño, por lo que recibió solo un mes de sanción.</p><p>La diferencia con el caso de Jannik Sinner radica en que el italiano logró demostrar de inmediato el origen externo de la sustancia, mientras que Swiatek tardó semanas en hacerlo. Por ello, la ITIA consideró negligencia en su caso.</p><p>La situación generó la furia de Simona Halep, quien fue sancionada inicialmente por cuatro años. La rumana criticó duramente la disparidad de criterios, señalando que vivió un proceso largo e injusto pese a que su caso también fue por contaminación.</p>"
   },
   {
@@ -1123,7 +1041,7 @@
     "titulo": "La histórica 'Tiane' Endler otra vez nominada a los premios The Best de la FIFA",
     "fecha": "28 de noviembre de 2024",
     "lugar": "Internacional",
-    "imagen": "/img/endler-thebest.jpg",
+    "imagen": "/img/endler-thebest.webp",
     "contenido": "<p>La FIFA anunció los nominados a los premios The Best y la arquera chilena Christiane Endler fue considerada para integrar el once ideal femenino. La portera del Lyon ya ha logrado este reconocimiento en tres ocasiones anteriores.</p><p>En la categoría masculina destacan nombres como Lionel Messi, Rodri, Vinícius Jr. y Erling Haaland. Mientras que en entrenadores aparecen figuras como Pep Guardiola, Carlo Ancelotti y Lionel Scaloni.</p><p>Por primera vez, los aficionados podrán votar directamente para elegir a los equipos ideales masculino y femenino, con un peso equivalente al de expertos en la decisión final.</p>"
   },
   {
@@ -1131,7 +1049,7 @@
     "titulo": "Hasta una idea sacada de la NBA: Nick Kyrgios abre el debate con propuestas que podrían revolucionar el tenis",
     "fecha": "22 de noviembre de 2024",
     "lugar": "Internacional",
-    "imagen": "/img/kyrgios-propuestas.jpg",
+    "imagen": "/img/kyrgios-propuestas.webp",
     "contenido": "<p>Nick Kyrgios planteó una serie de cambios que podrían transformar el tenis profesional. Entre ellos, propone que los Grand Slams se jueguen al mejor de tres sets hasta cuartos de final y desde ahí al mejor de cinco.</p><p>También sugirió incorporar micrófonos a los jugadores durante los partidos, inspirándose en la NBA, con el objetivo de generar contenido más atractivo para los fanáticos.</p><p>Además, planteó potenciar el dobles mixto en torneos importantes y mejorar las transmisiones televisivas para hacerlas más dinámicas y cercanas a nuevas audiencias.</p>"
   },
   {
@@ -1139,7 +1057,7 @@
     "titulo": "Chile realiza importante presentación ante el COI por su postulación a los Juegos Olímpicos",
     "fecha": "19 de noviembre de 2024",
     "lugar": "Chile",
-    "imagen": "/img/chile-coi.jpg",
+    "imagen": "/img/chile-coi.webp",
     "contenido": "<p>Autoridades deportivas chilenas realizaron una presentación ante la Comisión de Futuras Sedes del Comité Olímpico Internacional como parte del proceso de postulación para albergar unos Juegos Olímpicos.</p><p>En la reunión participaron representantes del Ministerio del Deporte y del Comité Olímpico de Chile, quienes expusieron los atributos del país, su infraestructura y experiencia en eventos deportivos.</p><p>La delegación nacional viajará a Lausana para continuar las gestiones, en un proceso que busca posicionar a Chile como una futura sede olímpica.</p>"
   },
   {
@@ -1147,7 +1065,7 @@
     "titulo": "Polémica por drástica disminución del presupuesto de Santiago 2023 y críticas por millonarios sueldos",
     "fecha": "16 de noviembre de 2024",
     "lugar": "Chile",
-    "imagen": "/img/santiago2023-presupuesto.jpg",
+    "imagen": "/img/santiago2023-presupuesto.webp",
     "contenido": "<p>La Cámara de Diputados aprobó una reducción significativa en los recursos destinados al cierre de la Corporación Santiago 2023, generando polémica en el ámbito deportivo.</p><p>La diputada Erika Olivera criticó los altos sueldos de funcionarios y cuestionó que la corporación continúe operando tras el término de los Juegos Panamericanos.</p><p>Desde distintos sectores se ha señalado que los recursos podrían destinarse a apoyar directamente a deportistas, aumentando la tensión en torno a la gestión del legado del evento.</p>"
   },
   {
@@ -1155,7 +1073,7 @@
     "titulo": "Casper Ruud da el batacazo y vence a Carlos Alcaraz en el ATP Finals",
     "fecha": "11 de noviembre de 2024",
     "lugar": "Internacional",
-    "imagen": "/img/ruud-alcaraz.jpg",
+    "imagen": "/img/ruud-alcaraz.webp",
     "contenido": "<p>Casper Ruud sorprendió al vencer a Carlos Alcaraz en su debut en el ATP Finals de Turín por 6-1 y 7-5.</p><p>El noruego dominó el primer set con claridad, mientras que en el segundo logró remontar tras estar en desventaja, sellando una victoria inesperada.</p><p>El resultado complica el panorama de Alcaraz en el torneo y deja abierta la lucha por avanzar a la siguiente fase.</p>"
   },
   {
@@ -1163,7 +1081,7 @@
     "titulo": "Las estrellas que estarán en Chile en la carrera de Enduro más extrema del continente",
     "fecha": "6 de noviembre de 2024",
     "lugar": "Chile",
-    "imagen": "/img/enduro-chile.jpg",
+    "imagen": "/img/enduro-chile.webp",
     "contenido": "<p>Chile será sede de la carrera de Hard Enduro Red Bull Los Andes, que reunirá a destacados pilotos internacionales como el campeón mundial Billy Bolt.</p><p>También participarán figuras como el sueco Eddie Karlsson y el chileno Benjamín Herrera, uno de los principales exponentes nacionales.</p><p>La competencia se desarrollará en la cordillera y promete ser uno de los eventos más exigentes del calendario.</p>"
   },
   {
@@ -1171,7 +1089,7 @@
     "titulo": "Más de 2000 deportistas darán vida al New Balance Finals en Chile",
     "fecha": "6 de noviembre de 2024",
     "lugar": "Chile",
-    "imagen": "/img/new-balance-finals.jpg",
+    "imagen": "/img/new-balance-finals.webp",
     "contenido": "<p>El New Balance Finals reunirá a más de 2.000 atletas en el Complejo Deportivo San Carlos de Apoquindo, en Santiago.</p><p>El evento contará con representantes de distintos países sudamericanos y busca consolidarse como una vitrina para talentos emergentes.</p><p>La entrada será gratuita y se espera una alta convocatoria de público para esta tradicional competencia escolar.</p>"
   },
   {
@@ -1179,7 +1097,7 @@
     "titulo": "Quién es Ruben Amorim, el joven entrenador que dirigirá al Manchester United",
     "fecha": "1 de noviembre de 2024",
     "lugar": "Internacional",
-    "imagen": "/img/amorim-united.jpg",
+    "imagen": "/img/amorim-united.webp",
     "contenido": "<p>El portugués Ruben Amorim fue anunciado como nuevo entrenador del Manchester United, asumiendo el desafío de revertir el mal inicio de temporada del club.</p><p>El técnico llega tras exitosas campañas con el Sporting de Lisboa, donde logró títulos y un alto rendimiento.</p><p>Amorim se convierte en el sexto entrenador del club desde la salida de Alex Ferguson, en un contexto de alta presión por resultados.</p>"
   },
   {
@@ -1187,7 +1105,7 @@
     "titulo": "Rublev pierde el control, se lesiona y queda fuera del Masters de París",
     "fecha": "29 de octubre de 2024",
     "lugar": "París, Francia",
-    "imagen": "/img/.jpg",
+    "imagen": "/img/rublev.webp",
     "contenido": "<p>El tenista ruso Andrey Rublev, número siete del mundo, protagonizó un nuevo episodio de descontrol durante el Masters 1000 de París, donde terminó eliminado en la ronda de 32.</p><p>En su duelo ante el argentino Francisco Cerúndolo, el jugador ya había mostrado frustración en el primer set, lanzando una botella con violencia tras perder ventajas importantes, lo que le valió una advertencia arbitral.</p><p>Sin embargo, el momento más crítico llegó en el segundo parcial, cuando Rublev se golpeó repetidamente la pierna con su raqueta, provocándose una herida que comenzó a sangrar y obligó la intervención médica.</p><p>Finalmente, el ruso cayó en dos tie-breaks y se despidió del torneo, dejando nuevamente en evidencia sus problemas para controlar la frustración en cancha.</p>"
   },
   {
@@ -1195,7 +1113,7 @@
     "titulo": "Histórico momento entre LeBron y Bronny tendrá pausa tras decisión de los Lakers",
     "fecha": "27 de octubre de 2024",
     "lugar": "Los Ángeles, Estados Unidos",
-    "imagen": "/img/.jpg",
+    "imagen": "/img/lebronhijo.webp",
     "contenido": "<p>LeBron James y su hijo Bronny hicieron historia al convertirse en la primera dupla de padre e hijo en compartir cancha en un partido oficial de la NBA con Los Angeles Lakers.</p><p>El hito se dio en el debut de la temporada, en la victoria ante Minnesota Timberwolves, donde ambos coincidieron brevemente, dejando una imagen inédita en la liga.</p><p>Pese a lo simbólico del momento, la franquicia decidió que Bronny alternará su participación entre el primer equipo y South Bay Lakers en la G-League, buscando potenciar su desarrollo.</p><p>El joven jugador, que ha sido cuestionado por su nivel, continúa su proceso tras una temporada universitaria y un complejo antecedente médico, mientras intenta consolidarse en el básquetbol profesional.</p>"
   },
   {
@@ -1203,7 +1121,7 @@
     "titulo": "Bolivia arriesga sanción en las Clasificatorias por presunto caso de espionaje",
     "fecha": "23 de octubre de 2024",
     "lugar": "La Paz, Bolivia",
-    "imagen": "/img/.jpg",
+    "imagen": "/img/bolivia-sancion.webp",
     "contenido": "<p>La selección de Bolivia podría enfrentar una resta de puntos en las Clasificatorias sudamericanas tras una polémica acusación de espionaje en la previa de su duelo ante Colombia.</p><p>El técnico colombiano, Néstor Lorenzo, denunció que su equipo fue observado sin autorización durante los entrenamientos, lo que calificó como una vulneración a la privacidad del plantel.</p><p>Ante esto, dirigentes colombianos evalúan llevar el caso ante la FIFA, lo que podría significar una sanción de hasta tres puntos para el conjunto altiplánico.</p><p>Actualmente, Bolivia se encuentra en zona de repechaje, por lo que una eventual penalización podría alterar la tabla e incluso beneficiar a selecciones como Chile.</p>"
   },
   {
@@ -1846,10 +1764,5 @@
     "imagen": "/img/.jpg",
     "contenido": "<p>En una decisión calificada como 'indeclinable', Panam Sports retiró a Barranquilla como sede de los Juegos Panamericanos 2027 debido a incumplimientos en los pagos de los derechos de organización. La medida causó un terremoto político en Colombia, donde el Ministerio del Deporte acusó una decisión unilateral.</p><p>A pesar de los intentos del gobierno colombiano por renegociar las fechas de pago, el organismo continental mantuvo su postura de rescindir el contrato. Ciudades como Asunción ya surgen como posibles reemplazos para albergar la cita multideportiva más importante del continente.</p>"
   }
-
-
-
-
-
 
 ]

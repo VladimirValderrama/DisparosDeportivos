@@ -95,7 +95,7 @@ if (form) {
 
 function iniciarPaginacionNoticias(noticias) {
 
-    const noticiasPorPagina = 50;
+    const noticiasPorPagina = 25;
     let paginaActual = 1;
     const totalPaginas = Math.ceil(noticias.length / noticiasPorPagina);
 

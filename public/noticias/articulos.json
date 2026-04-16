@@ -730,20 +730,20 @@
     "contenido": "<p>El tirador chileno Héctor Flores logró un destacado cuarto lugar en una Copa del Mundo tras superar un complejo tratamiento contra el cáncer.</p><p>El deportista fue diagnosticado en 2024 y debió someterse a cirugías y quimioterapia, sin abandonar su vínculo con el deporte.</p><p>Durante su recuperación, continuó entrenando y apoyando a jóvenes deportistas, demostrando una gran fortaleza.</p><p>Hoy apunta a clasificar a los Juegos Olímpicos de Los Ángeles 2028.</p>"
   },
   {
-    "id": "chile-sub17-semifinal-brasil",
-    "titulo": "Chile va por la hazaña ante Brasil en semifinales del Sudamericano Sub 17",
-    "fecha": "03 de abril de 2025",
-    "lugar": "Sudamérica",
-    "imagen": "/img/3003-27.webp",
-    "contenido": "<p>La selección chilena Sub 17 enfrentará a Brasil en semifinales del Sudamericano con la ilusión de hacer historia.</p><p>El equipo nacional ya aseguró su clasificación al Mundial de la categoría, pero ahora busca avanzar a la final del torneo.</p><p>Chile nunca ha vencido a Brasil en esta competencia, lo que convierte el desafío en una verdadera hazaña.</p><p>El ganador disputará el título del campeonato continental.</p>"
-  },
-  {
     "id": "thomas-muller-adios-bayern",
     "titulo": "Thomas Müller anuncia su salida del Bayern tras 25 años en el club",
     "fecha": "05 de abril de 2025",
     "lugar": "Múnich, Alemania",
     "imagen": "/img/3003-28.webp",
     "contenido": "<p>Thomas Müller confirmó que dejará el Bayern de Múnich tras 25 años en la institución.</p><p>El jugador alemán se despedirá como uno de los más exitosos en la historia del club, con 33 títulos.</p><p>Su último partido será en el Mundial de Clubes, cerrando una carrera marcada por la fidelidad y los logros.</p><p>El Bayern destacó su legado como una de las grandes figuras del fútbol alemán.</p>"
+  },
+  {
+    "id": "chile-sub17-semifinal-brasil",
+    "titulo": "Chile va por la hazaña ante Brasil en semifinales del Sudamericano Sub 17",
+    "fecha": "03 de abril de 2025",
+    "lugar": "Sudamérica",
+    "imagen": "/img/3003-27.webp",
+    "contenido": "<p>La selección chilena Sub 17 enfrentará a Brasil en semifinales del Sudamericano con la ilusión de hacer historia.</p><p>El equipo nacional ya aseguró su clasificación al Mundial de la categoría, pero ahora busca avanzar a la final del torneo.</p><p>Chile nunca ha vencido a Brasil en esta competencia, lo que convierte el desafío en una verdadera hazaña.</p><p>El ganador disputará el título del campeonato continental.</p>"
   },
   {
     "id": "tsunoda-redbull-oportunidad",
@@ -1359,6 +1359,14 @@
     "lugar": "Santiago, Chile",
     "imagen": "/img/dia-mundial-bmx-freestyle-santiago.webp",
     "contenido": "<p>Este domingo se llevará a cabo una gran celebración en la capital chilena con motivo del Día Mundial del BMX Freestyle. Aunque la fecha oficial es el 20 de julio, las actividades principales se concentrarán durante el fin de semana en diversos puntos de la Región Metropolitana.</p><p>El evento comenzará a las 10:00 horas en el Parque Bustamante, donde se reunirán aficionados y profesionales. La ruta contempla varias paradas por la ciudad, culminando en el sector de Franklin hacia el final de la tarde. La instancia contará con la presencia de destacados referentes como Víctor Muñoz y Tomás Díaz, quienes participarán en las demostraciones de trucos y saltos abiertas para todo el público.</p>"
+  },  
+  {
+    "id": "sud-2024-palestino",
+    "titulo": "Palestino igualó ante Cuiabá tras fallar un penal en el último suspiro",
+    "fecha": "18 de julio de 2024",
+    "lugar": "Concepción, Chile",
+    "imagen": "/img/palestino-empate-cuiaba-copa-sudamericana.webp",
+    "contenido": "<p>En el duelo de ida por los playoffs de la Copa Sudamericana, Palestino no pudo sacar ventaja y empató 1-1 frente a Cuiabá en Concepción. El encuentro terminó con polémica luego de que el árbitro finalizara el juego justo después de que Joe Abrigo errara un lanzamiento penal.</p><p>Nicolás Linares había puesto en ventaja al cuadro árabe en la primera mitad, pero un error del portero Rigamonti permitió que Deyverson marcara el empate para los brasileños desde larga distancia. Ahora, el equipo chileno deberá buscar la clasificación en tierras brasileñas la próxima semana.</p>"
   },
   {
     "id": "euro-2024-final",
@@ -1368,14 +1376,7 @@
     "imagen": "/img/espana-campeona-eurocopa-2024-inglaterra.webp",
     "contenido": "<p>La selección española se coronó campeona de la Eurocopa 2024 tras derrotar a Inglaterra por 2-1 en una emocionante final disputada en Berlín. Con este triunfo, 'La Roja' se transforma en el equipo más laureado del torneo continental con cuatro títulos en su haber.</p><p>El marcador lo abrió Nico Williams al inicio del segundo tiempo, pero los ingleses lograron la paridad gracias a un potente disparo de Cole Palmer. Sin embargo, cuando el partido parecía destinado a la prórroga, Mikel Oyarzábal apareció a los 86 minutos para sellar la victoria definitiva del cuadro dirigido por Luis de la Fuente, que destacó por su fútbol ofensivo durante todo el certamen.</p>"
   },
-  {
-    "id": "sud-2024-palestino",
-    "titulo": "Palestino igualó ante Cuiabá tras fallar un penal en el último suspiro",
-    "fecha": "18 de julio de 2024",
-    "lugar": "Concepción, Chile",
-    "imagen": "/img/palestino-empate-cuiaba-copa-sudamericana.webp",
-    "contenido": "<p>En el duelo de ida por los playoffs de la Copa Sudamericana, Palestino no pudo sacar ventaja y empató 1-1 frente a Cuiabá en Concepción. El encuentro terminó con polémica luego de que el árbitro finalizara el juego justo después de que Joe Abrigo errara un lanzamiento penal.</p><p>Nicolás Linares había puesto en ventaja al cuadro árabe en la primera mitad, pero un error del portero Rigamonti permitió que Deyverson marcara el empate para los brasileños desde larga distancia. Ahora, el equipo chileno deberá buscar la clasificación en tierras brasileñas la próxima semana.</p>"
-  },
+
   {
     "id": "jarry-abanderado-2024",
     "titulo": "El conflicto de calendario de Nicolás Jarry previo a París 2024",

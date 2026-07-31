@@ -664,3 +664,44 @@ h2 {
     text-align: center;
     letter-spacing: 3px;
 }
+
+
+.portfolio-grid{
+    columns:4 320px;
+    column-gap:18px;
+    max-width:1500px;
+    margin:70px auto;
+    padding:0 20px;
+}
+
+.foto{
+    break-inside:avoid;
+    margin-bottom:18px;
+    overflow:hidden;
+    border-radius:10px;
+}
+
+.foto img{
+    width:100%;
+    display:block;
+    transition:.35s ease;
+}
+
+.foto:hover img{
+    transform:scale(1.02);
+}
+
+.foto img{
+    transition:.45s;
+}
+
+.foto:hover img{
+    transform:scale(1.03);
+    filter:brightness(.95);
+}
+
+.foto{
+    box-shadow:0 8px 24px rgba(0,0,0,.12);
+    border-radius:14px;
+}
+

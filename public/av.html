@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FilmaChile | Conecta y Produce</title>
+    <style>
+        /* ==============================
+           Variables y Reseteo Base
+           ============================== */
+        :root {
+            --bg-dark: #121212;
+            --bg-card: #1e1e1e;
+            --primary: #ff4757; /* Un rojo/coral vibrante como acento */
+            --text-light: #f5f6fa;
+            --text-muted: #a4b0be;
+            --font-main: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* ==============================
+           Navegación (Header)
+           ============================== */
+        header {
+            background-color: rgba(18, 18, 18, 0.95);
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .logo span {
+            color: var(--text-light);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .btn-login {
+            background-color: transparent;
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            padding: 0.5rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-login:hover {
+            background-color: var(--primary);
+            color: var(--text-light);
+        }
+
+        /* Menú Hamburguesa para Móviles */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background-color: var(--text-light);
+            border-radius: 2px;
+        }
+
+        /* ==============================
+           Sección Hero (Principal)
+           ============================== */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 5%;
+            background: linear-gradient(rgba(18, 18, 18, 0.8), rgba(18, 18, 18, 0.9)), 
+                        url('https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;
+            text-align: left;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            margin-top: 60px; /* Para compensar el header fijo */
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        .hero-content h1 span {
+            color: var(--primary);
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn-primary, .btn-secondary {
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #e84150;
+        }
+
+        .btn-secondary {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* ==============================
+           Responsive (Celulares y Tablets)
+           ============================== */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-links {
+                position: absolute;
+                top: 70px;
+                right: -100%;
+                background-color: var(--bg-card);
+                width: 250px;
+                height: calc(100vh - 70px);
+                flex-direction: column;
+                align-items: center;
+                padding-top: 2rem;
+                transition: right 0.3s ease;
+                border-left: 1px solid #333;
+            }
+
+            .nav-links.active {
+                right: 0;
+            }
+
+            .btn-login {
+                display: none; /* Ocultamos el login en la barra, idealmente iría en el menú desplegable */
+            }
+
+            .hero-content h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+        }
+
+        /* ==============================
+           Footer (Pie de página)
+           ============================== */
+        footer {
+            background-color: #0a0a0a;
+            padding: 3rem 5%;
+            border-top: 1px solid #333;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 1.5rem;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+
+        .copyright {
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        /* ==============================
+           Modal (Ventana Flotante de Login/Registro)
+           ============================== */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content {
+            background-color: var(--bg-card);
+            padding: 2.5rem;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 400px;
+            border: 1px solid #333;
+            position: relative;
+            transform: translateY(-20px);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: translateY(0);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .close-modal:hover {
+            color: var(--primary);
+        }
+
+        .modal-content h2 {
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.8rem;
+            border-radius: 4px;
+            border: 1px solid #444;
+            background-color: #121212;
+            color: white;
+            font-family: inherit;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 0.8rem;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-submit:hover {
+            background-color: #e84150;
+        }
+
+        .modal-footer {
+            margin-top: 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .modal-footer a {
+            color: var(--primary);
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Filma<span>Chile</span></div>
+        
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#">Empleos</a></li>
+            <li><a href="#">Utilería y Vestuario</a></li>
+            <li><a href="#">Directorio</a></li>
+            <li><a href="#" style="color: var(--primary);">Registrarse</a></li>
+        </ul>
+
+        <button class="btn-login">Iniciar Sesión</button>
+
+        <div class="menu-toggle" id="mobileMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>El Hub Audiovisual de <span>Chile</span>.</h1>
+                <p>Encuentra tu próximo proyecto, contrata al mejor equipo técnico, y comparte o arrienda utilería y vestuario con la comunidad local.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-primary">Buscar Empleos</a>
+                    <a href="#" class="btn-secondary">Explorar Utilería</a>
+                </div>
+            </div>
+        </section>
+
+    <section class="section-container" id="empleos">
+            <h2 class="section-title">Últimas <span>Ofertas Laborales</span></h2>
+            <div class="grid">
+                <div class="job-card">
+                    <h3 class="job-title">Director de Fotografía (DF)</h3>
+                    <p class="job-details">Productora Indómita • Santiago, RM</p>
+                    <div class="job-tags">
+                        <span class="tag">Cortometraje</span>
+                        <span class="tag">Remunerado</span>
+                    </div>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">Buscamos DF con experiencia en iluminación de interiores para cortometraje de suspenso a rodarse en noviembre.</p>
+                    <a href="#" class="btn-secondary" style="display: block; width: 100%;">Ver Detalles</a>
+                </div>
+
+                <div class="job-card">
+                    <h3 class="job-title">Gaffer y Eléctricos</h3>
+                    <p class="job-details">Agencia Cúmulo • Valparaíso, V Región</p>
+                    <div class="job-tags">
+                        <span class="tag">Comercial</span>
+                        <span class="tag">2 Jornadas</span>
+                    </div>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">Se necesita equipo de eléctricos con disponibilidad inmediata para comercial de marca deportiva en la costa.</p>
+                    <a href="#" class="btn-secondary" style="display: block; width: 100%;">Ver Detalles</a>
+                </div>
+
+                <div class="job-card">
+                    <h3 class="job-title">Sonidista Directo</h3>
+                    <p class="job-details">Documentales Sur • Puerto Varas, X Región</p>
+                    <div class="job-tags">
+                        <span class="tag">Documental</span>
+                        <span class="tag">Viáticos Pagados</span>
+                    </div>
+                    <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">Requerimos sonidista con equipos propios para acompañar rodaje en exteriores durante 2 semanas.</p>
+                    <a href="#" class="btn-secondary" style="display: block; width: 100%;">Ver Detalles</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-container" style="background-color: #161616;" id="utileria">
+            <h2 class="section-title">Arriendo de <span>Utilería y Vestuario</span></h2>
+            <div class="grid">
+                <div class="prop-card">
+                    <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Cámara Vintage" class="prop-image">
+                    <div class="prop-info">
+                        <h3 class="prop-title">Cámara Super 8 Vintage (Prop)</h3>
+                        <p class="prop-price">$15.000 <span>/ jornada</span></p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">Ideal para ambientación de época. No funcional. Incluye estuche original de cuero.</p>
+                        <a href="#" class="btn-primary" style="display: block; width: 100%;">Contactar Dueño</a>
+                    </div>
+                </div>
+
+                <div class="prop-card">
+                    <img src="https://images.unsplash.com/photo-1551326844-4df70f78d0e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Vestuario de Época" class="prop-image">
+                    <div class="prop-info">
+                        <h3 class="prop-title">Vestidos Años 20 (Flapper)</h3>
+                        <p class="prop-price">$25.000 <span>/ semana</span></p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">Set de 3 vestidos estilo Charleston. Tallas S y M. Excelente estado, lavandería incluida.</p>
+                        <a href="#" class="btn-primary" style="display: block; width: 100%;">Contactar Dueño</a>
+                    </div>
+                </div>
+
+                <div class="prop-card">
+                    <img src="https://images.unsplash.com/photo-1628190772714-db13a35b1cfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luces de Neón" class="prop-image">
+                    <div class="prop-info">
+                        <h3 class="prop-title">Letreros de Neón Prácticos</h3>
+                        <p class="prop-price">$10.000 <span>/ jornada</span></p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1rem;">Letreros "OPEN" y "BAR". Funcionan a 220V. Ideales para iluminar fondos desenfocados (Bokeh).</p>
+                        <a href="#" class="btn-primary" style="display: block; width: 100%;">Contactar Dueño</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Filma<span>Chile</span></div>
+            <ul class="footer-links">
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <p class="copyright">&copy; 2026 FilmaChile. Todos los derechos reservados. Creado para la comunidad audiovisual.</p>
+    </footer>
+
+    <!-- Modal Flotante -->
+    <div class="modal-overlay" id="authModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <h2 id="modalTitle">Iniciar Sesión</h2>
+            
+            <form id="authForm" onsubmit="event.preventDefault();">
+                <div class="form-group" id="nameGroup" style="display: none;">
+                    <label>Nombre Completo</label>
+                    <input type="text" placeholder="Ej: Francisca Silva">
+                </div>
+                <div class="form-group">
+                    <label>Correo Electrónico</label>
+                    <input type="email" placeholder="correo@ejemplo.cl" required>
+                </div>
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" placeholder="••••••••" required>
+                </div>
+                <button type="submit" class="btn-submit" id="modalSubmitBtn">Entrar</button>
+            </form>
+
+            <div class="modal-footer">
+                <span id="modalToggleText">¿No tienes cuenta? <a id="toggleAuthMode">Regístrate aquí</a></span>
+            </div>
+        </div>
+    </div>
+   <script>
+        // 1. Control del Menú Móvil
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // 2. Control del Modal de Autenticación
+        const authModal = document.getElementById('authModal');
+        const closeModal = document.getElementById('closeModal');
+        const loginBtn = document.querySelector('.btn-login'); // Botón del header
+        const registerLink = document.querySelector('a[style="color: var(--primary);"]'); // Botón "Registrarse" del menú
+        
+        // Elementos internos del modal para cambiar entre Login y Registro
+        const modalTitle = document.getElementById('modalTitle');
+        const nameGroup = document.getElementById('nameGroup');
+        const modalSubmitBtn = document.getElementById('modalSubmitBtn');
+        const toggleAuthMode = document.getElementById('toggleAuthMode');
+        const modalToggleText = document.getElementById('modalToggleText');
+
+        let isLogin = true;
+
+        // Abrir Modal
+        function openModal() {
+            authModal.classList.add('active');
+        }
+
+        // Cerrar Modal
+        function closeAuthModal() {
+            authModal.classList.remove('active');
+        }
+
+        loginBtn.addEventListener('click', () => {
+            setAuthMode(true); // Entrar en modo Login
+            openModal();
+        });
+
+        registerLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            setAuthMode(false); // Entrar en modo Registro
+            openModal();
+        });
+
+        closeModal.addEventListener('click', closeAuthModal);
+
+        // Cerrar si se hace click fuera del modal
+        window.addEventListener('click', (e) => {
+            if (e.target === authModal) closeAuthModal();
+        });
+
+        // 3. Intercambiar entre Login y Registro dentro del Modal
+        function setAuthMode(loginState) {
+            isLogin = loginState;
+            if (isLogin) {
+                modalTitle.textContent = "Iniciar Sesión";
+                nameGroup.style.display = "none";
+                modalSubmitBtn.textContent = "Entrar";
+                modalToggleText.innerHTML = '¿No tienes cuenta? <a id="toggleAuthMode">Regístrate aquí</a>';
+            } else {
+                modalTitle.textContent = "Crear Cuenta";
+                nameGroup.style.display = "block";
+                modalSubmitBtn.textContent = "Registrarse";
+                modalToggleText.innerHTML = '¿Ya tienes cuenta? <a id="toggleAuthMode">Inicia Sesión</a>';
+            }
+            
+            // Re-asignar el evento al nuevo link generado
+            document.getElementById('toggleAuthMode').addEventListener('click', () => {
+                setAuthMode(!isLogin);
+            });
+        }
+    </script>
+
+</body>
+</html>

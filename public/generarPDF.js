@@ -2,33 +2,52 @@ const puppeteer = require("puppeteer");
 const path = require("path");
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: true
-  });
 
-  const page = await browser.newPage();
+    const browser = await puppeteer.launch({
+        headless: true
+    });
 
-  // Abre parquemet.html
-  const ruta = "file://" + path.join(__dirname, "parquemet.html");
+    const page = await browser.newPage();
+    page.setDefaultTimeout(120000);
 
-  await page.goto(ruta, {
-    waitUntil: "networkidle0"
-  });
+    const htmlPath = path.resolve(__dirname, "parquemet.html");
 
-  // Genera el PDF
-  await page.pdf({
-    path: "parquemet.pdf",
+    console.log("Abriendo:", htmlPath);
+
+    await page.goto(`file://${htmlPath}`, {
+        waitUntil: "domcontentloaded",
+        timeout: 0
+    });
+
+    console.log("HTML cargado");
+
+
+    // Evita que imágenes lentas bloqueen el PDF
+    await page.evaluate(() => {
+        document.querySelectorAll("img").forEach(img => {
+            img.loading = "eager";
+        });
+    });
+
+
+    console.log("Generando PDF...");
+
+await page.pdf({
+    path: path.resolve(__dirname, "parquemet.pdf"),
     format: "A4",
     printBackground: true,
+    preferCSSPageSize: false,
     margin: {
-      top: "15mm",
-      right: "15mm",
-      bottom: "15mm",
-      left: "15mm"
+        top: "15mm",
+        bottom: "15mm",
+        left: "12mm",
+        right: "12mm"
     }
-  });
+});
 
-  await browser.close();
+    console.log("PDF creado");
 
-  console.log("✅ PDF generado: parquemet.pdf");
+
+    await browser.close();
+
 })();

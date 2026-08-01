@@ -653,7 +653,6 @@ h2 {
 
 .portfolio-banner{
     height:70vh;
-    background:url("img/parquemet-banner.webp") center/cover no-repeat;
 
     display:flex;
     justify-content:center;
@@ -725,3 +724,86 @@ h2 {
     border-radius:14px;
 }
 
+
+
+/* ==========================
+   ESTILOS PARA PDF
+========================== */
+
+@media print {
+
+    body {
+        background: white;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+
+    /* Mantener títulos y bloques juntos */
+    h1, h2, h3,
+    .banner,
+    .intro,
+    .intro2,
+    .texto,
+    .texto21 {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+
+    /* Evita que las fotos se corten */
+    img {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        max-width: 100%;
+    }
+
+
+    figure {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+
+    /* Mantener galerías */
+    .portfolio-grid {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 15px;
+    }
+
+
+    .portfolio-gallery {
+        display: block !important;
+    }
+
+
+    .foto img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    /* Banner inicial */
+    .portfolio-banner {
+        min-height: 400px !important;
+        background-size: cover !important;
+        background-position: center !important;
+    }
+
+
+    .banner-overlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* Evitar pies vacíos */
+    footer {
+        display:none;
+    }
+
+}

@@ -338,7 +338,7 @@ footer {
 
 /* Contenedor general */
 .portfolio-gallery {
-    max-width: 1200px;
+    justify-content: center;
 }
 
 /* Tarjeta de foto */
@@ -461,9 +461,29 @@ h2 {
 
 
 
+.stars {
+    color: #FBBC04;   /* Amarillo similar a Google */
+    font-size: 18px;
+    letter-spacing: 2px;
+}
 
+.review-card {
+    max-width: 550px;
+    background: #fff;
+    border: 1px solid #dadce0;
+    border-radius: 12px;
+    padding: 18px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12);
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
 
-
+.review-card:hover {
+    border-color: #4285F4;
+    box-shadow: 0 8px 20px rgba(0,0,0,.18);
+    transform: translateY(-3px);
+}
 
 .texto{
     font-family: Georgia, serif;
@@ -474,7 +494,7 @@ h2 {
 
     column-count: 2;
     column-gap: 50px;
-    column-rule: 1px solid #ddd;
+    column-rule: 3px solid #ddd;
 }
 
 
